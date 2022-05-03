@@ -50,7 +50,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
 
 # Math (數學)
 # --------------------------------------

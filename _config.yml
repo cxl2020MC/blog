@@ -115,9 +115,3 @@ deploy:
   branch: master
   # message: [message]
 
-
-search:
-  path: search.xml
-  field: post
-  content: true
-  template: ./search.xml

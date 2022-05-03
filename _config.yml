@@ -114,3 +114,10 @@ deploy:
   repo: https://cxl2020MC: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@github.com/cxl2020MC/cxl2020MC.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
   branch: master
   # message: [message]
+
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml

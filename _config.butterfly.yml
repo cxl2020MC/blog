@@ -112,15 +112,15 @@ category_img:
 category_per_img:
 
 cover:
-  # display the cover or not (是否顯示文章封面)
+  # 是否显示文章封面
   index_enable: true
   aside_enable: true
   archives_enable: true
-  # the position of cover in home page (封面顯示的位置)
-  # left/right/both
+  # 封面显示的位置
+  # 三个值可配置 left , right , both
   position: both
-  # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover:
+  # 当没有设置cover时，默认的封面显示
+  default_cover: 
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -664,12 +664,15 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 8/14/2020 00:00:00  
+  ##网页开通时间
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
@@ -680,17 +683,17 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
-  # The text of a button
+  enable: true
+  # 默认按钮显示文字(网站是简体，应设置为'default: 繁')
   default: 繁
-  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
+  #网站默认语言，1: 繁体中文, 2: 简体中文
   defaultEncoding: 2
-  # Time delay
+  #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
   translateDelay: 0
-  # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
-  # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  #当文字是简体时，按钮显示的文字
+  msgToTraditionalChinese: "繁"
+  #当文字是繁体时，按钮显示的文字
+  msgToSimplifiedChinese: "简"
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -704,7 +707,7 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 1
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment

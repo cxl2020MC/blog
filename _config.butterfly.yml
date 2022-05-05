@@ -37,7 +37,7 @@ copy:
 #   icon: link || the description
 social:
   fab fa-github: https://github.com/cxl2020MC || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fas fa-envelope: mailto:andamu2019@163.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -139,7 +139,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -508,7 +508,7 @@ canvas_ribbon:
   alpha: 0.6
   zIndex: -1
   click_to_change: true
-  mobile: false
+  mobile: true
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
@@ -531,13 +531,13 @@ activate_power_mode:
   enable: true
   colorful: true # open particle animation (冒光特效)
   shake: true #  open shake (抖動特效)
-  mobile: false
+  mobile: true
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
   enable: true
   zIndex: 9999 # -1 or 9999
-  mobile: false
+  mobile: true
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
@@ -599,7 +599,7 @@ subtitle:
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
     - 今日事&#44;今日毕

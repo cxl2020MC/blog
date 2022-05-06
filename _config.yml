@@ -115,3 +115,7 @@ deploy:
   branch: master
   # message: [message]
 
+search:
+  path: search.xml
+  field: all
+  content: true

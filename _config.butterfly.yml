@@ -603,8 +603,8 @@ subtitle:
   source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - 今日事&#44;今日毕
-    - Never put off till tomorrow what you can do today
+    # - 今日事&#44;今日毕
+    # - Never put off till tomorrow what you can do today
 
 # Loading Animation (加載動畫)
 # 加载动画
@@ -752,7 +752,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: flat
+  style: simple
   icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).

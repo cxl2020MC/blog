@@ -138,3 +138,16 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+# HexoPlusPlus Talk
+# see https://hexoplusplus.js.org
+hpptalk:
+  enable: true 
+  domain: plusplus.cxl2020mc.workers.dev
+  path:
+  limit:
+  start:
+  js:
+  css:
+  option:
+  front_matter:

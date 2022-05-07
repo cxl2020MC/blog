@@ -128,6 +128,7 @@ cover:
   # 当没有设置cover时，默认的封面显示
   default_cover: 
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205072154960.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:

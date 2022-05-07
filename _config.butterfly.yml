@@ -183,6 +183,7 @@ toc:
 post_copyright:
   enable: true
   decode: false
+  author_href:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -310,7 +311,7 @@ valine:
 waline:
   serverURL: # Waline server address url
   bg: # waline background
-  visitor: false
+  pageview: false
   option:
 
 # utterances
@@ -619,6 +620,7 @@ aside:
   button: true
   mobile: true # display on mobile
   position: right # left or right
+  archives: false
   card_author:
     enable: true
     description:
@@ -852,7 +854,8 @@ CDN:
   disqusjs_css:
   utterances:
   twikoo:
-  waline:
+  waline_js:
+  waline_css:
   giscus:
 
   # share
@@ -920,3 +923,12 @@ CDN:
   prismjs_js:
   prismjs_lineNumber_js:
   prismjs_autoloader:
+  # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
+  # option: local/jsdelivr
+  # Dev version cannot choose jsdelivr (dev版的主題不能設置為 jsdelivr)
+  internal_provider: local
+  # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
+  # option: local/jsdelivr
+  # when set it to local, you need to install hexo-butterfly-extjs
+  third_party_provider: jsdelivr
+  option:

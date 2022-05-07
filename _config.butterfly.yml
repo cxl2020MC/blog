@@ -8,11 +8,10 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   说说: /hpptalk/ || fa-fw fas fa-comment-dots
-  清单||fa fa-heartbeat:
+  杂七杂八||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
-  杂七杂八||fa fa-heartbeat:
     说说后台: https://plusplus.cxl2020mc.workers.dev/hpp/admin/login
     博客后台: https://qexo.cxl2020mc.top
   友链: /link/ || fas fa-link

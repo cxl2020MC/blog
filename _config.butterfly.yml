@@ -589,7 +589,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: teue
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)

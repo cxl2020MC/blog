@@ -14,3 +14,9 @@ aplayer:
 highlight_shrink:
 ---
 
+```yml
+- name: 陈鑫磊的博客
+  link: https://www.cxl2020mc.top
+  avatar: https://www.cxl2020mc.top/img/avatar.png
+  descr: 这个人太懒了啥也没写......
+```

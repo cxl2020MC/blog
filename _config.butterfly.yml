@@ -29,8 +29,8 @@ code_word_wrap: false
 copy:
   enable: true
   copyright:
-    enable: false
-    limit_count: 200
+    enable: true
+    limit_count: 100
 
 # social settings (社交圖標設置)
 # formal:

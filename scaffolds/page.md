@@ -6,7 +6,7 @@ type:
 comments: 
 description: 
 keywords: 
-top _img: 
+top_img: 
 mathjax: 
 katex: 
 aside:

@@ -1,20 +1,20 @@
 ---
 title: {{ title }}
 date: {{ date }}
+cover: 
 tags:
 updated: 
 categories: 
 keywords: 
 description: 
-top _img: 
+top_img: 
 comments: 
-cover: 
 toc: 
-toc_ number: 
-toc _style_ simple: 
+toc_number: 
+toc_style_simple: 
 copyright: 
-copyright _author: 
-copyright_ author _href:
+copyright_author: 
+copyright_author _href:
 copyright_url:
 copyright_info:
 mathjax:

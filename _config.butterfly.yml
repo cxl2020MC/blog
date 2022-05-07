@@ -38,6 +38,8 @@ copy:
 social:
   fab fa-github: https://github.com/cxl2020MC || Github
   fas fa-envelope: mailto:andamu2019@163.com || Email
+  fa-solid fa-rss: /rss2.xml || RSS2
+  fa-solid fa-atom: /atom.xml || atom
 
 # search (搜索)
 # --------------------------------------

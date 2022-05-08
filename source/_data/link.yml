@@ -34,14 +34,34 @@
       avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
       descr: 用这生命中的每一秒，给自己一个不后悔的未来
     - name: 杜老师说
-      link: https://dusays.com/
+      link: https://dusays.com
       avatar: https://cdn.dusays.com/avatar.png
       descr:
     - name: Ender's Blog
-      link: https://code004accepted.github.io/
+      link: https://code004accepted.github.io
       avatar: https://code004accepted.github.io/img/favicon.png
       descr: 一个学渣高中狗的精神栖息地
     - name: 澹台听雨
       link: https://www.kamasylvia.com
       avatar: https://www.kamasylvia.com/images/avatar.png
       descr: 时空管理局
+    - name: Ying
+      link: https://blog.luvying.com
+      avatar: https://cdn.jsdelivr.net/gh/luvying/ying-blog-cdn/files/static/images/avatar.jpg
+      descr: ⎛⎝喵~⎠⎞
+    - name: 忆星辰
+      link: https://home.extingstudio.com
+      avatar: https://cdn.jsdelivr.net/gh/BillScott1024/cdn-blog/images/avatar.webp
+      descr: 游戏开发者, 业余摄影师
+    - name: WTY@blog
+      link: https://wty2002.github.io
+      avatar: https://cdn.jsdelivr.net/gh/WTY2002/img-host@main/imgtouxiang.jpg
+      descr: 关于我的一点点……
+    - name: Yang_99的小窝
+      link: http://www.yang99.top
+      avatar: https://i.loli.net/2021/01/06/tAXInrhUvy5fQNb.jpg
+      descr: 
+    - name: SunPma'Blog
+      link: https://sunpma.com
+      avatar: https://sunpma.com/usr/uploads/2019/09/444966406.jpg
+      descr: 小楼一夜听风雨

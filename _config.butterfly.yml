@@ -809,9 +809,9 @@ pangu:
 lazyload:
   enable: true
   field: site # site/post
-  placeholder: #/img/loading.gif
+  placeholder: /img/loading.gif
   # https://cxl2020mc-1304820025.file.myqcloud.com/file/loading.gif
-  blur: true
+  blur: false
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline

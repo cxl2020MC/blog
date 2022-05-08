@@ -1,5 +1,6 @@
 ---
-span
+title: markdown语法
+cover:
 ---
 
 ## 关于Markdown（来自百度百科）
@@ -13,7 +14,7 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210525125726.png)
 [下载地址](https://www.typora.io/#download)
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210504200146.png)
-![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210504200200.gif)
+![](https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081120116.gif)
 
 ## 语法
 

@@ -33,7 +33,7 @@ copy:
   enable: true
   copyright:
     enable: true
-    limit_count: 100
+    limit_count: 200
 
 # social settings (社交圖標設置)
 # formal:
@@ -129,6 +129,12 @@ cover:
   default_cover: 
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
     - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205072154960.jpg
+    - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081745736.jpg
+    - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081115370.jpeg
+    - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081807842.jpg
+    - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081808378.jpg
+    - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081808044.jpg
+    - https://api.dujin.org/bing/1920.php
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -195,8 +201,11 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
+  - img: /img/wechat.jpg
+      link: https://cxl2020mc-1304820025.file.myqcloud.com/file/bilibiliQR.png
+      text: bilibili
     # - img: /img/wechat.jpg
     #   link:
     #   text: wechat

@@ -2,7 +2,7 @@
   class_desc: 那些人，那些事
   link_list:
     - name: Hexo
-      link: https://hexo.io/zh-tw/
+      link: https://hexo.io/zh-cn/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: 快速、简单且强大的网站框架
     - name: Sianx's Blog
@@ -13,3 +13,7 @@
       link: https://blog.pangao.vip
       avatar: https://cdn.jsdelivr.net/gh/pangao1990/pangao1990.github.io@master/images/avatar.jpg
       descr: IT套路深，必须瞎折腾
+    - name: iMaeGoo’s Blog
+      link: https://www.imaegoo.com
+      avatar: https://www.imaegoo.com/images/avatar.jpg
+      descr: 虹墨空间站

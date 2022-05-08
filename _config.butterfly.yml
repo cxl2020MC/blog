@@ -460,6 +460,8 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
+  - name: baidu-site-verification
+    content: code-t9XSjaBEDX
   # - name: google-site-verification
   #   content: xxxxxx
   # - name: baidu-site-verification

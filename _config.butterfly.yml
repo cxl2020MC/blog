@@ -804,7 +804,7 @@ pangu:
   enable: false
   field: site # site/post
 
-# Lazyload (圖片懶加載)
+# Lazyload (圖片懶加載)(图片懒加载)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
   enable: true

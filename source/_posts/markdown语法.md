@@ -1,6 +1,27 @@
 ---
 title: markdown语法
-cover:
+date: 
+cover: https://cxl2020mc-1304820025.file.myqcloud.com/file/markdown.jpg
+tags:
+updated: 
+categories: 
+keywords: 
+description: 
+top_img: 
+comments: 
+toc: 
+toc_number: 
+toc_style_simple: 
+copyright: 
+copyright_author: 
+copyright_author _href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
 ---
 
 ## 关于Markdown（来自百度百科）

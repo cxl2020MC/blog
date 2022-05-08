@@ -1,27 +1,5 @@
 ---
-title: markdown语法
-date: 
-cover: https://cxl2020mc-1304820025.file.myqcloud.com/file/markdown.jpg
-tags:
-updated: 
-categories: 
-keywords: 
-description: 
-top_img: 
-comments: 
-toc: 
-toc_number: 
-toc_style_simple: 
-copyright: 
-copyright_author: 
-copyright_author _href:
-copyright_url:
-copyright_info:
-mathjax:
-katex:
-aplayer:
-highlight_shrink:
-aside:
+span
 ---
 
 ## 关于Markdown（来自百度百科）
@@ -117,11 +95,11 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 示例:
 
 ```
-![xxx](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210504200230.jpeg "一张图片")
+![xxx](https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081115370.jpeg "一张图片")
 注意图片链接后面有空格
 ```
 
-![xxx](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210504200230.jpeg "一张图片")
+![xxx](https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081115370.jpeg "一张图片")
 
 #### 链接
 
@@ -180,6 +158,7 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 效果如下
 
 - 列表1
+  
   + 列表2
     
     * 列表3
@@ -322,15 +301,15 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
     </ul>
     </pre>
     </details>
-    
-    ## 网页编辑器
-    
-    Editor.md
-    ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210504200444.png)
-    [本站](/tp/md)
-    [官方](http://editor.md.ipandao.com/)
-    <link rel="stylesheet" href="https://editor-md.vercel.app/css/editormd.css" />
-    
-    <div id="test-editor">
-        <textarea style="display:none;">### 关于 Editor.md
+  
+  ## 网页编辑器
+  
+  Editor.md
+  ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210504200444.png)
+  [本站](/tp/md)
+  [官方](http://editor.md.ipandao.com/)
+  <link rel="stylesheet" href="https://editor-md.vercel.app/css/editormd.css" />
+  
+  <div id="test-editor">
+      <textarea style="display:none;">### 关于 Editor.md
 

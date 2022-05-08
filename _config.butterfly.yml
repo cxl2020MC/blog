@@ -204,7 +204,7 @@ reward:
   enable: true
   QR_code:
     - img: https://cxl2020mc-1304820025.file.myqcloud.com/file/bilibiliQR.png
-      link: 
+      link: https://space.bilibili.com/514753559
       text: bilibili
     # - img: /img/wechat.jpg
     #   link:

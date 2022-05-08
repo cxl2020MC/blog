@@ -203,8 +203,8 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-  - img: /img/wechat.jpg
-      link: https://cxl2020mc-1304820025.file.myqcloud.com/file/bilibiliQR.png
+    - img: https://cxl2020mc-1304820025.file.myqcloud.com/file/bilibiliQR.png
+      link: 
       text: bilibili
     # - img: /img/wechat.jpg
     #   link:

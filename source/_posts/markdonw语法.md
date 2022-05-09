@@ -250,82 +250,58 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 |:---|:---:|---:|
 |陈鑫磊的博客|https://cxl2020mc.github.io|xxx|
 | 高浩轩|https://hkjyh5.coding-pages.com|xxx|
-    
-    ## 代码
-    
-    ### 单行代码：代码用一个反引号包起来
-    
-    ```
-    `代码内容`
-    ```
-    
-    代码块：代码用三个反引号包起来，且两边的反引号单独占一行
-    
-    ```
-    (```)  注：这里可以在加编程语言如：java
-      代码...
-      代码...
-      代码...
-    (```)
-    ```
-    
-    注：为了防止转译，前后三个反引号处加了小括号。
-    
-    ## 缩略
-    
-    缩略有2种一种可以使用Markdown，HTML，一种不可以但是支持HTML
-    
-    ### 可以使用Markdown，HTML
-    
-    ```
-    <details>
-    <summary>文字</summary>
-    
-    内容
-    
-    </details>
-    ```
-    
-    效果
-    
-    <details>
-    <summary>文字</summary>
-    
-    内容
-    
-    </details>
-    
-    内容
-    
-    </details>
-    
-    ### 不可以使用Markdown，支持HTML
-    
-    ```
-    <details>
-    <summary>文字</summary>
-    <pre>
+
+## 代码
+### 单行代码：代码用一个反引号包起来
+```
+  `代码内容`
+```
+代码块：代码用三个反引号包起来，且两边的反引号单独占一行
+```
+(```)  注：这里可以在加编程语言如：java
+代码...
+代码...
+代码...
+(```)
+```
+注：为了防止转译，前后三个反引号处加了小括号。
+## 缩略
+缩略有2种一种可以使用Markdown，HTML，一种不可以但是支持HTML
+### 可以使用Markdown，HTML
+```
+<details>
+  <summary>文字</summary>
+内容
+</details>
+```
+效果
+<details>
+  <summary>文字</summary>
+内容
+</details>  
+
+### 不可以使用Markdown，支持HTML
+
+```
+<details>
+  <summary>文字</summary>
+  <pre>
     <ul>
-    
-    内容
-    
+内容
     </ul>
-    </pre>
-    </details>
-    ```
+  </pre>
+</details>
+```
+效果
     
-    效果
-    
-    <details>
-    <summary>文字</summary>
-    <pre>
+<details>
+  <summary>文字</summary>
+  <pre>
     <ul>
-    
-    内容
-    
+内容
     </ul>
-    </pre>
-    </details>
+  </pre>
+</details>
   
 ## 网页编辑器
 ### Editor.md

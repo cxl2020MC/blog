@@ -33,7 +33,7 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 ## 编辑器推荐
 
 [Typora](https://www.typora.io/)
-![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210525125726.png)
+![](https://cxl2020mc-1304820025.file.myqcloud.com/file/typora_icon.png)
 [下载地址](https://www.typora.io/#download)
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/typora.png)
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081120116.gif)

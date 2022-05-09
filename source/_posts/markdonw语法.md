@@ -35,7 +35,7 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 [Typora](https://www.typora.io/)
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210525125726.png)
 [下载地址](https://www.typora.io/#download)
-![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210504200146.png)
+![](https://cxl2020mc-1304820025.file.myqcloud.com/file/typora.png)
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081120116.gif)
 
 ## 语法
@@ -244,10 +244,10 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
     
     博客网站
     
-    | 名称         |               网址               | xxx |
-| -------------- | :--------------------------------: | ----: |
-| 陈鑫磊的博客 |   https://cxl2020mc.github.io   | xxx |
-| 高浩轩       | https://hkjyh5.coding-pages.com/ | xxx |
+|名称|网址|xxx|
+|:---|:---:|---:|
+|陈鑫磊的博客|https://cxl2020mc.github.io|xxx|
+| 高浩轩|https://hkjyh5.coding-pages.com|xxx|
     
     ## 代码
     
@@ -325,8 +325,7 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
     </pre>
     </details>
   
-  ## 网页编辑器
-  
-  ### [Editor.md](http://editor.md.ipandao.com/)
-
-  ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210504200444.png)
+## 网页编辑器
+### Editor.md
+[Editor.md](http://editor.md.ipandao.com/)
+![](https://cxl2020mc-1304820025.file.myqcloud.com/file/Editor.md.png)

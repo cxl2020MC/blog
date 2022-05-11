@@ -275,7 +275,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus
-  use: Twikoo # Valine,Disqus
+  use: Twikoo,Gitalk # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -305,11 +305,11 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
+  client_id: 4b54c663e627f007c59a
+  client_secret: c81de2ca47f789ef860c6e863df65928a41e7681
+  repo: cxl2020MC.github.io
+  owner: cxl2020MC
+  admin: cxl2020MC
   option:
 
 # valine

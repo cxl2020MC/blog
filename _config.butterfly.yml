@@ -293,9 +293,10 @@ disqus:
 # DisqusJS 評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
 # https://github.com/SukkaW/DisqusJS
 disqusjs:
-  shortname:
-  apikey:
+  shortname: cxl2020mc
+  apikey: 7VDYxhogYQLw7CquMBZKoTCio6zJlPMigb0sKDGHPhMRZVXr0D5gfNOwOsMiZTPe
   option:
+    api: http://disqus.cxl2020mc.top
 
 # livere (來必力)
 # https://www.livere.com/

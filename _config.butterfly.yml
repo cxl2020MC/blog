@@ -7,7 +7,7 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  说说: /hpptalk/ || iconfont icon-41shuoshuo # fa-fw fas fa-comment-dots
+  说说: /hpptalk/ || iconfont icon-xiaoxi # fa-fw fas fa-comment-dots
   杂七杂八||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images

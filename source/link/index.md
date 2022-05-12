@@ -14,8 +14,9 @@ aplayer:
 highlight_shrink:
 ---
 
-
-> 申请友链的请先添加本站添加再申请!!!
+{% note warning flat %}
+申请友链的请先添加本站添加再申请!!!
+{% endnote %}
 ```yml
 - name: 陈鑫磊的博客
   link: https://www.cxl2020mc.top

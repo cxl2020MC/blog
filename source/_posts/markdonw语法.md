@@ -318,6 +318,9 @@ content
 内容
 {% endhideToggle %}
 ```
+{% hideToggle 文字%}
+内容
+{% endhideToggle %}
 
 ## 网页编辑器
 ### Editor.md

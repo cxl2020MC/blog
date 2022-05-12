@@ -7,7 +7,7 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  说说: /hpptalk/ || fa-fw fas fa-comment-dots
+  说说: /hpptalk/ || iconfont icon-41shuoshuo # fa-fw fas fa-comment-dots
   杂七杂八||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
@@ -854,6 +854,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_3397101_i3b64qu179.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>

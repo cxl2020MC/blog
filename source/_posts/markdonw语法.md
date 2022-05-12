@@ -302,7 +302,23 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
     </ul>
   </pre>
 </details>
-  
+
+### butterfly主题专用
+本站使用butterfly主题支持标签外挂
+格式：
+> ( display 不能包含英文逗号，可用&sbquo;)
+```
+{% hideToggle display,bg,color %} 
+content 
+{% endhideToggle %}
+```
+示例
+```
+{% hideToggle 文字%}
+内容
+{% endhideToggle %}
+```
+
 ## 网页编辑器
 ### Editor.md
 [Editor.md](http://editor.md.ipandao.com/)

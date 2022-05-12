@@ -13,6 +13,7 @@ menu:
     照片: /Gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
     说说后台: https://plusplus.cxl2020mc.workers.dev/hpp/admin/login
+    状态监控: https://stats.uptimerobot.com/8WJ06FjNZg || iconfont icon-shebeizhuangtai
     # 博客后台: https://qexo.cxl2020mc.top
   开往: https://travellings.link || fa-solid fa-train-subway
   友链: /link/ || fas fa-link

@@ -14,7 +14,7 @@ toc_number:
 toc_style_simple: 
 copyright: 
 copyright_author: 
-copyright_author _href:
+copyright_author_href:
 copyright_url:
 copyright_info:
 mathjax:

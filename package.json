@@ -12,6 +12,8 @@
     "version": "5.4.2"
   },
   "dependencies": {
+    "column": "^0.0.2",
+    "filename": "^0.5.0",
     "hexo": "^5.0.0",
     "hexo-butterfly-hpptalk": "^1.0.4",
     "hexo-deployer-git": "^3.0.0",
@@ -29,6 +31,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "lineno": "^0.1.0"
   }
 }

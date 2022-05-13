@@ -23,3 +23,12 @@ aplayer:
 highlight_shrink:
 aside:
 ---
+
+# 简介
+
+AGbot为陈鑫磊自己制作的腾讯QQ机器人
+
+支持好多好多功能
+
+> ~~也有好多好多bug~~
+

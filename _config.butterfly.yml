@@ -598,7 +598,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
+  font-family: "HarmonyOS Sans"
   code-font-family:
 
 # Font settings for the site title and site subtitle
@@ -855,6 +855,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="/css/font.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>

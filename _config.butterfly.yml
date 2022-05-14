@@ -421,8 +421,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: <span id="hitokoto">正在加载....</span><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script><br><a href="https://icp.gov.moe/?keyword=20220529" target="_blank">萌ICP备20220529号</a>
-
+  custom_text: <span id="hitokoto">正在加载....</span><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script><br><a href="https://icp.gov.moe/?keyword=20220529" target="_blank">萌ICP备20220529号</a><meting-js server="netease" type="playlist" id="5354632768" fixed="true"></meting-js>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -801,7 +800,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -857,6 +856,9 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/font.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    - <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>

@@ -922,7 +922,7 @@ CDN:
     # flickr_justified_gallery_css:
     # aplayer_css:
     # aplayer_js:
-    meting_js: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js
+    # meting_js: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:

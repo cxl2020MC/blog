@@ -857,9 +857,15 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/font.css">
+    - <!-- require APlayer -->
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    - <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+    - <!-- require MetingJS -->
+    - <script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
     # - <script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+    - <meting-js server="netease" type="playlist" id="5354632768"></meting-js>
     # - <div class="aplayer no-destroy" data-id="5354632768" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
     # - <script src="xxxx"></script>
 

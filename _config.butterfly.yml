@@ -43,6 +43,7 @@ copy:
 social:
   fab fa-github: https://github.com/cxl2020MC || Github
   fas fa-envelope: mailto:andamu2019@163.com || Email
+  fa-brands fa-bilibili: https://space.bilibili.com/514753559 || BiliBili
   fa-solid fa-rss: /rss2.xml || RSS2
   fa-solid fa-atom: /atom.xml || atom
 
@@ -800,7 +801,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -809,7 +810,7 @@ aplayerInject:
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
   enable: true
-  position: bottom-left
+  position: top-right # bottom-left
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
@@ -859,7 +860,7 @@ inject:
     # - <script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <div class="aplayer no-destroy" data-id="5354632768" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
+    # - <div class="aplayer no-destroy" data-id="5354632768" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
     # - <script src="xxxx"></script>
 
 # CDN
@@ -921,7 +922,7 @@ CDN:
     # flickr_justified_gallery_css:
     # aplayer_css:
     # aplayer_js:
-    meting_js: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js
+    # meting_js:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:

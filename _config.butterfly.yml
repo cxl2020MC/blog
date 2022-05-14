@@ -856,7 +856,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/font.css">
-    - <script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
+    # - <script src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <div class="aplayer no-destroy" data-id="5354632768" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div>
@@ -921,7 +921,7 @@ CDN:
     # flickr_justified_gallery_css:
     # aplayer_css:
     # aplayer_js:
-    # meting_js:
+    meting_js: https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:

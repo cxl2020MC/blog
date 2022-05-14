@@ -1,5 +1,6 @@
 @font-face {
     font-family: "HarmonyOS Sans";
-    src: url(/fonts/HarmonyOS_Sans_SC_Regular.subset.ttf);
+    src: url(/fonts/HarmonyOS_Sans_Regular.subset.ttf);
+    /* /fonts/HarmonyOS_Sans_SC_Regular.subset.ttf */
     /* https://npm.elemecdn.com/qycdn/fonts/HarmonyOS_Sans_Regular.subset.ttf) */
 }

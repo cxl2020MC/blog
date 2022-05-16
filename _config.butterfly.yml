@@ -910,19 +910,19 @@ CDN:
     instantpage: https://cdn1.tianli0.top/npm/instant.page@5/instantpage.min.js
     # typed:
     # pangu:
-    # fancybox_css_v4:
-    # fancybox_v4:
+    fancybox_css_v4: https://cdn1.tianli0.top/npm/@fancyapps/ui/dist/fancybox.css
+    fancybox_v4: https://cdn1.tianli0.top/npm/@fancyapps/ui/dist/fancybox.umd.js
     # medium_zoom:
-    # snackbar_css:
+    snackbar_css: https://cdn1.tianli0.top/npm/node-snackbar/dist/snackbar.min.css
     snackbar: https://cdn1.tianli0.top/npm/node-snackbar/dist/snackbar.min.js
     activate_power_mode: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
     fireworks: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/fireworks.min.js
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6:
+    fontawesomeV6: https://cdn1.tianli0.top/npm/@fortawesome/fontawesome-free@6/css/all.min.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
+    aplayer_css: https://cdn1.tianli0.top/npm/aplayer@1/dist/APlayer.min.css
     aplayer_js: https://cdn1.tianli0.top/npm/aplayer@1/dist/APlayer.min.js
     meting_js: https://cdn1.tianli0.top/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
     # prismjs_js:

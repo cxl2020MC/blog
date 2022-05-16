@@ -856,8 +856,8 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/font.css">
-    - <script src="https://cdn.jsdelivr.net/npm/flv.js/dist/flv.min.js"></script>
-    - <script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
+    - <script src="https://cdn1.tianli0.top/npm/flv.js/dist/flv.min.js"></script>
+    - <script src="https://cdn1.tianli0.top/npm/dplayer/dist/DPlayer.min.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <div class="aplayer no-destroy" data-id="7510263412" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random"></div>
@@ -886,14 +886,14 @@ CDN:
     # algolia_js:
     # algolia_search_v4:
     # instantsearch_v4:
-    pjax: https://npm.elemecdn.com/pjax/pjax.min.js
-    gitalk: https://npm.elemecdn.com/gitalk@latest/dist/gitalk.min.js
-    gitalk_css: https://npm.elemecdn.com/gitalk/dist/gitalk.min.css
+    pjax: https://cdn1.tianli0.top/npm/pjax/pjax.min.js
+    gitalk: https://cdn1.tianli0.top/npm/gitalk@latest/dist/gitalk.min.js
+    gitalk_css: https://cdn1.tianli0.top/npm/gitalk/dist/gitalk.min.css
     # blueimp_md5:
     # valine:
     # disqusjs:
     # disqusjs_css:
-    twikoo: https://npm.elemecdn.com/twikoo@1.5.10/dist/twikoo.all.min.js
+    twikoo: https://cdn1.tianli0.top/npm/twikoo@1.5.10/dist/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # sharejs:
@@ -903,27 +903,27 @@ CDN:
     # katex_copytex:
     # katex_copytex_css:
     # mermaid:
-    # canvas_ribbon: 
-    canvas_fluttering_ribbon: https://npm.elemecdn.com/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+    canvas_ribbon:  https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+    # canvas_fluttering_ribbon:
     # canvas_nest:
-    lazyload: https://npm.elemecdn.com/vanilla-lazyload/dist/lazyload.iife.min.js
-    instantpage: https://npm.elemecdn.com/instant.page@5/instantpage.min.js
+    lazyload: https://cdn1.tianli0.top/npm/vanilla-lazyload/dist/lazyload.iife.min.js
+    instantpage: https://cdn1.tianli0.top/npm/instant.page@5/instantpage.min.js
     # typed:
     # pangu:
     # fancybox_css_v4:
     # fancybox_v4:
     # medium_zoom:
     # snackbar_css:
-    snackbar: https://npm.elemecdn.com/node-snackbar/dist/snackbar.min.js
-    activate_power_mode: https://npm.elemecdn.com/butterfly-extsrc@1/dist/activate-power-mode.min.js
-    fireworks: https://npm.elemecdn.com/butterfly-extsrc@1/dist/fireworks.min.js
+    snackbar: https://cdn1.tianli0.top/npm/node-snackbar/dist/snackbar.min.js
+    activate_power_mode: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
+    fireworks: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/fireworks.min.js
     # click_heart:
     # ClickShowText:
     # fontawesomeV6:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
-    aplayer_js: https://npm.elemecdn.com/aplayer@1/dist/APlayer.min.js
+    aplayer_js: https://cdn1.tianli0.top/npm/aplayer@1/dist/APlayer.min.js
     meting_js: https://cdn1.tianli0.top/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
     # prismjs_js:
     # prismjs_lineNumber_js:

@@ -19,3 +19,11 @@ module.exports = {
       }
     ]
 }
+/** 移除 URL 末尾的 index.html */
+async function removeIndex(manifestEntries) {
+  const manifest = manifestEntries.map(entry => {
+    entry.url = entry.url.replace(/(^|\/)index\.html$/, '/');
+    return entry;
+  });
+  return { manifest };
+}

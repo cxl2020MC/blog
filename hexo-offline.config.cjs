@@ -16,6 +16,10 @@ module.exports = {
       {
         urlPattern: /^https:\/\/cxl2020mc-1304820025\.file\.myqcloud\.com\/.*/, // 可替换成你的 URL
         handler: 'CacheFirst'
+      },
+      {
+        urlPattern: /^https:\/\/cdn\.cxl2020mc\.top\/.*/, // 可替换成你的 URL
+        handler: 'CacheFirst'
       }
     ]
 }

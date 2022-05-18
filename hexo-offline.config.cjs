@@ -20,6 +20,10 @@ module.exports = {
       {
         urlPattern: /^https:\/\/cdn\.cxl2020mc\.top\/.*/, // 可替换成你的 URL
         handler: 'CacheFirst'
+      },
+      {
+        urlPattern: /^https:\/\/api\.dujin\.org\/.*/, // 可替换成你的 URL
+        handler: 'CacheFirst'
       }
     ]
 }

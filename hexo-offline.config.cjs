@@ -26,6 +26,7 @@ module.exports = {
         handler: 'CacheFirst'
       }
     ]
+   manifestTransforms: [removeIndex]
 }
 /** 移除 URL 末尾的 index.html */
 async function removeIndex(manifestEntries) {

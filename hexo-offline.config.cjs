@@ -7,6 +7,7 @@ module.exports = {
     maximumFileSizeToCacheInBytes: 10485760, // 缓存的最大文件大小，以字节为单位。
     skipWaiting: true,
     clientsClaim: true,
+    manifestTransforms: [removeIndex],
     runtimeCaching: [ // 如果你需要加载 CDN 资源，请配置该选项，如果没有，可以不配置。
       // CDNs - should be CacheFirst, since they should be used specific versions so should not change
       {
@@ -26,7 +27,6 @@ module.exports = {
         handler: 'CacheFirst'
       }
     ]
-  manifestTransforms: [removeIndex]
 }
 /** 移除 URL 末尾的 index.html */
 async function removeIndex(manifestEntries) {

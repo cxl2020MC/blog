@@ -8,6 +8,7 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   说说: /hpptalk/ || fa-fw fas fa-comment-dots
+  友链朋友圈: /fcircle/ 
   杂七杂八||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images

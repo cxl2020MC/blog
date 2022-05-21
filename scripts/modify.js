@@ -6,7 +6,7 @@ filter.register('before_generate', () => {
     const { asset } = hexo.theme.config;
     for (const name in asset) {
         asset[name] = asset[name]
-            //.replace('//cdn.jsdelivr.net/', '//cdn1.tianli0.top/');
             .replace('//cdn.jsdelivr.net/', '//cdn.cxl2020mc.top/');
+            //.replace('//cdn.jsdelivr.net/', '//cdn1.tianli0.top/');
     }
 }, 11);

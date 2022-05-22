@@ -9,13 +9,14 @@ menu:
   分类: /categories/ || fas fa-folder-open
   说说: /hpptalk/ || fa-fw fas fa-comment-dots
   友链朋友圈: /fcircle/ 
-  杂七杂八||fa fa-heartbeat:
-    音乐: /music/ || fas fa-music
+  清单||fa fa-heartbeat:
+    # 音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
-    状态监控: http://stats.cxl2020mc.top # https://stats.uptimerobot.com/8WJ06FjNZg
-    说说后台: https://plusplus.cxl2020mc.workers.dev/hpp/admin/login
-    # 博客后台: https://qexo.cxl2020mc.top
+    # 电影: /movies/ || fas fa-video
+  杂七杂八||fa fa-heartbeat:
+  状态监控: http://stats.cxl2020mc.top || fa-fw fas fa-server # https://stats.uptimerobot.com/8WJ06FjNZg
+  说说后台: https://plusplus.cxl2020mc.workers.dev/hpp/admin/login || fa-fw fa-solid fa-gears
+  # 博客后台: https://qexo.cxl2020mc.top
   开往: https://travellings.link || fa-solid fa-train-subway
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart

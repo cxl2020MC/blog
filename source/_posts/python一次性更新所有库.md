@@ -23,6 +23,7 @@ aplayer:
 highlight_shrink:
 aside:
 ---
+
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210619144249.jpeg)
 # 当python用久了，就会有一大堆有更新的库
 ## 检查更新命令

@@ -54,10 +54,15 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 pip install pip-review
 ```
-更新命令：(因为要获取所有更新内容，启动要一点时间)
+#### 更新命令：(因为要获取所有更新内容，启动要一点时间)
 ```
 pip-review --local --interactive
 ```
+#### 或者使用一键命令(就不用继续往下看了)
+```
+pip-review --auto
+```
+#### 使用第1种方法的要看
 运行（建议使用管理员身份运行）
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210619143505.png)
 输入：A更新所有库

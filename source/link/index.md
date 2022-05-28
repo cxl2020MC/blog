@@ -14,21 +14,6 @@ aplayer:
 highlight_shrink:
 ---
 
-<!-- ## 测试QEXO友链
-
-<div id="qexo-friends"></div>
-<link rel="stylesheet" href="https://cdn.cxl2020mc.top/npm/qexo-static/hexo/friends/friends.css"/>
-<script src="https://cdn.cxl2020mc.top/npm/qexo-static/hexo/friends/friends.js"></script>
-<script>loadQexoFriends("qexo-friends", "https://qexo.cxl2020mc.top")</script>
-
-## 测试QEXO友链友链申请
-
-<div id="friends-api"></div>
-
-<script src="https://cdn.cxl2020mc.top/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
-
-<script>qexo_friend_api("friends-api","https://qexo.cxl2020mc.top");</script> -->
-
 {% note warning flat %}
 申请友链的请先添加本站添加再申请!!!
 建议使用twikoo评论区进行友链申请

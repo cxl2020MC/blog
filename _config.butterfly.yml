@@ -14,6 +14,7 @@ menu:
     照片: /Gallery/ || fas fa-images
     # 电影: /movies/ || fas fa-video
   杂七杂八||fa-fw fa-solid fa-vial: # fa fa-heartbeat:
+    切换镜像: /mirror/ || fa-fw fas fa-server
     状态监控: https://stats.uptimerobot.com/8WJ06FjNZg || fa-fw fas fa-server # https://stats.uptimerobot.com/8WJ06FjNZg https://stats.cxl2020mc.top
     说说后台: https://plusplus.cxl2020mc.workers.dev/hpp/admin/login || fa-fw fa-solid fa-gears
     博客后台: https://qexo.cxl2020mc.top || fa-fw fa-solid fa-gears

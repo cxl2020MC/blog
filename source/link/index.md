@@ -25,10 +25,10 @@ highlight_shrink:
 
 ## 友链申请
 
-
-
 <div id="friends-api"></div>
-<script src="https://cdn.jsdelivr.net/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
+
+<script src="https://cdn.cxl2020mc.top/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
+
 <script>qexo_friend_api("friends-api","qexo.cxl2020mc.top");</script>
 
 {% note warning flat %}

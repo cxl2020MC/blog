@@ -14,7 +14,6 @@ aplayer:
 highlight_shrink:
 ---
 
-
 ## 测试QEXO友链
 
 <div id="qexo-friends"></div>

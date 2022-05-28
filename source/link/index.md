@@ -29,7 +29,7 @@ highlight_shrink:
 
 <script src="https://cdn.cxl2020mc.top/gh/Fgaoxing/blog-cdn@main/source/js/friends-api.js"></script>
 
-<script>qexo_friend_api("friends-api","qexo.cxl2020mc.top");</script>
+<script>qexo_friend_api("friends-api","https://qexo.cxl2020mc.top");</script>
 
 {% note warning flat %}
 申请友链的请先添加本站添加再申请!!!

@@ -14,9 +14,8 @@ aplayer:
 highlight_shrink:
 ---
 
-# 测试QEXO友链
 
-## 友链
+## 测试QEXO友链
 
 <div id="qexo-friends"></div>
 <link rel="stylesheet" href="https://cdn.cxl2020mc.top/npm/qexo-static/hexo/friends/friends.css"/>

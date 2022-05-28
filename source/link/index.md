@@ -31,7 +31,7 @@ highlight_shrink:
 
 {% note warning flat %}
 申请友链的请先添加本站添加再申请!!!
-建议使用评论区进行友链申请
+建议使用twikoo评论区进行友链申请
 {% endnote %}
 
 ```yml

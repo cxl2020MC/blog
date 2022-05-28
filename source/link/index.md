@@ -21,7 +21,7 @@ highlight_shrink:
 <script src="https://cdn.cxl2020mc.top/npm/qexo-static/hexo/friends/friends.js"></script>
 <script>loadQexoFriends("qexo-friends", "https://qexo.cxl2020mc.top")</script>
 
-## 友链申请
+## 测试QEXO友链友链申请
 
 <div id="friends-api"></div>
 

@@ -15,8 +15,12 @@ keywords:
 top_img: 
 # 显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认false)
 mathjax: 
+# 显示katex(当设置katex的per_page: false时，才需要配置，默认false)
 katex: 
+# 显示侧边栏(默认true)
 aside:
+# 在需要的页面加载aplayer的js和css,请参考文章下面的音乐配置
 aplayer:
+# 配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)
 highlight_shrink:
 ---

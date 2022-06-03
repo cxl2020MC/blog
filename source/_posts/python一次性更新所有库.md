@@ -67,34 +67,13 @@ pip install pip-review
 
 #### 更新命令：(因为要获取所有更新内容，启动要一点时间)
 
-
 {% tabs test2 %}
 
-<!-- tab 第一个Tab -->
+<!-- tab 全自动更新所有库 -->
 
-**tab名字为第一个Tab**
-
-<!-- endtab -->
-
-<!-- tab @fab fa-apple-pay -->
-
-**只有图标 没有Tab名字**
-
-<!-- endtab -->
-
-{% endtabs %}
-
-
-
+```
 pip-review --local --interactive
-
-#### 或者使用一键命令(就不用继续往下看了)
-
 ```
-pip-review --auto
-```
-
-#### 使用第1种方法的要看
 
 运行（建议使用管理员身份运行）
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210619143505.png)
@@ -103,4 +82,16 @@ pip-review --auto
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210619143729.png)
 剩下的只有耐心等待
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/gq.gif)
+
+<!-- endtab -->
+
+<!-- tab 第二种方法(可以选择更新哪个) -->
+
+```
+pip-review --auto
+```
+
+<!-- endtab -->
+
+{% endtabs %}
 

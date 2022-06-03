@@ -5,8 +5,11 @@
 # Site
 title: 陈鑫磊的博客
 subtitle: ''
-description: ''
-keywords: 陈鑫磊的博客
+description: '陈鑫磊的个人博客。这里主要分享作者自己写的python程序和部分推荐软件。'
+keywords: 
+  - 陈鑫磊的博客
+  - cxl2020mc
+  - cxl2020MC
 author: 陈鑫磊
 language: zh-CN
 timezone: 'Asia/Shanghai'

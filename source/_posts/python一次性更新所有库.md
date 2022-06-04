@@ -72,6 +72,17 @@ pip install pip-review
 <!-- tab 全自动更新所有库 -->
 
 ```
+pip-review --auto
+```
+
+```
+
+```
+
+<!-- endtab -->
+
+<!-- tab 第二种方法(可以选择更新哪个) -->
+```
 pip-review --local --interactive
 ```
 
@@ -80,18 +91,11 @@ pip-review --local --interactive
 输入：A更新所有库
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210619143610.png)
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/20210619143729.png)
-剩下的只有耐心等待
-![](https://cxl2020mc-1304820025.file.myqcloud.com/file/gq.gif)
-
-<!-- endtab -->
-
-<!-- tab 第二种方法(可以选择更新哪个) -->
-
-```
-pip-review --auto
-```
 
 <!-- endtab -->
 
 {% endtabs %}
+
+剩下的只有耐心等待
+![](https://cxl2020mc-1304820025.file.myqcloud.com/file/gq.gif)
 

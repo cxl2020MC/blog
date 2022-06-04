@@ -74,11 +74,6 @@ pip install pip-review
 ```
 pip-review --auto
 ```
-
-```
-
-```
-
 <!-- endtab -->
 
 <!-- tab 第二种方法(可以选择更新哪个) -->

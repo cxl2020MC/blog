@@ -248,7 +248,7 @@ post_pagination: 1
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
   limit_day: 500 # When will it be shown
   position: top # position: top/bottom

@@ -1,6 +1,6 @@
 ---
 title: markdown语法
-date: 
+date: 2022-05-23 19:39:21
 cover: https://cxl2020mc-1304820025.file.myqcloud.com/file/markdown.jpg
 tags:
 updated: 
@@ -23,7 +23,6 @@ aplayer:
 highlight_shrink:
 aside:
 ---
-
 
 ## 关于Markdown（来自百度百科）
 
@@ -187,36 +186,39 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
   + 列表2
     
     * 列表3
-    
+
 #### 有序列表
-    
+
 数字加点
+
 ```
 1. 列表内容
 2. 列表内容
 3. 列表内容
 注意：序号跟内容之间要有空格
 ```
+
 1. 列表内容
 2. 列表内容
 3. 列表内容
-数字是可以打乱的，生成会自动排序
-    
+   数字是可以打乱的，生成会自动排序
+
 #### 代办列表
+
 ```
 - [ ] 内容
 - [x] 内容
 ```
-    
+
 - [ ] 内容
 - [x] 内容
-    
+
 #### 列表嵌套
-    
+
 上一级和下一级之间敲三个空格即可
-    
+
 ## 表格
-    
+
 ```
 表头|表头|表头
 |---|:--:|---:|
@@ -228,9 +230,9 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 -两边加：表示文字居中
 -右边加：表示文字居右
 ```
-    
+
 示例：
-    
+
 ```
 博客网站
 |名称|网址|xxx|
@@ -238,20 +240,24 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 |陈鑫磊的博客|https://cxl2020mc.github.io|xxx|
 |高浩轩|https://hkjyh5.coding-pages.com/|xxx|
 ```
-    
+
 博客网站
-    
-|名称|网址|xxx|
-|:---|:---:|---:|
-|陈鑫磊的博客|https://cxl2020mc.github.io|xxx|
-| 高浩轩|https://hkjyh5.coding-pages.com|xxx|
+
+| 名称         |              网址              | xxx |
+| :------------- | :-------------------------------: | ----: |
+| 陈鑫磊的博客 |   https://cxl2020mc.github.io   | xxx |
+| 高浩轩       | https://hkjyh5.coding-pages.com | xxx |
 
 ## 代码
+
 ### 单行代码：代码用一个反引号包起来
+
 ```
-  `代码内容`
+`代码内容`
 ```
+
 代码块：代码用三个反引号包起来，且两边的反引号单独占一行
+
 ```
 (```)  注：这里可以在加编程语言如：java
 代码...
@@ -259,21 +265,28 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 代码...
 (```)
 ```
+
 注：为了防止转译，前后三个反引号处加了小括号。
+
 ## 缩略
+
 缩略有2种一种可以使用Markdown，HTML，一种不可以但是支持HTML
+
 ### 可以使用Markdown，HTML
+
 ```
 <details>
   <summary>文字</summary>
 内容
 </details>
 ```
+
 效果
+
 <details>
   <summary>文字</summary>
 内容
-</details>  
+</details>
 
 ### 不可以使用Markdown，支持HTML
 
@@ -287,8 +300,9 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
   </pre>
 </details>
 ```
+
 效果
-    
+
 <details>
   <summary>文字</summary>
   <pre>
@@ -299,25 +313,34 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语�
 </details>
 
 ### butterfly主题专用
+
 本站使用butterfly主题支持标签外挂
 格式：
+
 > ( display 不能包含英文逗号，可用&sbquo;)
+
 ```
 {% hideToggle display,bg,color %} 
 content 
 {% endhideToggle %}
 ```
+
 示例
+
 ```
 {% hideToggle 文字%}
 内容
 {% endhideToggle %}
 ```
+
 {% hideToggle 文字%}
 内容
 {% endhideToggle %}
 
 ## 网页编辑器
+
 ### Editor.md
+
 [Editor.md](http://editor.md.ipandao.com/)
 ![](https://cxl2020mc-1304820025.file.myqcloud.com/file/Editor.md.png)
+

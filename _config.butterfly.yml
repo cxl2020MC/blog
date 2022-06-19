@@ -9,6 +9,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   娱乐||fa fa-heartbeat: # 清单
     友链朋友圈: /fcircle/ || fa-fw fas fa-book
+    哔哔: /bber/ || fa-fw fas fa-comment-dots
     说说: /hpptalk/ || fa-fw fas fa-comment-dots
     # 音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images

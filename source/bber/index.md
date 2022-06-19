@@ -16,9 +16,9 @@ highlight_shrink:
 {%raw%}
 <div id='speak'></speak>
 <!-- 使用markdown渲染 -->
-<script type="text/javascript" src="https://cdn.cxl2020mc.top/npm/ispeak-bber/ispeak-bber-md.min.js" charset="utf-8" ></script>
+<!-- <script type="text/javascript" src="https://cdn.cxl2020mc.top/npm/ispeak-bber/ispeak-bber-md.min.js" charset="utf-8" ></script> -->
 <!-- 不使用markdown渲染 -->
-<!-- <script type="text/javascript" src="https://cdn.cxl2020mc.top/npm/ispeak-bber/ispeak-bber.min.js" charset="utf-8" ></script> -->
+<script type="text/javascript" src="https://cdn.cxl2020mc.top/npm/ispeak-bber/ispeak-bber.min.js" charset="utf-8" ></script>
 <!-- 解析微信表情（参考：https://github.com/buddys/qq-wechat-emotion-parser） -->
 <!-- <script src="https://cdn.cxl2020mc.top/gh/buddys/qq-wechat-emotion-parser@master/dist/qq-wechat-emotion-parser.min.js"></script> -->
 <script>

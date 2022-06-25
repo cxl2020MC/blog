@@ -254,7 +254,7 @@ noticeOutdate:
   limit_day: 365 # When will it be shown
   position: top # position: top/bottom
   message_prev: 距离上次更新已经 # It has been
-  message_next: 天了，可能是文章内容可能已经过时。  # days since the last update, the content of the article may be outdated.
+  message_next: 天了，文章内容可能已经过时。  # days since the last update, the content of the article may be outdated.
 
 # Share System (分享功能)
 # --------------------------------------

@@ -654,6 +654,8 @@ aside:
   mobile: true # display on mobile
   position: right # left or right
   display:
+    tag: true
+    category: true
     archive: true
   card_author:
     enable: true

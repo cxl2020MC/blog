@@ -13,7 +13,7 @@ aside:
 aplayer:
 highlight_shrink:
 ---
-{%raw%}
+
 <div id='speak'></speak>
 <!-- 使用markdown渲染 -->
 <!-- <script type="text/javascript" src="https://cdn.cxl2020mc.top/npm/ispeak-bber/ispeak-bber-md.min.js" charset="utf-8" ></script> -->
@@ -39,4 +39,3 @@ ispeakBber
       console.log('哔哔 加载完成')
     })
 </script>
-{%endraw%}

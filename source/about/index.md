@@ -31,7 +31,7 @@ highlight_shrink:
 
 ---------------------------------------
 
-![](https://github-readme-stats.vercel.app/api?username=cxl2020MC&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)
+[![cxl2020MC's GitHub stats](https://github-readme-stats.vercel.app/api?username=cxl2020MC&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cxl2020MC&a&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 

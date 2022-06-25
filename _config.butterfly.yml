@@ -900,7 +900,7 @@ inject:
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format:
+  custom_format: https://cdn.cxl2020mc.top/npm/${name}/dist/${file}
 
   option:
     # main_css:

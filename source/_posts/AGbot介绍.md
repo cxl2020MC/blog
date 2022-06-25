@@ -2,7 +2,9 @@
 title: AGbot介绍
 date: 2022-05-13 21:17:15
 cover:
-tags: python, AGbot
+tags: 
+  - python
+  - AGbot
 updated:
 categories:
 keywords:

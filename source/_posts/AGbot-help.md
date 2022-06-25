@@ -2,7 +2,9 @@
 title: AGbot帮助文档1——命令
 date: 2022-05-12 13:42:20
 cover:
-tags: pytho, AGbot
+tags: 
+  - python
+  - AGbot
 updated:
 categories:
 keywords:

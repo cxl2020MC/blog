@@ -7,6 +7,8 @@ tags:
   - AGbot
 updated:
 categories:
+  -	python
+  - AGbot
 keywords:
 description:
 top_img:

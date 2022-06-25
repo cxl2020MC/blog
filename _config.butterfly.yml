@@ -653,7 +653,8 @@ aside:
   button: true
   mobile: true # display on mobile
   position: right # left or right
-  archives: false
+  display:
+    archive: true
   card_author:
     enable: true
     description:

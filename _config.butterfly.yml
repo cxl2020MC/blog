@@ -875,8 +875,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="preload" href="/fonts/HarmonyOS_Sans_Regular.subset.ttf" as="font">
     - <link rel="stylesheet" href="/css/font.css">
+    - <link rel="preload" href="/fonts/HarmonyOS_Sans_Regular.subset.ttf" as="font">
     - <script src="https://cdn.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://cdn.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
     # - <script src="https://cdn.cxl2020mc.top/npm/cdnbye-mp4@latest"></script>

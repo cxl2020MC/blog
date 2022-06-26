@@ -43,4 +43,14 @@ aplayer:
 highlight_shrink:
 # 显示侧边栏(默认true)
 aside:
+# 密码
+password:
+#  消息 有东西被加密了, 请输入密码查看.
+abstract:
+# 密码提示 您好, 这里需要密码.
+message:
+# 密码错误提示 抱歉, 这个密码看着不太对, 请再试试.
+wrong_pass_message:
+# 密码正确提示 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+wrong_hash_message:
 ---

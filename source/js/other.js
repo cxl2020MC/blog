@@ -9,3 +9,4 @@ function mirrorwelcome(){
     //mirrorwelcome()
 //})
 window.addEventListener("load", mirrorwelcome());
+btf.snackbarShow('欢迎来到陈鑫磊的博客！') 

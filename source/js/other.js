@@ -9,17 +9,12 @@ function mirrorwelcome() {
 //mirrorwelcome()
 //})
 
-//window.addEventListener("load", mirrorwelcome());
-
-//当一个文档完全下载到浏览器中时，才会触发window.onload事件
-//window.onload=function(){
-//dosth//你要做的事情
-//}
+window.addEventListener("load", mirrorwelcome());
 
 document.onreadystatechange = function () 　　//当页面加载状态改变的时候执行function
 {
     if (document.readyState == "complete") { 　　//当页面加载状态为完全结束时进入 
-        mirrorwelcome();
+        //mirrorwelcome();
         btf.snackbarShow('欢迎来到陈鑫磊的博客！'); 　　 //你要做的操作。
     }
 }

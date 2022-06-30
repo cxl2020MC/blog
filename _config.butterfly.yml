@@ -98,10 +98,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://api.dujin.org/bing/1920.php
+index_img: https://api.cxl2020mc.top/bing/ # https://api.dujin.org/bing/1920.php
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://api.dujin.org/bing/1920.php
+default_top_img: https://api.cxl2020mc.top/bing/ # https://api.dujin.org/bing/1920.php
 
 # The banner image of archive page
 archive_img:
@@ -142,7 +142,8 @@ cover:
     - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081808378.jpg
     - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081808044.jpg
     - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205092116617.jpeg
-    - https://api.dujin.org/bing/1920.php
+    - https://api.cxl2020mc.top/bing/
+    # - https://api.dujin.org/bing/1920.php
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:

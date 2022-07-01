@@ -178,7 +178,7 @@ encrypt: # hexo-blog-encrypt
 
 # hexo-offline-popup.
 service_worker:
-  maximumFileSizeToCacheInBytes: 3145728 # 缓存的最大文件大小，以字节为单位，此处设置为3MB。
+  maximumFileSizeToCacheInBytes: 15145728 # 缓存的最大文件大小，以字节为单位，此处设置为3MB。(3145728)
   staticFileGlobs:
     - public/**/*.{js,html,xml,css,png,jpg,gif,svg,webp,eot,ttf,woff,woff2}
     # - public/**/*.{html,xml} #精简版使用这行即可

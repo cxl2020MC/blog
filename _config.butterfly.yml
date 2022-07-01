@@ -143,6 +143,13 @@ cover:
     - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205081808044.jpg
     - https://cxl2020mc-1304820025.file.myqcloud.com/file/202205092116617.jpeg
     - https://api.cxl2020mc.top?api=bing
+    - https://api.cxl2020mc.top?api=bing&idx=1
+    - https://api.cxl2020mc.top?api=bing&idx=2
+    - https://api.cxl2020mc.top?api=bing&idx=3
+    - https://api.cxl2020mc.top?api=bing&idx=4
+    - https://api.cxl2020mc.top?api=bing&idx=5
+    - https://api.cxl2020mc.top?api=bing&idx=6
+    - https://api.cxl2020mc.top?api=bing&idx=7
     # - https://api.dujin.org/bing/1920.php
 
 # Replace Broken Images (替換無法顯示的圖片)

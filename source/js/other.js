@@ -27,13 +27,3 @@ document.onreadystatechange = function () 　　//当页面加载状态改变的
     }
 }
 //btf.snackbarShow('欢迎来到陈鑫磊的博客！') 
-
-//解决页面URL带着长长的后缀
-//重定向浏览器地址
-pjax.site_handleResponse = pjax.handleResponse;
-pjax.handleResponse = function(responseText, request, href, options){
-  Object.defineProperty(request,'responseURL',{
-    value: href
-  });
-  pjax.site_handleResponse(responseText,request,href,options);
-}

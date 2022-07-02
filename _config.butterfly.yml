@@ -894,7 +894,6 @@ inject:
     - <script defer type="text/javascript" src="/js/modify.js"></script>
     - <div class="aplayer no-destroy" data-id="7510263412" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random"></div>
     - <script type="text/javascript" src ="/js/other.js" ></script> 
-    - <script defer src="/live2d-widget/autoload.js"></script>
     # - <script src="xxxx"></script>
 
   # The CDN provider of internal scripts (主题内部 js 的 cdn 配置)

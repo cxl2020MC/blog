@@ -191,7 +191,7 @@ live2d:
   debug: false # 调试, 是否在控制台输出日志
   dialog:
     enable: true # 显示对话框人物显示对话框
-    hitokoto: true # 启用 hitokoto 使用一言API
+    # hitokoto: true # 启用 hitokoto 使用一言API
   model:
     use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/snow_miku/model.json # npm-module package name
     # use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/kelit/kelit.model3.json # npm-module package name

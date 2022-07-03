@@ -193,7 +193,8 @@ live2d:
     enable: true # 显示对话框人物显示对话框
     # hitokoto: true # 启用 hitokoto 使用一言API
   model:
-    use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/snow_miku/model.json # npm-module package name
+    use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/Ganyu/Ganyu.model3.json
+    # use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/snow_miku/model.json # npm-module package name
     # use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/kelit/kelit.model3.json # npm-module package name
     # use: wanko # 博客根目录/live2d_models/ 下的目录名
     # use: ./wives/wanko # 相对于博客根目录的路径

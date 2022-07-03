@@ -189,6 +189,9 @@ live2d:
   # scriptFrom: https://npm.elemecdn.com/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
   tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
   debug: false # 调试, 是否在控制台输出日志
+  dialog:
+    enable: true # 显示对话框人物显示对话框
+    hitokoto: true # 启用 hitokoto 使用一言API
   model:
     use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/snow_miku/model.json # npm-module package name
     # use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/kelit/kelit.model3.json # npm-module package name

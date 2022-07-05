@@ -203,7 +203,7 @@ live2d:
     height: 300 #控制看板娘大小
   mobile:
     show: true # 手机中是否展示
-    scale: 0.7
+    scale: 1 # 0.5
 
 # hexo-offline-popup.
 service_worker:

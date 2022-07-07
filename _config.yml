@@ -204,8 +204,8 @@ live2d:
     hOffset: 0
     vOffset: -20 # -20
   mobile:
-    show: false # 手机中是否展示
-    scale: 0.7 # 0.5
+    show: true # 手机中是否展示
+    scale: 0.8 # 0.5
 
 # hexo-offline-popup.
 service_worker:

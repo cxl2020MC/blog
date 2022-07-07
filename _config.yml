@@ -202,10 +202,10 @@ live2d:
     width: 300 #控制看板娘大小
     height: 300 #控制看板娘大小
     hOffset: 0
-    vOffset: -30 # -20
+    vOffset: -20 # -20
   mobile:
     show: true # 手机中是否展示
-    scale: 0.8 # 0.5
+    scale: 0.5 # 0.5
 
 # hexo-offline-popup.
 service_worker:

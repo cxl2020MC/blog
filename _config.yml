@@ -198,7 +198,7 @@ live2d:
     # use: ./wives/wanko # 相对于博客根目录的路径
     # use: https://npm.elemecdn.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
-    position: left # right #控制看板娘位置
+    position: right #控制看板娘位置
     width: 300 #控制看板娘大小
     height: 300 #控制看板娘大小
   mobile:

@@ -115,6 +115,7 @@ deploy:
   # [,branch]为可选项，表示部署的分支
   #2020年10月后github新建仓库默认分支改为main
   type: cos
+  # 放环境变量里了
   # secretId: yourSecretId
   # secretKey: yourSecretKey
   # bucket: yourBucket

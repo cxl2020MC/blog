@@ -116,10 +116,10 @@ deploy:
   #2020年10月后github新建仓库默认分支改为main
   type: cos
   # 放环境变量里了
-  # secretId: yourSecretId
-  # secretKey: yourSecretKey
-  # bucket: yourBucket
-  # region: yourRegion
+  secretId: yourSecretId
+  secretKey: yourSecretKey
+  bucket: yourBucket
+  region: yourRegion
 
 
 search:

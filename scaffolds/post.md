@@ -43,6 +43,8 @@ aplayer:
 highlight_shrink:
 # 显示侧边栏(默认true)
 aside:
+#置顶轮播图顺序，非负整数，数字越大越靠前
+swiper_index:
 # 密码
 password:
 #  消息 有东西被加密了, 请输入密码查看.

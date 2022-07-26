@@ -16,6 +16,7 @@
     "filename": "^0.5.0",
     "hexo": "^6.2.0",
     "hexo-blog-encrypt": "^3.1.6",
+    "hexo-butterfly-clock": "^1.0.7",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-butterfly-hpptalk": "^1.0.4",
     "hexo-butterfly-swiper": "^1.0.12",

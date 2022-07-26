@@ -285,6 +285,24 @@ swiper:
   custom_css: https://cdn.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
   custom_js: https://cdn.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
 
+# electric_clock
+# see https://akilar.top/posts/4e39cf4a/
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+     - /post/
+     - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
+  clock_css: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.css
+  clock_js: https://unpkg.zhimg.com/hexo-butterfly-clock/lib/clock.min.js
+  ip_api: https://pv.sohu.com/cityjson?ie=utf-8
+
 # hexo-offline-popup.
 service_worker:
   maximumFileSizeToCacheInBytes: 15145728 # 缓存的最大文件大小，以字节为单位，此处设置为3MB。(3145728)

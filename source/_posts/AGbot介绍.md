@@ -26,6 +26,7 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 # 简介

@@ -301,7 +301,7 @@ service_worker:
     - urlPattern: /* # 如果你需要加载CDN資源，请配置该选项，如果沒有，可以不配置。
       handler: cacheFirst
       options:
-        origin: unpkg.com # 又拍云
+        origin: unpkg.com # unpkg
     - urlPattern: /*
       handler: cacheFirst
       options:

@@ -22,6 +22,7 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
+swiper_index: 3 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 
 ## 关于Markdown（来自百度百科）

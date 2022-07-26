@@ -186,7 +186,7 @@ live2d:
   pluginModelPath: assets/ # 模型文件相对与插件根目录路径
   # scriptFrom: jsdelivr # jsdelivr CDN
   # scriptFrom: unpkg # unpkg CDN
-  # scriptFrom: https://npm.elemecdn.com/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  # scriptFrom: https://cdn.cxl2020mc.top/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
   tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
   debug: false # 调试, 是否在控制台输出日志
   dialog:
@@ -196,7 +196,7 @@ live2d:
     use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/snow_miku/model.json # npm-module package name
     # use: wanko # 博客根目录/live2d_models/ 下的目录名
     # use: ./wives/wanko # 相对于博客根目录的路径
-    # use: https://npm.elemecdn.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+    # use: https://cdn.cxl2020mc.top/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
     position: right #控制看板娘位置
     width: 300 #控制看板娘大小
@@ -265,10 +265,25 @@ gitcalendar:
   # color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #翠绿色调
   # color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
   container: .recent-post-item(style='width:100%;height:auto;padding:10px;') #父元素容器，需要使用pug语法
-  gitcalendar_css: https://cdn.cxl2020mc.top/npm/hexo-filter-gitcalendar/lib/gitcalendar.css # https://unpkg.zhimg.com/hexo-filter-gitcalendar/lib/gitcalendar.css
-  gitcalendar_js: https://cdn.cxl2020mc.top/npm/hexo-filter-gitcalendar/lib/gitcalendar.js # https://unpkg.zhimg.com/hexo-filter-gitcalendar/lib/gitcalendar.js
+  gitcalendar_css: https://cdn.cxl2020mc.top/npm/hexo-filter-gitcalendar/lib/gitcalendar.css
+  gitcalendar_js: https://cdn.cxl2020mc.top/npm/hexo-filter-gitcalendar/lib/gitcalendar.js
 
-
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: https://cdn.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://cdn.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
+  custom_css: https://cdn.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://cdn.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
 
 # hexo-offline-popup.
 service_worker:

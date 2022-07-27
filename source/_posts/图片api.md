@@ -28,7 +28,7 @@ toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-07-27 15:03:41'
+updated: '2022-07-27 15:46:25'
 wrong_hash_message: null
 wrong_pass_message: null
 ---
@@ -38,7 +38,7 @@ wrong_pass_message: null
 
 公共api地址:[https://api.cxl2020mc.top](https://api.cxl2020mc.top)
 
-仅支持get请求
+> 注：仅支持get请求
 
 后加`?api=[请求的api]`表示请求的api
 
@@ -50,10 +50,11 @@ wrong_pass_message: null
 
 url:`/?api=bing`
 
-| 参数 | 描述 | 值 |
-| ------ | ------ | ------ |
-|idx|获取历史图片(仅支持过去7天)|`(1/2/3/4/5/6/7)`任意选一|
-|uhd|获取原图(大部分都为4k)|任意值|
+
+| 参数 | 描述                        | 值                        |
+| ------ | ----------------------------- | --------------------------- |
+| idx  | 获取历史图片(仅支持过去7天) | `(1/2/3/4/5/6/7)`任意选一 |
+| uhd  | 获取原图(大部分都为4k)      | 任意值                    |
 
 ### 列子
 
@@ -82,5 +83,3 @@ url:`/?api=bing`
 获取api和bing api 的连接信息
 
 url:`/?api=bing`
-
-

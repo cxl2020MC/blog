@@ -885,7 +885,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/css/font.css">
+    - <link rel="stylesheet" href="/css/other.css">
     - <script src="https://cdn.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://cdn.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
     - <script src="https://cdn.cxl2020mc.top/npm/jquery/dist/jquery.min.js"></script>

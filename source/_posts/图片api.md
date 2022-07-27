@@ -42,7 +42,42 @@ wrong_pass_message: null
 
 后加`?api=[请求的api]`表示请求的api
 
-# bing
+# api
+
+## bing
+
+获取bing壁纸
+
+url:`/?api=bing`
+
+| 参数 | 描述 | 值 |
+| ------ | ------ | ------ |
+|idx|获取历史图片(仅支持过去7天)|`(1/2/3/4/5/6/7)`任意选一|
+|uhd|获取原图(大部分都为4k)|任意值|
+
+### 列子
+
+#### 获取今天的bing壁纸
+
+请求url:`https://api.cxl2020mc.top?api=bing`
+![](https://api.cxl2020mc.top?api=bing)
+
+#### 获取今天的原图bing壁纸
+
+请求url:`https://api.cxl2020mc.top?api=bing&uhd=blblblblbl`
+![](https://api.cxl2020mc.top?api=bing&uhd=0)
+
+#### 获取昨天的bing壁纸
+
+请求url:`https://api.cxl2020mc.top?api=bing&idx=1`
+![](https://api.cxl2020mc.top?api=bing&idx=1)
+
+#### 获取昨天的原图bing壁纸
+
+请求url:`https://api.cxl2020mc.top?api=bing&idx=1&uhd=blblbl`
+![](https://api.cxl2020mc.top?api=bing&idx=1&uhd=blblbl)
+
+## info
 
 获取bing壁纸
 

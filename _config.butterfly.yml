@@ -888,7 +888,7 @@ inject:
     - <link rel="stylesheet" href="/css/other.css">
     - <script src="https://cdn.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://cdn.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
-    - <script src="https://cdn.cxl2020mc.top/npm/jquery/dist/jquery.min.js"></script>
+    # - <script src="https://cdn.cxl2020mc.top/npm/jquery/dist/jquery.min.js"></script>
     # - <link rel="preload" href="/fonts/HarmonyOS_Sans_Regular.subset.ttf" as="font">
     # - <script src="https://cdn.cxl2020mc.top/npm/cdnbye-mp4@latest"></script>
     # - <link rel="stylesheet" href="/xxx.css">

@@ -12,7 +12,9 @@ categories:
 # 文章关键字
 keywords: 
 # 文章描述
-description: 
+description:
+# 文章置顶，数字越大靠前
+sticky:
 # 文章顶部图片
 top_img: 
 # 显示文章评论模块(默认true)

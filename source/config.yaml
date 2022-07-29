@@ -1,0 +1,19 @@
+# 自动更新js https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js
+name: ClientWorker
+cleaninterval: 1000*30
+catch_rules:
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm)
+    transform_rules:
+      - search: _
+        replace:
+          - _
+          - https://jsd.cxl2020mc.top/npm
+          - https://vercel.jsd.cxl2020mc.top/npm
+          - https://unpkg.com
+hotpatch:
+    - https://cdn.jsdelivr.net/npm/clientworker
+    - https://jsd.cxl2020mc.top/npm/clientworker
+    - https://vercel.jsd.cxl2020mc.top/npm/clientworker
+hotconfig:
+    - 
+    - https://github.com/cxl2020MC/cxl2020MC.github.io/raw/master/source/config.yaml

@@ -14,3 +14,5 @@ hotpatch:
     - https://cdn.jsdelivr.net/npm/clientworker
     - https://jsd.cxl2020mc.top/npm/clientworker
     - https://vercel.jsd.cxl2020mc.top/npm/clientworker
+hotconfig:
+    - https://github.com/cxl2020MC/cxl2020MC.github.io/raw/master/source/config.yaml

@@ -899,7 +899,7 @@ inject:
     - <script data-pjax async src="/js/diytitle.js"></script>
     - <script async type="text/javascript" src="/js/grayscale.js"></script>
     # - <script src="xxxx"></script>
-
+CDN:
   # The CDN provider of internal scripts (主题内部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版的主题只能设置为 local )

@@ -1,7 +1,7 @@
 # 自动更新js https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js
 name: ClientWorker 
 catch_rules:
-  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm)
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm)
     transform_rules:
       - search: _
         replace:

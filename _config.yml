@@ -109,7 +109,7 @@ theme: butterfly
 deploy:
   # type: git
   # repo:
-    # gitHub: https://cxl2020MC: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@github.com/cxl2020MC/cxl2020MC.github.io.git,master
+    # gitHub:
     # gitee: https://[GiteeUsername]:[GiteeToken]@gitee.com/[GiteeUsername]/[GiteeBlogRepo].git[,branch]
     # coding: https://[TokenUser]:[CodingToken]@e.coding.net/[CodingUsername]/[CodingBlogRepo].git[,branch]
   # [,branch]为可选项，表示部署的分支

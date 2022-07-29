@@ -10,3 +10,7 @@ catch_rules:
           - https://jsd.cxl2020mc.top/npm
           - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.com
+hotpatch:
+    - https://cdn.jsdelivr.net/npm/clientworker
+    - https://jsd.cxl2020mc.top/npm/clientworker
+    - https://vercel.jsd.cxl2020mc.top/npm/clientworker

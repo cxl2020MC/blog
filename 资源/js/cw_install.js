@@ -6,15 +6,15 @@ if (!!navigator.serviceWorker) {
                     fetch('/cw-cgi/api?type=config').then(res => res.text()).then(res => {
                         if(res === 'ok') {
                             localStorage.setItem('cw_installed', 'true');
-                            console.log('[CW] Installation is completed.Reloading...');
+                            console.log('[CW] 安装完成，从新加载...');
                             location.reload()
                         }
                     }).catch(err => {
-                        console.warn('[CW] Installation may not be complete, try again later.')
+                        console.warn('[CW] 安装可能尚未完成，请稍后再试。')
                     })
                 }, 100);
         }
     }).catch(err => {
-        console.error('[CW] Installing Failed,Error: ' + err.message);
+        console.error('[CW] 安装失败,错误信息: ' + err.message);
     })
-} else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }
+} else { console.error('[CW] 安装失败,错误信息: 浏览器不支持 service worker'); }

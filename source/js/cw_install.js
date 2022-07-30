@@ -6,9 +6,9 @@ if (!!navigator.serviceWorker) {
                     fetch('/cw-cgi/api?type=config').then(res => res.text()).then(res => {
                         if(res === 'ok') {
                             localStorage.setItem('cw_installed', 'true');
-                            console.log('[CW] 安装完成，从新加载...');
+                            console.log('[CW] 安装完成，重新加载...');
                             location.reload()
-                        }
+                        }con
                     }).catch(err => {
                         console.warn('[CW] 安装可能尚未完成，请稍后再试。')
                     })

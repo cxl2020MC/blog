@@ -15,7 +15,7 @@ catch_rules:
         return:
           body: The GateWay is down!This Page is provided by ClientWorker!
           status: 503
-  - rule: ^https:\/\/cdn\.jsdelivr\.net\/npm\.elemecdn\.com
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm)
     transform_rules:
       - search: _
         replace:

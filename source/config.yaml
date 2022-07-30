@@ -43,5 +43,5 @@ catch_rules:
   # 不劫持（丢给浏览器）
   - rule: .*
     transform_rules:
-      - search: .*
+      - search: _
         action: skip     #? 2.8.1新增，跳过cw规则

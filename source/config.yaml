@@ -1,3 +1,4 @@
+# https://clientworker.js.org/
 name: ClientWorker 
 cleaninterval: 1000*30 # 每30秒检测并清理一次缓存
 # ClientWorker热补丁
@@ -26,7 +27,7 @@ catch_rules:
           preflight: false
           timeout: 5000
           cache:
-            expire: 1000*60*60*12
+            expire: 1000*60*60*8 # 缓存8小时
             delay: 200
   # 不劫持（丢给浏览器）
   - rule: .*

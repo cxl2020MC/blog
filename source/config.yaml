@@ -4,10 +4,11 @@ catch_rules:
     transform_rules:
       - search: _
         replace:
-          - _
           - https://jsd.cxl2020mc.top/npm
           - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.com
+          - https://repo.huaweicloud.com/repository/npm/
+          - _
         action: fetch
         fetch:
           status: 200
@@ -17,8 +18,8 @@ catch_rules:
           cache:
             expire: 1000*60*60*24
             delay: 200
+  # 不劫持（丢给浏览器）
   - rule: .*
     transform_rules:
       - search: .*
         action: skip     #? 2.8.1新增，跳过cw规则
-        

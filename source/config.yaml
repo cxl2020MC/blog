@@ -1,6 +1,4 @@
-# 自动更新js https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js
-name: ClientWorker
-cleaninterval: 1000*30
+name: ClientWorker 
 catch_rules:
   - rule: _
     transform_rules:
@@ -22,13 +20,20 @@ catch_rules:
       - search: _
         replace:
           - _
-          - https://jsd.cxl2020mc.top/npm
-          - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.com
-hotpatch:
-    - https://cdn.jsdelivr.net/npm/clientworker
-    - https://jsd.cxl2020mc.top/npm/clientworker
-    - https://vercel.jsd.cxl2020mc.top/npm/clientworker
-hotconfig:
-    - https://raw.githubusercontent.com/cxl2020MC/cxl2020MC.github.io/master/source/config.yaml
-    - https://github.com/cxl2020MC/cxl2020MC.github.io/raw/master/source/config.yaml
+          - https://npm.sourcegcdn.com
+          - https://cdn.bilicdn.tk/npm
+        action: fetch
+        fetch:
+          status: 200
+          engine: parallel
+          preflight: false
+          timeout: 5000
+          cache:
+            expire: 1000*60*60*24
+            delay: 200
+  - rule: .*
+    transform_rules:
+      - search: .*
+        action: skip     #? 2.8.1新增，跳过cw规则
+        

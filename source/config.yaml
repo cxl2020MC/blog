@@ -33,12 +33,13 @@ catch_rules:
     transform_rules:
       - search: _
         action: fetch
-        engine: fetch
-        preflight: false
-        timeout: 5000
-        cache:
-          expire: 1000*5 # 缓存5分钟
-          delay: 200
+        fetch:
+          engine: fetch
+          preflight: false
+          timeout: 5000
+          cache:
+            expire: 1000*5 # 缓存5分钟
+            delay: 200
   # 不劫持（丢给浏览器）
   - rule: .*
     transform_rules:

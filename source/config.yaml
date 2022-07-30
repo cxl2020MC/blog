@@ -20,9 +20,9 @@ catch_rules:
       - search: _
         replace:
           - _
+          - https://jsd.cxl2020mc.top/npm
+          - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.com
-          - https://npm.sourcegcdn.com
-          - https://cdn.bilicdn.tk/npm
         action: fetch
         fetch:
           status: 200

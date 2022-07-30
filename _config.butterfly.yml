@@ -885,6 +885,8 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <script src="/js/cw_install.js"></script>
+    - <script src="https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js"></script>
     - <link rel="stylesheet" href="/css/other.css">
     - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>

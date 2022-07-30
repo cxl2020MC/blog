@@ -15,11 +15,11 @@ catch_rules:
     transform_rules:
       - search: _
         replace:
+          - _
           - https://jsd.cxl2020mc.top/npm
           - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.com
           # - https://repo.huaweicloud.com/repository/npm/
-          - _
         action: fetch
         fetch:
           status: 200

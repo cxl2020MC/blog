@@ -1,1 +1,1 @@
-importScripts('https://cdn.cxl2020mc.top/npm/clientworker')
+importScripts('https://jsd.cxl2020mc.top/npm/clientworker')

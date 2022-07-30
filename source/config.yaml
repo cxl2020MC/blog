@@ -11,7 +11,7 @@ hotconfig:
     - https://github.com/cxl2020MC/cxl2020MC.github.io/raw/master/source/config.yaml
     - https://raw.githubusercontent.com/cxl2020MC/cxl2020MC.github.io/master/source/config.yaml
 catch_rules:
-  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|cdn\.cxl2020mc\.top\/npm)
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm)
     transform_rules:
       - search: _
         replace:

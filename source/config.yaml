@@ -29,7 +29,7 @@ catch_rules:
           cache:
             expire: 1000*60*60*8 # 缓存8小时
             delay: 200
-  - rule: ^https\:\/\/cxl2020mc-1304820025\.file\.myqcloud.com
+  - rule: ^https\:\/\/cxl2020mc-1304820025\.file\.myqcloud\.com
     transform_rules:
       - search: _
         action: fetch

@@ -44,7 +44,7 @@ catch_rules:
   - rule: .*
     transform_rules:
       - search: _
-        action: fetch # skip? 2.8.1新增，跳过cw规则(不能用有bug)
+        action: skip #? 2.8.1新增，跳过cw规则(不能用有bug)
         fetch:
           engine: fetch
           preflight: false

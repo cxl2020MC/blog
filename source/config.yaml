@@ -36,12 +36,18 @@ catch_rules:
         fetch:
           engine: fetch
           preflight: false
-          timeout: 5000
+          timeout: 50000
           cache:
             expire: 1000*5 # 缓存5分钟
             delay: 200
   # 不劫持（丢给浏览器）
-#  - rule: .*
-#    transform_rules:
-#      - search: _
-#        action: skip     #? 2.8.1新增，跳过cw规则
+  - rule: .*
+    transform_rules:
+      - search: _
+        action: fetch # skip? 2.8.1新增，跳过cw规则(不能用有bug)
+        fetch:
+          engine: fetch
+          preflight: false
+          timeout: 5000
+          cache:
+            expire: 0 # 缓存5分钟

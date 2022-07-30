@@ -1,5 +1,9 @@
 name: ClientWorker 
 cleaninterval: 1000*30 # 每30秒检测并清理一次缓存
+# 热补丁
+hotpatch:
+    - https://raw.githubusercontent.com/ChenYFan/ClientWorker/gh-pages/cw.js
+    - https://cdn.jsdelivr.net/gh/ChenYFan/ClientWorker/cw.js
 catch_rules:
   - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm)
     transform_rules:

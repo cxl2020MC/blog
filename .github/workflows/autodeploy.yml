@@ -1,58 +1,58 @@
+# 当有改动推送到master分支时，启动Action
 name: 自动部署
-'on':
-  - workflow_dispatch
+
+on:
+  push:
+    branches:
+      - master #2020年10月后github新建仓库默认分支改为main，注意更改
+
+  release:
+    types:
+      - published
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 检查分支
-        uses: actions/checkout@v2
-        with:
-          ref: master
-      - name: 安装 Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16.x
-      - name: 安装 Hexo
-        run: |
-          export TZ='Asia/Shanghai'
-          npm install hexo-cli -g
-      - name: 缓存 Hexo
-        uses: actions/cache@v1
-        id: cache
-        with:
-          path: node_modules
-          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
-      - name: 安装依赖
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          npm install --save
-      - name: 生成静态文件
-        run: |
-          hexo clean
-          hexo generate
-      - name: 部署
-        run: >
-          # git config --global user.name "[GithubUsername]"
+    - name: 检查分支
+      uses: actions/checkout@v2
+      with:
+        ref: master #2020年10月后github新建仓库默认分支改为main，注意更改
 
-          # git config --global user.email "[GithubEmail]"
+    - name: 安装 Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: "12.x"
 
-          # git clone https://github.com/[GithubUsername]/[GithubBlogRepo].git
-          .deploy_git
+    - name: 安装 Hexo
+      run: |
+        export TZ='Asia/Shanghai'
+        npm install hexo-cli -g
 
-          # 此处务必用HTTPS链接。SSH链接可能有权限报错的隐患
+    - name: 缓存 Hexo
+      uses: actions/cache@v1
+      id: cache
+      with:
+        path: node_modules
+        key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
 
-          # =====注意.deploy_git前面有个空格=====
+    - name: 安装依赖
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        npm install --save
 
-          # 这行指令的目的是clone博客静态文件仓库，防止Hexo推送时覆盖整个静态文件仓库，而是只推送有更改的文件
+    - name: 生成静态文件
+      run: |
+        hexo clean
+        hexo generate
 
-
-    # - name: 部署
-      # run: |
-        # git config --global user.name "[GithubUsername]"
-        # git config --global user.email "[GithubEmail]"
-        # git clone https://github.com/[GithubUsername]/[GithubBlogRepo].git .deploy_git
-        # 此处务必用HTTPS链接。SSH链接可能有权限报错的隐患
-        # =====注意.deploy_git前面有个空格=====
-        # 这行指令的目的是clone博客静态文件仓库，防止Hexo推送时覆盖整个静态文件仓库，而是只推送有更改的文件
-        # hexo deploy
+    - name: 部署 #此处master:master 指从本地的master分支提交到远程仓库的master分支，若远程仓库没有对应分支则新建一个。如有其他需要，可以根据自己的需求更改。
+      run: |
+        cd ./public
+        git init
+        git config --global user.name '${{ github.repository_owner }}'   # github.repository_owner 此项会自动加上你的github用户名不用填写
+        git config --global user.email '${{ secrets.GITHUBEMAIL }}'
+        git add .
+        git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By Github Actions" # 自动加上部署日期
+        git push --force --quiet "https://${{ github.repository_owner }}:${{ secrets.GITHUBTOKEN }}@github.com/${{ github.repository_owner }}/${{ github.repository_owner }}.github.io.git" master:master
+        # 只需配置GITHUBTOKEN和GITHUBEMAIL即可

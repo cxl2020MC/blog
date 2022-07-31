@@ -12,7 +12,7 @@ if (!!navigator.serviceWorker) {
                     }).catch(err => {
                         console.warn('[CW] 安装可能尚未完成，请稍后再试。')
                     })
-                }, 200);
+                }, 500);
         }
     }).catch(err => {
         console.error('[CW] 安装失败,错误信息: ' + err.message);

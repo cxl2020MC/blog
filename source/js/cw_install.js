@@ -8,7 +8,7 @@ if (!!navigator.serviceWorker) {
                             localStorage.setItem('cw_installed', 'true');
                             console.log('[CW] 安装完成，重新加载...');
                             location.reload()
-                        }con
+                        }
                     }).catch(err => {
                         console.warn('[CW] 安装可能尚未完成，请稍后再试。')
                     })

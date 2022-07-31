@@ -1,5 +1,5 @@
 if (!!navigator.serviceWorker) {
-    if (localStorage.getItem('cw_installed') !== 'true') {window.stop();}
+    //if (localStorage.getItem('cw_installed') !== 'true') {window.stop();}
     navigator.serviceWorker.register('/cw.js?t=' + new Date().getTime()).then(async (registration) => {
         if (localStorage.getItem('cw_installed') !== 'true') {
                 setInterval(() => {

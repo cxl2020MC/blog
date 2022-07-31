@@ -4,6 +4,8 @@ cleaninterval: 1000*30 # 每30秒检测并清理一次缓存
 # ClientWorker热补丁
 hotpatch:
   - https://jsd.cxl2020mc.top/npm/clientworker
+  - https://lib.baomitu.com/clientworker/2.8.1/dist/cw.js
+  - https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/clientworker/2.8.1/dist/cw.js
   - https://raw.githubusercontent.com/ChenYFan/ClientWorker/gh-pages/cw.js
   - https://cdn.jsdelivr.net/gh/ChenYFan/ClientWorker/cw.js
 # Config热更新

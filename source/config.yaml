@@ -11,17 +11,6 @@ hotconfig:
   - https://github.com/cxl2020MC/cxl2020MC.github.io/raw/master/source/config.yaml
   - https://raw.githubusercontent.com/cxl2020MC/cxl2020MC.github.io/master/source/config.yaml
 catch_rules:
-  - rule: _
-    transform_rules:
-      - search: _ 
-        action: fetch
-        fetch:
-          engine: fetch
-          preflight: false
-          timeout: 2000
-          cache:
-            expire: 0
-            delay: 1000
   - rule: ^https\:\/\/(cdn\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm)
     transform_rules:
       - search: _

@@ -15,6 +15,7 @@ catch_rules:
     transform_rules:
       - search: _
         replace:
+          - https://cdn.jsdelivr.net/npm
           - https://jsd.cxl2020mc.top/npm
           - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.com

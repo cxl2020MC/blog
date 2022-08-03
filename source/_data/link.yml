@@ -126,15 +126,19 @@
       avatar: https://flysoftapp.com/wp-content/uploads/2022/06/cropped-BetaIcon.png
       descr: Code changes the world
     - name: 小康博客
-      link: https://www.antmoe.com/
+      link: https://www.antmoe.com
       avatar: https://cdn.jsdelivr.net/npm/kang-static@latest/avatar.jpg
       descr: 一个收藏回忆与分享技术的地方！
     - name: Akilarの糖果屋
-      link: https://akilar.top/
+      link: https://akilar.top
       avatar: https://npm.elemecdn.com/akilar-candyassets/image/siteicon/favicon.png
       descr: 期待您的光临！
     - name: 落星屋
       link: https://www.cnortles.top
       avatar: https://source.cnortles.top/avatar.png
       descr: 科学是使人的精神变得勇敢的最好途径。
+    - name: wzxh
+      link: https://wzx.is-a.dev
+      avatar: https://source.cnortles.top/avatar.png
+      descr: wzx个人主页
 # 该网站还没有简介哦~

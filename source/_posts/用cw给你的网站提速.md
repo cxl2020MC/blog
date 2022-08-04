@@ -27,7 +27,7 @@ toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-08-04 14:29:55'
+updated: '2022-08-04 15:49:19'
 wrong_hash_message: null
 wrong_pass_message: null
 ---# 前言
@@ -105,7 +105,7 @@ catch_rules:
         action: skip
 ```
 
-## Step 3 配置安装代码 - 最后一步了，加油！
+## Step 3 配置安装代码
 
 官方有三种方式接入： `三文件全域安装` 、 `自定义无刷新安装` 、 `自定义刷新安装`
 
@@ -193,9 +193,10 @@ if (!!navigator.serviceWorker) {
 ```
 
 <!-- endtab -->
+
 {% endtabs %}
 
-### 将cw配置文件跳过渲染，并加入
+## 将cw配置文件跳过渲染，并加入头部
 
 1. 打开根目录的hexo配置文件`_config.yml`
 
@@ -212,4 +213,3 @@ inject:
 +       -<scriptsrc="/js/cw_install2.js"></script>
        ......
 ```
-

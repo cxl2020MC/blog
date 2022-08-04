@@ -22,12 +22,12 @@ password: null
 sticky: null
 swiper_index: null
 tags: []
-title: 用cw(ClientWorker)给你的网站提速
+title: 用cw(ClientWorker)给你的Hexo网站提速
 toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-08-04 12:49:10'
+updated: '2022-08-04 14:29:55'
 wrong_hash_message: null
 wrong_pass_message: null
 ---
@@ -53,15 +53,15 @@ cw是cyf大佬开发的一个简单且配置方便的一个sw
 
 > 官方~墙裂~建议用此方式安装。
 
-在你的网站**根目录**下新建一个名为 `cw.js`的文件，里面写上：
+在你的网站**根目录(就是博客根目录\scores)**下新建一个名为 `cw.js`的文件，里面写上：
 
-```
+```js
 importScripts('https://lib.baomitu.com/clientworker/latest/dist/cw.js')
 ```
 
 你也可以采用jsdelivr镜像进行接入
 
-```
+```js
 importScripts('https://cdn.jsdelivr.net/npm/clientworker@latest') //最好指定版本
 ```
 
@@ -75,7 +75,7 @@ importScripts('https://cdn.jsdelivr.net/npm/clientworker@latest') //最好指定
 
 在**根目录**(hexo 请放在 `博客根目录\scores`)下新建一个 `config.yaml`，填入配置。
 
-```
+```yaml
 name: ClientWorker 
 catch_rules:
   - rule: _
@@ -97,7 +97,7 @@ catch_rules:
 
 也可以填入我这个什么用也没有的配置
 
-```
+```yaml
 name: ClientWorker
 catch_rules:
   - rule: _
@@ -108,7 +108,92 @@ catch_rules:
 
 ## Step 3 配置安装代码 - 最后一步了，加油！
 
-你有三种方式接入： `三文件全域安装` 、 `自定义无刷新安装` 、 `自定义刷新安装`
+官方有三种方式接入： `三文件全域安装` 、 `自定义无刷新安装` 、 `自定义刷新安装`
 
-其中，`全域安装`最简单，对SEO支持也最恶劣（Google会提示额外的计算开销，而百度完全没办法爬取）。比较适用于自用的、只追求速度的。`自定义无刷新安装`则对你的HTML和JS水平有所要求，对于部分不遵守标准的浏览器兼容性较差，但是这种方法对SEO没有影响，比较适合于对seo注重的网站。`自定义刷新安装`对seo略有影响，会在载入后阻断未经CW的请求并刷新一次，以便于CW及时托管，比较适合于网站提速
+但我这只讲：`自定义无刷新安装`、`自定义刷新安装`
+
+> 其中，`全域安装`最简单，对SEO支持也最恶劣（Google会提示额外的计算开销，而百度完全没办法爬取）。比较适用于自用的、只追求速度的。`自定义无刷新安装`则对你的HTML和JS水平有所要求，对于部分不遵守标准的浏览器兼容性较差，但是这种方法对SEO没有影响，比较适合于对seo注重的网站。`自定义刷新安装`对seo略有影响，会在载入后阻断未经CW的请求并刷新一次，以便于CW及时托管，比较适合于网站提速
+
+通用步骤：
+在`博客根目录\scores`新建一个js(放在scores文件夹里就行),名称随意比如`cw_install.js`
+
+> 本文以`source/js/cw_install.js`为列子
+> 下面有2种方法，可以通过点击tab切换
+
+{% tabs test1 %}
+
+<!-- tab 自定义无刷新安装 -->
+
+在刚刚新建的js文件里写上下面这些内容
+
+```js
+if (!!navigator.serviceWorker) {
+    navigator.serviceWorker.register('/cw.js?t=' + new Date().getTime()).then(async (registration) => {
+        if (localStorage.getItem('cw_installed') !== 'true') {
+            const conf = () => {
+                console.log('[CW] Installing Success,Configuring...');
+                fetch('/cw-cgi/api?type=config')
+                    .then(res => res.text())
+                    .then(text => {
+                        if (text === 'ok') {
+                            console.log('[CW] Installing Success,Configuring Success,Starting...');
+                            localStorage.setItem('cw_installed', 'true');
+                            //如果你不希望重载页面，请移除下面七行
+                            //重载标识 - 开始
+                            fetch(window.location.href).then(res => res.text()).then(text => {
+                                document.open()
+                                document.write(text);
+                                document.close();
+                            });
+                            //重载标识 - 结束
+                        } else {
+                            console.warn('[CW] Installing Success,Configuring Failed,Sleeping 200ms...');
+                            setTimeout(() => {
+                                conf()
+                            }, 200);
+                        }
+                    }).catch(err => {
+                        console.log('[CW] Installing Success,Configuring Error,Exiting...');
+                    });
+            }
+            setTimeout(() => {
+                conf()
+            }, 50);
+        }
+    }).catch(err => {
+        console.error('[CW] Installing Failed,Error: ' + err.message);
+    });
+} else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }
+```
+
+<!-- endtab -->
+
+<!-- tab 自定义刷新安装 -->
+
+```js
+if (!!navigator.serviceWorker) {
+    if (localStorage.getItem('cw_installed') !== 'true') {window.stop();}
+    navigator.serviceWorker.register('/cw.js?t=' + new Date().getTime()).then(async (registration) => {
+        if (localStorage.getItem('cw_installed') !== 'true') {
+                setInterval(() => {
+                    fetch('/cw-cgi/api?type=config').then(res => res.text()).then(res => {
+                        if(res === 'ok') {
+                            localStorage.setItem('cw_installed', 'true');
+                            console.log('[CW] Installation is completed.Reloading...');
+                            location.reload()
+                        }
+                    }).catch(err => {
+                        console.warn('[CW] Installation may not be complete, try again later.')
+                    })
+                }, 100);
+        }
+    }).catch(err => {
+        console.error('[CW] Installing Failed,Error: ' + err.message);
+    })
+} else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }
+```
+
+<!-- endtab -->
+
+{% endtabs %}
 

@@ -42,15 +42,6 @@ catch_rules:
           cache:
             expire: 1000*5 # 缓存5分钟
             delay: 200
-  - rule: ^https\:\/\/file\.cxl2020mc\.top
-    transform_rules:
-      - search: _
-        action: fetch
-        fetch:
-          engine: crazy
-          preflight: false
-          timeout: 30000
-          threads: 4
   # 不劫持（丢给浏览器）
   - rule: .*
     transform_rules:

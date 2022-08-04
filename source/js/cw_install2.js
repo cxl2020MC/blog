@@ -1,4 +1,3 @@
-<script>
 if (!!navigator.serviceWorker) {
     navigator.serviceWorker.register('/cw.js?t=' + new Date().getTime()).then(async (registration) => {
         if (localStorage.getItem('cw_installed') !== 'true') {
@@ -33,7 +32,6 @@ if (!!navigator.serviceWorker) {
             }, 50);
         }
     }).catch(err => {
-        console.error('[CW] Installing Failed,Error: ' + err.message);
+        console.error('[CW] 安装失败,错误信息: ' + err.message);
     });
-} else { console.error('[CW] Installing Failed,Error: Browser not support service worker'); }
-</script>
+} else { console.error('[CW] 安装失败,错误信息: 浏览器不支持service worker'); }

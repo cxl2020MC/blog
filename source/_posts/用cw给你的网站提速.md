@@ -72,26 +72,29 @@ importScripts('https://cdn.jsdelivr.net/npm/clientworker@latest') //最好指定
 
 > 这个也是cw最容易出问题的点(最简单也是最难的一步)
 
-在**根目录**下新建一个`config.yaml`，填入配置。
-
-> hexo 请放在`博客根目录\scores`
+在**根目录**(hexo 请放在 `博客根目录\scores`)下新建一个 `config.yaml`，填入配置。
 
 ```
-name: ClientWorker 
+name: ClientWorker
 catch_rules:
-  - rule: _
-    transform_rules:
-      - search: \#.+
-        searchin: url
-        replace: ''
-      - search: _ 
-        action: fetch
-        fetch:
-          engine: fetch 
-      - search: (^4|^5) 
-        searchin: status 
-        action: return
-        return:
-          body: The GateWay is down!This Page is provided by ClientWorker!
-          status: 503
+
+- rule: _
+  transform_rules:
+  - search: \#.+
+    searchin: url
+    replace: ''
+  - search: _
+    action: fetch
+    fetch:
+    engine: fetch
+  - search: (^4|^5)
+    searchin: status
+    action: return
+    return:
+    body: The GateWay is down!This Page is provided by ClientWorker!
+    status: 503
+
 ```
+
+```
+

@@ -194,6 +194,23 @@ if (!!navigator.serviceWorker) {
 ```
 
 <!-- endtab -->
-
 {% endtabs %}
+
+### 将cw配置文件跳过渲染，并加入
+
+1. 打开根目录的hexo配置文件`_config.yml`
+
+```yml
+skip_render: 
++      - config.yaml
+```
+
+2. 打开主题配置文件
+
+```yml
+inject: 
+   head:
++       -<scriptsrc="/js/cw_install2.js"></script>
+       ......
+```
 

@@ -54,7 +54,7 @@ catch_rules:
             expire: 1000*60*60*8 # 缓存8小时
             delay: 200
   # gravatar头像加速
-  - rule: ^https\:\/\/(.*\.gravatar\.com|gravatar\.cxl2020mc\.top)
+  - rule: ^https\:\/\/(.*\.gravatar\.com|gravatar\.cxl2020mc\.top|cravatar\.cn)
     transform_rules:
       - search: _
         replace:

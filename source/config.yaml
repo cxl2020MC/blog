@@ -11,7 +11,8 @@ hotconfig:
   - https://github.com/cxl2020MC/cxl2020MC.github.io/raw/master/source/config.yaml
   - https://raw.githubusercontent.com/cxl2020MC/cxl2020MC.github.io/master/source/config.yaml
 catch_rules:
-  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm)
+  # npm加速
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|unpkg\.com|jsd\.cxl2020mc\.top\/npm)
     transform_rules:
       - search: _
         replace:
@@ -22,6 +23,17 @@ catch_rules:
           - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.com
           # - https://repo.huaweicloud.com/repository/npm/
+          - _
+  # github加速
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh)
+    transform_rules:
+      - search: _
+        replace:
+          - https://https://cdn.cnortles.top/gh
+          - https://jsdelivr.pai233.top/gh
+          - https://cdn.jsdelivr.net/gh
+          - https://jsd.cxl2020mc.top/gh
+          - https://vercel.jsd.cxl2020mc.top/gh
           - _
         action: fetch
         fetch:

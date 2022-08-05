@@ -24,6 +24,15 @@ catch_rules:
           - https://unpkg.com
           # - https://repo.huaweicloud.com/repository/npm/
           - _
+        action: fetch
+        fetch:
+          status: 200
+          engine: parallel
+          preflight: false # false
+          timeout: 5000
+          cache:
+            expire: 1000*60*60*8 # 缓存8小时
+            delay: 200
   # github加速
   - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh)
     transform_rules:

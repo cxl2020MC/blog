@@ -26,7 +26,7 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 2 #置顶轮播图顺序，非负整数，数字越大越靠前
+swiper_index:
 ---
 
 > AGbot正在开发中（有一点点bug）

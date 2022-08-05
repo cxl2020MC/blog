@@ -16,8 +16,8 @@ catch_rules:
     transform_rules:
       - search: _
         replace:
-          - netlify.cxl2020mc.top
           - www.cxl2020mc.top
+          - netlify.cxl2020mc.top
           - _
         action: fetch
         fetch:

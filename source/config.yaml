@@ -63,6 +63,7 @@ catch_rules:
           - https://sdn.geekzu.org
           - https://www.gravatar.com
           - https://cn.gravatar.com
+          - https://gravatar.loli.net
           - _
         action: fetch
         fetch:

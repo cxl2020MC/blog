@@ -29,10 +29,10 @@ catch_rules:
           status: 200
           engine: parallel
           preflight: false # false
-          timeout: 5000
+          timeout: 30000
           cache:
             expire: 1000*60*60*8 # 缓存8小时
-            delay: 200
+            delay: 300
   # github加速
   - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh)
     transform_rules:
@@ -49,10 +49,10 @@ catch_rules:
           status: 200
           engine: parallel
           preflight: false # false
-          timeout: 5000
+          timeout: 30000
           cache:
             expire: 1000*60*60*8 # 缓存8小时
-            delay: 200
+            delay: 300
   # gravatar头像加速
   - rule: ^https\:\/\/(.*\.gravatar\.com|gravatar\.cxl2020mc\.top|cravatar\.cn)
     transform_rules:
@@ -70,10 +70,10 @@ catch_rules:
           status: 200
           engine: parallel
           preflight: false # false
-          timeout: 5000
+          timeout: 30000
           cache:
             expire: 1000*60*60*8 # 缓存8小时
-            delay: 200
+            delay: 300
   - rule: ^https\:\/\/cxl2020mc-1304820025\.file\.myqcloud\.com
     transform_rules:
       - search: _
@@ -84,7 +84,7 @@ catch_rules:
           timeout: 50000
           cache:
             expire: 1000*5 # 缓存5分钟
-            delay: 200
+            delay: 300
   # 不劫持（丢给浏览器）
   - rule: .*
     transform_rules:

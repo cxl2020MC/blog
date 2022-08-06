@@ -20,7 +20,8 @@ updated: 2022-08-06 14:00:02
 ```yml
 - name: 陈鑫磊的博客
   link: https://www.cxl2020mc.top
-  avatar: https://public.img.cxl2020mc.top/avatar.png # https://www.cxl2020mc.top/img/avatar.png
+  # 头像备用地址 https://www.cxl2020mc.top/img/avatar.png
+  avatar: https://public.img.cxl2020mc.top/avatar.png
   descr: 这个人太懒了啥也没写......
 ```
 

@@ -111,7 +111,7 @@ deploy:
   type: git
   repo:
     # GithubToken放环境变量里了
-    gitHub: https://cxl2020MC:${GithubToken}@github.com/cxl2020MC/cxl2020MC.github.io.git
+    gitHub: https://cxl2020MC:${GithubToken}@github.com/cxl2020MC/blog.git
     # gitee: https://[GiteeUsername]:[GiteeToken]@gitee.com/[GiteeUsername]/[GiteeBlogRepo].git[,branch]
     # coding: https://[TokenUser]:[CodingToken]@e.coding.net/[CodingUsername]/[CodingBlogRepo].git[,branch]
   # [,branch]为可选项，表示部署的分支

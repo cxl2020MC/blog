@@ -31,5 +31,5 @@ updated: 2022-08-06 16:35:56
 
 ## cloudflare page
 
-[cfpage.cxl2020mc.top](https://cfpage.cxl2020mc.top/)
+[cfpage.cxl2020mc.top](https://cfpage.cxl2020mc.top)
 

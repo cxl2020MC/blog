@@ -50,8 +50,9 @@ social:
   fab fa-github: https://github.com/cxl2020MC || Github
   fas fa-envelope: mailto:andamu2019@163.com || Email
   fa-brands fa-bilibili: https://space.bilibili.com/514753559 || BiliBili
-  fa-solid fa-rss: /rss2.xml || RSS2
-  fa-solid fa-atom: /atom.xml || Atom
+  fa-solid fa-rss: /atom.xml || RSS
+  # fa-solid fa-rss: /rss2.xml || RSS2
+  # fa-solid fa-atom: /atom.xml || Atom
 
 # search (搜索)
 # --------------------------------------

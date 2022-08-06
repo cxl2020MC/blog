@@ -48,10 +48,18 @@ jobs:
 
     - name: 部署
       run: |
-        git config --global user.name "cxl2020MC"
-        git config --global user.email "andamu2019@163.com"
-        git clone https://github.com/cxl2020MC/blog.git .deploy_git
+        # git config --global user.name "cxl2020MC"
+        # git config --global user.email "andamu2019@163.com"
+        # git clone https://github.com/cxl2020MC/blog.git .deploy_git
         # 此处务必用HTTPS链接。SSH链接可能有权限报错的隐患
         # =====注意.deploy_git前面有个空格=====
         # 这行指令的目的是clone博客静态文件仓库，防止Hexo推送时覆盖整个静态文件仓库，而是只推送有更改的文件
-        hexo deploy
+        # hexo deploy
+        
+        cd ./public
+        git init
+        git config --global user.name '${{ github.repository_owner }}'
+        git config --global user.email '${{ secrets.GITHUBEMAIL }}'
+        git add .
+        git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By Github Actions"
+        git push --force --quiet "https://${{ github.repository_owner }}:${{ secrets.GITHUBTOKEN }}@github.com/${{ github.repository_owner }}/blog.git" master:master

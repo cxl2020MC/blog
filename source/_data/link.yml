@@ -163,7 +163,10 @@
       descr: 一个二刺猿的网站
     - name: PhosoftWebPages
       link: https://phosoft.tk/
-      # 头像备用地址 https://phosoft.tk/A-logo.png
       avatar: https://phosoft.tk/A-logo.svg
-      descr: PhosoftStudio 开发的一些网页
+      descr: PhosoftStudio 开发的一些网站
+    - name: 屑涵博客
+      link: https://blog.443.fyi
+      avatar: https://cdn.443.fyi/favicon.ico
+      descr: 这个人太难了，什么也没写......
 # 该网站还没有简介哦~

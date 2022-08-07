@@ -52,7 +52,7 @@ cw是cyf大佬开发的一个简单且配置方便的一个sw
 
 # 快速开始
 
-> 建议参考[官方文档 - 快速开始](https://clientworker.js.org/start.html#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)
+> ~墙裂~建议参考[官方文档 - 快速开始](https://clientworker.js.org/start.html#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)
 > 这里只写 Hexo Butterfly 主题的方法
 
 ## CDN接入

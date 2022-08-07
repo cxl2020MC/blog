@@ -112,7 +112,7 @@ catch_rules:
           timeout: 50000
           cache:
             expire: 1000*60 # 缓存60分钟
-            delay: 10000
+            delay: 5000
   # 不劫持（丢给浏览器）
   - rule: .*
     transform_rules:

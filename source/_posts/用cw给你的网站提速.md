@@ -10,7 +10,7 @@ copyright_author: null
 copyright_author_href: null
 copyright_info: null
 copyright_url: null
-cover: null
+cover: https://cxl2020mc-1304820025.file.myqcloud.com/file/202208072111228.png
 date: '2022-08-02 21:27:41'
 description: null
 highlight_shrink: null
@@ -30,7 +30,11 @@ top_img: null
 updated: '2022-08-04 15:49:19'
 wrong_hash_message: null
 wrong_pass_message: null
----# 前言
+---
+
+# 前言
+
+![](https://cxl2020mc-1304820025.file.myqcloud.com/file/202208072111228.png)
 
 ClientWorker简称cw
 
@@ -42,11 +46,14 @@ cw是cyf大佬开发的一个简单且配置方便的一个sw
 > 一个基于规则驱动的前端路由拦截器
 > 用规则定义黑科技
 
+![](https://cxl2020mc-1304820025.file.myqcloud.com/file/202208072113936.png)
+
 [官方文档](https://clientworker.js.org/)
 
 # 快速开始
 
 > 建议参考[官方文档 - 快速开始](https://clientworker.js.org/start.html#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)
+> 这里只写 Hexo Butterfly 主题的方法
 
 ## CDN接入
 

@@ -102,6 +102,7 @@ catch_rules:
           cache:
             expire: 1000*5 # 缓存5分钟
             delay: 300
+  # api图片缓存
   - rule: ^https\:\/\/api\.cxl2020mc\.top
     transform_rules:
       - search: _

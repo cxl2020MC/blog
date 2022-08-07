@@ -24,7 +24,7 @@ catch_rules:
         fetch:
           status: .*
           engine: parallel
-          preflight: false
+          preflight: false # false
           timeout: 30000
   # npm加速
   - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|unpkg\.com|jsd\.cxl2020mc\.top\/npm)
@@ -97,7 +97,7 @@ catch_rules:
         action: fetch
         fetch:
           engine: fetch
-          preflight: true
+          preflight: true # false
           timeout: 50000
           cache:
             expire: 1000*5 # 缓存5分钟

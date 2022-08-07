@@ -122,7 +122,7 @@ deploy:
 
 
 search:
-  path: search.xml
+  path: search.json # search.xml
   field: all
   content: true
 

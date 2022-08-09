@@ -681,9 +681,12 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/cxl2020MC
+      # icon: fab fa-github
+      # text: Follow Me
+      # link: https://github.com/cxl2020MC
+      icon: fa-brands fa-qq
+      text: 加入QQ群
+      link: https://jq.qq.com/?_wv=1027&k=iMae108g
   card_announcement:
     enable: true
     content: This is my Blog
@@ -870,8 +873,8 @@ pwa:
   enable: true
   manifest: /img/pwa/manifest.json
   apple_touch_icon: /img/pwa/apple-touch-icon.png
-  favicon_32_32: /img/pwa/32.ico # /img/pwa/32.png
-  favicon_16_16: /img/pwa/16.ico # /img/pwa/16.png
+  # favicon_32_32: /img/pwa/32.ico # /img/pwa/32.png
+  # favicon_16_16: /img/pwa/16.ico # /img/pwa/16.png
   mask_icon: /img/pwa/safari-pinned-tab.svg
 
 # Open graph meta tags

@@ -17,8 +17,9 @@ catch_rules:
       - search: _
         replace:
           - www.cxl2020mc.top
-          - netlify.cxl2020mc.top
+          # - netlify.cxl2020mc.top #会带来cors问题
           - cfpage.cxl2020mc.top
+          - cdn.vercel.cxl2020mc.top
           - _
         action: fetch
         fetch:

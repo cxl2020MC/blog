@@ -113,7 +113,7 @@ catch_rules:
         action: fetch
         fetch:
           engine: fetch
-          preflight: true # false
+          preflight: false # false
           timeout: 50000
           cache:
             expire: 1000*60*60 # 缓存60分钟

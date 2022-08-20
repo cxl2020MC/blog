@@ -82,3 +82,6 @@ wrong_hash_message:
 |`type`|`str`|无|选择的api，这个是`send`|
 |`data.text`|`str`|无|说说的内容|
 |`data.device`|`str`|无|发送说说的设备|
+
+
+> 文档施工中（懒........）

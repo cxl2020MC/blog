@@ -1,10 +1,18 @@
-- class_name: 友情链接
-  class_desc: 那些人，那些事
+- class_name: 推荐网站
+  class_desc: 一些网站
   link_list:
     - name: Hexo
       link: https://hexo.io/zh-cn/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: 快速、简单且强大的网站框架
+    - name: 驭风飞行
+      link: https://hexo-buttterfly-jump-jump.vercel.app/
+      avatar: /img/avatar.svg
+      descr: 随机前往本站的一个友链地址
+
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
     - name: Sianx's Blog
       link: https://sianx.com
       avatar: https://cdn1.tianli0.top/npm/picture-sianx@1.0.0/Blog/logo.png

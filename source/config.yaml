@@ -90,7 +90,7 @@ catch_rules:
         fetch:
           status: 200
           engine: parallel
-          preflight: false # false
+          preflight: true # false
           timeout: 30000
           cache:
             expire: 1000*60*60*8 # 缓存8小时

@@ -12,14 +12,16 @@ title: 镜像站
 top_img: null
 type: null
 updated: 2022-08-06 16:35:56
----> 本站有cw自选镜像站，一般情况下不需要手动切换镜像
+---
+> 本站有cw自选镜像站，一般情况下不需要手动切换镜像（netlify不在自选列表里，无法访问优先尝试）
 > 但是在第一次使用无法打开的时候，您可以尝试在此处切换为镜像站。以下列表以服务商部署先后顺序排序。
 
 ## vercel(主站)
 
 [www.cxl2020mc.top](https://www.cxl2020mc.top)
+[vercel自选节点 cdn.vercel.cxl2020mc.top](https://cdn.vercel.cxl2020mc.top)
 
-## netlify
+## netlify(稳定)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/956dc84b-c2ee-48cc-861d-17830a45d584/deploy-status)](https://app.netlify.com/sites/cxl2020mc/deploys)
 

@@ -72,29 +72,6 @@ catch_rules:
           cache:
             expire: 1000*60*60*8 # 缓存8小时
             delay: 300
-  # gravatar头像加速
-  - rule: ^https\:\/\/(.*\.gravatar\.com|gravatar\.cxl2020mc\.top|cravatar\.cn)
-    transform_rules:
-      - search: _
-        replace:
-          # - https://dn-qiniu-avatar.qbox.me
-          - https://gravatar.cxl2020mc.top
-          - https://avatar.sourcegcdn.com
-          - https://gravatar.loli.net
-          - https://www.gravatar.com
-          - https://cn.gravatar.com
-          - https://sdn.geekzu.org
-          - https://cravatar.cn
-          - _
-        action: fetch
-        fetch:
-          status: 200|304
-          engine: parallel
-          preflight: true # false
-          timeout: 30000
-          cache:
-            expire: 1000*60*60*8 # 缓存8小时
-            delay: 300
   - rule: ^https\:\/\/cxl2020mc-1304820025\.file\.myqcloud\.com
     transform_rules:
       - search: _

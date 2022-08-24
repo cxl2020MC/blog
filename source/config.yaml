@@ -44,7 +44,7 @@ catch_rules:
           - _
         action: fetch
         fetch:
-          status: 200
+          status: 200|304 # 304状态码，表示自上次访问以来，请求的资源未被修改。
           engine: parallel
           preflight: false # false
           timeout: 30000
@@ -65,7 +65,7 @@ catch_rules:
           - _
         action: fetch
         fetch:
-          status: 200
+          status: 200|304
           engine: parallel
           preflight: false # false
           timeout: 30000
@@ -88,7 +88,7 @@ catch_rules:
           - _
         action: fetch
         fetch:
-          status: 200
+          status: 200|304
           engine: parallel
           preflight: true # false
           timeout: 30000
@@ -100,6 +100,7 @@ catch_rules:
       - search: _
         action: fetch
         fetch:
+          status: .*
           engine: fetch
           preflight: true # false
           timeout: 50000
@@ -112,6 +113,7 @@ catch_rules:
       - search: _
         action: fetch
         fetch:
+          status: .*
           engine: fetch
           preflight: true # false
           timeout: 50000

@@ -44,7 +44,7 @@ catch_rules:
           - _
         action: fetch
         fetch:
-          status: 200|304 # 304状态码，表示自上次访问以来，请求的资源未被修改。
+          status: 200 # |304 # 304状态码，表示自上次访问以来，请求的资源未被修改。该状态码较少出现，所以基本没啥卵用
           engine: parallel
           preflight: false # false
           timeout: 30000
@@ -65,7 +65,7 @@ catch_rules:
           - _
         action: fetch
         fetch:
-          status: 200|304
+          status: 200
           engine: parallel
           preflight: false # false
           timeout: 30000
@@ -88,7 +88,7 @@ catch_rules:
           - _
         action: fetch
         fetch:
-          status: 200|304
+          status: 200
           engine: parallel
           preflight: true # false
           timeout: 30000
@@ -124,4 +124,4 @@ catch_rules:
   - rule: .*
     transform_rules:
       - search: _
-        action: skip #? 2.8.1新增，跳过cw规则
+        action: skip #? 2.8.1新增，跳过cw规则（ 现在已经不在需要）

@@ -106,15 +106,15 @@
       avatar: https://android99.me/img/avatar.png
       descr: 矩阵
     - name: 悠悠一草
-      link: https://www.agrass.cn/
+      link: https://www.agrass.cn
       avatar: http://q2.qlogo.cn/headimg_dl?dst_uin=1063199963&spec=100
       descr: 一草的点滴记忆
     - name: ZipFang
-      link: https://zipblog.top/
+      link: https://zipblog.top
       avatar: https://gravatar.loli.net/avatar/a85c0c7d29cbb98db2f1192c69962e6a?s=80
       descr: 该网站还没有简介哦~
     - name: Ferry’s Blog
-      link: https://ferryxie.cn/
+      link: https://ferryxie.cn
       avatar: https://ferryxie.cn/wp-content/uploads/2022/03/avatar-1.jpg
       descr: 金融科技与人文思考并存
     - name: xlenco'Blog
@@ -154,7 +154,7 @@
       avatar: https://unpkg.com/chenyfan-oss@3
       descr: 一个在互联网角落挣扎的小小博客，很小很小
     - name: 啊不都
-      link: https://www.oplog.cn/
+      link: https://www.oplog.cn
       avatar: https://pic.hipyt.cn/pic/2021/10/12/9bb6bf3a31ce9.png
       descr: 大道至简, 衍化至繁
     - name: 葱苓小居
@@ -182,7 +182,11 @@
       avatar: https://omowow.cn/icon.jpg
       descr: 我是神里凌华の狗[doge]
     - name: 张洪Heo
-      link: https://blog.zhheo.com/
+      link: https://blog.zhheo.com
       avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
       descr: 分享设计与科技生活
+    - name: 芝士小屋
+      link: https://www.xins666.com
+      avatar: https://xins666.com/wp-content/uploads/2022/08/e3c090bf8a175016.png
+      descr: 总有一篇文章是你想要的
 # 该网站还没有简介哦~

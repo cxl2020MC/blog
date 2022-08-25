@@ -1,6 +1,6 @@
 // hitokotojson = await (await fetch('https://v1.hitokoto.cn?select=json')).json()
-fetch().then(res=>{
-    hitokotojson = res.json();
+fetch('https://v1.hitokoto.cn?select=json').then(res=>res.json()).then(res=>{
+    hitokotojson = res
     hitokototext = hitokotojson['hitokoto']
     hitokotofrom = hitokotojson['from']
     hitokotostr = "『" + hitokototext + "』" + " —— " + hitokotofrom

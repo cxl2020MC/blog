@@ -12,7 +12,9 @@ title: 友情链接
 top_img: null
 type: link
 updated: 2022-08-06 14:00:02
----{% note warning flat %}
+---
+
+{% note warning flat %}
 申请友链的请先添加本站添加再申请!!!
 建议使用twikoo评论区进行友链申请
 {% endnote %}
@@ -20,7 +22,6 @@ updated: 2022-08-06 14:00:02
 ```yml
 - name: 陈鑫磊的博客
   link: https://www.cxl2020mc.top
-  # 头像备用地址 https://www.cxl2020mc.top/img/avatar.png
   avatar: https://public.img.cxl2020mc.top/avatar.png
   descr: 这个人太懒了啥也没写......
 ```

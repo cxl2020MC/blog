@@ -4,7 +4,7 @@ top:
     id_name:
     name: 一言
     icon: fa-solid fa-comment-dots
-    html: <div id="asideHitokoto"><i class="fa-solid fa-spinner fa-spin">::before</i>加载中......</div><script data-pjax src="/js/asideHitokoto.js"></script>
+    html: <div id="asideHitokoto"><i class="fa-solid fa-spinner fa-spin"></i>加载中......</div><script data-pjax src="/js/asideHitokoto.js"></script>
 
 # bottom: 创建的 widget 会出现在 sticky 区域（除了文章页都会显示)
 # bottom:

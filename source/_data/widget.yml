@@ -4,7 +4,7 @@ top:
     id_name:
     name: 一言
     icon: fa-solid fa-h
-    html: <div id="asideHitokoto"></div><script src="/js/asideHitokoto.js"></script>
+    html: <div id="asideHitokoto">加载中......</div><script src="/js/asideHitokoto.js"></script>
 
 # bottom: 创建的 widget 会出现在 sticky 区域（除了文章页都会显示)
 # bottom:

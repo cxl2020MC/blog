@@ -315,7 +315,7 @@ disqusjs:
   shortname: cxl2020mc
   apikey: 7VDYxhogYQLw7CquMBZKoTCio6zJlPMigb0sKDGHPhMRZVXr0D5gfNOwOsMiZTPe
   option:
-    api: http://disqus.cxl2020mc.top
+    api: https://disqus.cxl2020mc.top
 
 # livere (來必力)
 # https://www.livere.com/

@@ -39,6 +39,7 @@ catch_rules:
           - https://project.cnortles.top/proxy/jsdelivr/npm
           - https://jsdelivr.pai233.top/npm
           - https://cdn.jsdelivr.net/npm
+          - https://jsd.cky.codes/npm
           - https://unpkg.com
           # - https://repo.huaweicloud.com/repository/npm/
           - _
@@ -62,6 +63,7 @@ catch_rules:
           - https://project.cnortles.top/proxy/jsdelivr/gh
           - https://jsdelivr.pai233.top/gh
           - https://cdn.jsdelivr.net/gh
+          - https://jsd.cky.codes/gh
           - _
         action: fetch
         fetch:

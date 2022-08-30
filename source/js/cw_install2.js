@@ -1,6 +1,12 @@
 if (!!navigator.serviceWorker) {
     navigator.serviceWorker.register('/cw.js?t=' + new Date().getTime()).then(async (registration) => {
         if (localStorage.getItem('cw_installed') !== 'true') {
+            try{
+                btf.snackbarShow('正在安装cw,安装完成后将会刷新');
+            }catch(e){
+                //打印错误信息
+                console.error(e);
+            }
             const conf = () => {
                 console.log('[CW] 安装成功,配置中...');
                 fetch('/cw-cgi/api?type=config')

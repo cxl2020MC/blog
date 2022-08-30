@@ -1,0 +1,9 @@
+- name: help
+  descr: 获取帮助
+  text: |
+    发送 /help 获取帮助
+    发送 /help 获取的命令帮助名称 获取单个命令的帮助
+- name: about
+  descr: 获取机器人关于信息
+  text: |
+    发送 /about 获取机器人关于信息

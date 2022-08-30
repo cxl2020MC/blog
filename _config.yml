@@ -258,7 +258,7 @@ gitcalendar:
   #   name: content
   #   index: 0
   user: cxl2020MC #git用户名
-  apiurl: 'https://cxl2020mc-gitcalendar.vercel.app'
+  apiurl: 'https://gitcalendar.cxl2020mc.top'
   jsonurl: #开发者专用
   minheight:
     pc: 280px #桌面端最小高度

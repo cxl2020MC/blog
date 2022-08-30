@@ -7,3 +7,10 @@
   descr: 获取机器人关于信息
   text: |
     发送 /about 获取机器人关于信息
+- name: bing
+  descr: 获取必应壁纸
+  text: |
+    发送 /bing 获取当日的1080p必应首页壁纸
+    发送 /bing UHD 获取当日的原图必应首页壁纸
+    发送 /bing 1 获取昨天的1080p必应首页壁纸
+    发送 /bing 2 UHD 获取前天的原图必应首页壁纸

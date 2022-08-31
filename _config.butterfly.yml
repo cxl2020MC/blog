@@ -694,7 +694,7 @@ aside:
   card_announcement:
     enable: true
     content: |
-      如本站访问时报 ERR_FAILED 错误，请按Ctrl + C 或者 清除浏览器缓存。
+    如本站访问时报 ERR_FAILED 错误，请按Ctrl + C 或者 清除浏览器缓存。
    card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

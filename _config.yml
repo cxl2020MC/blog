@@ -129,11 +129,20 @@ tag_plugins:
   link:
     placeholder: /img/friend_404.gif # /img/link.png #link_card标签默认的图标图片
   CDN:
-    anima: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://jsd.cxl2020mc.top/npm/jquery@latest/dist/jquery.min.js #issues标签依赖
-    issues: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
-    iconfont: https://cxl2020mc-1304820025.file.myqcloud.com/js/font_2032782_8d5kxvn09md.js # //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
-    carousel: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    #动画标签anima的依赖
+    anima: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css
+    #issues标签依赖
+    jquery: https://jsd.cxl2020mc.top/npm/jquery@latest/dist/jquery.min.js
+    #issues标签依赖
+    issues: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js
+    # iconfont标签symbol样式引入，如果不想引入，则设为false
+    # //at.alicdn.com/t/font_2032782_8d5kxvn09md.js
+    #参看https://akilar.top/posts/d2ebecef/
+    iconfont: https://cxl2020mc-1304820025.file.myqcloud.com/js/font_2032782_8d5kxvn09md.js
+    # carousel旋转相册标签鼠标拖动依赖，如果不想引入则设为false
+    # https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    carousel: false
+    # 外挂标签样式的CSS依赖
     tag_plugins_css: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
 
 search:

@@ -21,4 +21,4 @@ function link(args) {
     </a>`
 }
 
-hexo.extend.tag.register('link',link, { ends: false })
+hexo.extend.tag.register('cardlink',link, { ends: false })

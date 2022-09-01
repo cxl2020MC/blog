@@ -7,7 +7,7 @@ function dplayer (args, content) {
 <script>
     const ${p0} = new DPlayer({
         container: document.getElementById('${p1}'),
-        ${content}
+${content}
     });
 </script>`
     return html

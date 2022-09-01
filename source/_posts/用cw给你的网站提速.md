@@ -51,7 +51,7 @@ cw是cyf大佬开发的一个简单且配置方便的一个sw
 
 <!-- [官方文档](https://clientworker.js.org/) -->
 
-{% cardlink 官方文档,clientworker,https://clientworker.js.org %}
+{% link clientworker官方文档,https://clientworker.js.org %}
 
 # 快速开始
 

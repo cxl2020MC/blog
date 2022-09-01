@@ -93,16 +93,12 @@ video: {
 
 # 高级演示
 
-> 支持切换清晰度（不过给我用成切换视频节点了），默认第2个
+> 支持切换清晰度（不过给我用成切换视频节点了），默认第1个
 
 ```md
 {% dplayer dp2,dplayer2 %}
 video: {
     quality: [
-        {
-            name: 'cos',
-            url: 'https://cxl2020mc-1304820025.file.myqcloud.com/video/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
-        },
         {
             name: 'od',
             url: 'https://file.cxl2020mc.top/api/raw/?path=/video/%E5%8E%9F%E7%A5%9E%E5%AE%98%E6%96%B9%E5%AE%A3%E4%BC%A0%E7%89%87.mp4',
@@ -112,7 +108,7 @@ video: {
             url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
         },
     ],
-    defaultQuality: 1,
+    defaultQuality: 0,
 }
 {% enddplayer %}
 ```
@@ -121,10 +117,6 @@ video: {
 video: {
     quality: [
         {
-            name: 'cos',
-            url: 'https://cxl2020mc-1304820025.file.myqcloud.com/video/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
-        },
-        {
             name: 'od',
             url: 'https://file.cxl2020mc.top/api/raw/?path=/video/%E5%8E%9F%E7%A5%9E%E5%AE%98%E6%96%B9%E5%AE%A3%E4%BC%A0%E7%89%87.mp4',
         },
@@ -133,6 +125,6 @@ video: {
             url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
         },
     ],
-    defaultQuality: 1,
+    defaultQuality: 0,
 }
 {% enddplayer %}

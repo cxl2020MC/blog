@@ -90,3 +90,39 @@ video: {
     url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
 }
 {% enddplayer %}
+
+# 高级演示
+
+```
+{% dplayer dp2,dplayer2 %}
+video: {
+    quality: [
+        {
+            name: 'cos',
+            url: 'https://cxl2020mc-1304820025.file.myqcloud.com/video/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
+        },
+        {
+            name: 's3',
+            url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
+        },
+    ],
+    defaultQuality: 0,
+}
+{% enddplayer %}
+```
+
+{% dplayer dp2,dplayer2 %}
+video: {
+    quality: [
+        {
+            name: 'cos',
+            url: 'https://cxl2020mc-1304820025.file.myqcloud.com/video/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
+        },
+        {
+            name: 's3',
+            url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
+        },
+    ],
+    defaultQuality: 0,
+}
+{% enddplayer %}

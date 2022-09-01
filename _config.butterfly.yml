@@ -895,7 +895,7 @@ inject:
   head:
     - <script src="/js/cw_install2.js"></script>
     - <script async src="https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js"></script>
-    - <link rel="stylesheet" href="/css/other.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/other.css">
     # - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
     # - <script src="https://jsd.cxl2020mc.top/npm/jquery/dist/jquery.min.js"></script>

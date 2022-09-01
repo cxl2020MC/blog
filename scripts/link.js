@@ -1,4 +1,4 @@
-function link(args) {
+function cardlink(args) {
     args = args.join(' ').split(',');
     let title = args[0];
     let sitename = args[1];
@@ -21,4 +21,4 @@ function link(args) {
     </a>`
 }
 
-hexo.extend.tag.register('cardlink',link, { ends: false })
+hexo.extend.tag.register('cardlink', cardlink, { ends: false })

@@ -127,7 +127,7 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签依赖注入开关
   link:
-    placeholder: /img/friend_404.gif # /img/link.png #link_card标签默认的图标图片
+    placeholder: /img/link.png # /img/link.png #link_card标签默认的图标图片
   CDN:
     #动画标签anima的依赖
     anima: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css

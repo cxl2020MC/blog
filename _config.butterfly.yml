@@ -896,7 +896,9 @@ inject:
     - <script src="/js/cw_install2.js"></script>
     - <script async src="https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js"></script>
     - <link rel="stylesheet" href="/css/other.css">
-    - <script async src="/js/51la.js"></script>
+    - <script defer charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    - <script defer src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+    - <script defer src="/js/51la.js"></script>
     # - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
     # - <script src="https://jsd.cxl2020mc.top/npm/jquery/dist/jquery.min.js"></script>

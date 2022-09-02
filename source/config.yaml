@@ -43,7 +43,7 @@ catch_rules:
           - cdn.jsdelivr.net/npm
           - cdn3.tianli0.top/npm
           - jsd.cky.codes/npm
-          - https://unpkg.com
+          - unpkg.com
           # - repo.huaweicloud.com/repository/npm/
           # 不并发当前域名是因为会造成双倍流量(因为上面有相同的)
           # - _

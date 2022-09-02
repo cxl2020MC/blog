@@ -41,6 +41,7 @@ catch_rules:
           - https://jsdelivr.pai233.top/npm
           - https://cdn.jsdelivr.net/npm
           - https://jsd.cky.codes/npm
+          - https://cdn3.tianli0.top/npm
           - https://unpkg.com
           # - https://repo.huaweicloud.com/repository/npm/
           - _

@@ -14,7 +14,11 @@ function welcome() {
     var url = window.location.pathname;
     console.log("你正在访问路径:" + url);
     if (url == '/') {
-        btf.snackbarShow('欢迎来到陈鑫磊的博客！');
+        try{
+            btf.snackbarShow('欢迎来到陈鑫磊的博客！');
+        } catch(e){
+            console.error(e)
+        }
     };
 };
 

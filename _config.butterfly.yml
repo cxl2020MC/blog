@@ -664,7 +664,7 @@ subtitle:
     # - Never put off till tomorrow what you can do today
 
 # Loading Animation (加載動畫) (加载动画)
-preloader: false # true
+preloader: true
 
 # aside (側邊欄)
 # --------------------------------------

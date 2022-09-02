@@ -29,11 +29,10 @@ catch_rules:
           preflight: false # false
           timeout: 30000
   # npm加速
-  - rule: ^https\:\/\/((.*\.jsdelivr\.net|jsd\.cxl2020mc\.top|cxl2020mc-1304820025\.file\.myqcloud\.com)\/npm|unpkg\.com)
+  - rule: ^https\:\/\/((.*\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/npm|unpkg\.com)
     transform_rules:
       - search: _
         replace:
-          - https://cxl2020mc-1304820025.file.myqcloud.com/npm
           - https://jsd.cxl2020mc.top/npm
           - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.cnortles.top

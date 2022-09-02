@@ -45,7 +45,8 @@ catch_rules:
           - jsd.cky.codes/npm
           - https://unpkg.com
           # - repo.huaweicloud.com/repository/npm/
-          - _
+          # 不并发当前域名是因为会造成双倍流量(因为上面有相同的)
+          # - _
         action: fetch
         fetch:
           status: 200|304 # 304状态码，表示自上次访问以来，请求的资源未被修改。该状态码较少出现，所以基本没啥卵用(大文件除外)
@@ -68,7 +69,8 @@ catch_rules:
           - cdn.jsdelivr.net/gh
           - cdn3.tianli0.top/gh
           - jsd.cky.codes/gh
-          - _
+          # 不并发当前域名是因为会造成双倍流量(因为上面有相同的)
+          # - _
         action: fetch
         fetch:
           status: 200|304

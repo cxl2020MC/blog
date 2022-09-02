@@ -32,6 +32,7 @@ catch_rules:
     transform_rules:
       - search: _
         replace:
+          - https://cxl2020mc-1304820025.file.myqcloud.com/npm
           - https://jsd.cxl2020mc.top/npm
           - https://vercel.jsd.cxl2020mc.top/npm
           - https://unpkg.cnortles.top

@@ -33,7 +33,7 @@ catch_rules:
     transform_rules:
       - search: _
         replace:
-          # 没有https://是因为上面的正则去掉了https://匹配
+          # 没有https://是因为上面的正则去掉了https://匹配(有没有https://主要看正则匹配的内容包不包括https://)
           - jsd.cxl2020mc.top/npm
           - vercel.jsd.cxl2020mc.top/npm
           - unpkg.cnortles.top

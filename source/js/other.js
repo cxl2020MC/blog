@@ -14,9 +14,9 @@ function welcome() {
     var url = window.location.pathname;
     console.log("你正在访问路径:" + url);
     if (url == '/') {
-        try{
+        try {
             btf.snackbarShow('欢迎来到陈鑫磊的博客！');
-        } catch(e){
+        } catch (e) {
             console.error(e)
         }
     };

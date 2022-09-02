@@ -49,10 +49,15 @@ function dplayer (args, content) {
     let p1 = args[1]?args[1]:p0
     html = `<div id="${p1}"></div>
 <script>
-    const ${p0} = new DPlayer({
-        container: document.getElementById('${p1}'),
+//立即执行函数
+(
+    function () {
+        const ${p0} = new DPlayer({
+            container: document.getElementById('${p1}'),
 ${content}
-    });
+        });
+    };
+)();
 </script>`
     return html
 }

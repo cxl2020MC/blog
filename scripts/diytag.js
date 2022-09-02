@@ -12,8 +12,8 @@ function dplayer (args, content) {
             container: document.getElementById('${p1}'),
 ${content}
         });
-    }
-)()
+    };
+)();
 </script>`
     return html
 }

@@ -4,6 +4,7 @@ cleaninterval: 1000*30 # 每30秒检测并清理一次缓存
 # ClientWorker热补丁
 hotpatch:
   - https://jsd.cxl2020mc.top/npm/clientworker@latest
+  - https://cdn3.tianli0.top/npm/clientworker@latest
   - https://raw.githubusercontent.com/ChenYFan/ClientWorker/gh-pages/cw.js
   - https://cdn.jsdelivr.net/gh/ChenYFan/ClientWorker/cw.js
 # Config热更新
@@ -28,7 +29,7 @@ catch_rules:
           preflight: false # false
           timeout: 30000
   # npm加速
-  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|unpkg\.com|jsd\.cxl2020mc\.top\/npm)
+  - rule: ^https\:\/\/((.*\.jsdelivr\.net|jsd\.cxl2020mc\.top|cxl2020mc-1304820025\.file\.myqcloud\.com)\/npm|unpkg\.com)
     transform_rules:
       - search: _
         replace:
@@ -65,6 +66,7 @@ catch_rules:
           - https://project.cnortles.top/proxy/jsdelivr/gh
           - https://jsdelivr.pai233.top/gh
           - https://cdn.jsdelivr.net/gh
+          - https://cdn3.tianli0.top/gh
           - https://jsd.cky.codes/gh
           - _
         action: fetch

@@ -1,1 +1,1 @@
-importScripts('https://jsd.cxl2020mc.top/npm/clientworker@latest')
+importScripts('https://cxl2020mc-1304820025.file.myqcloud.com/npm/clientworker@latest')

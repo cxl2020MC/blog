@@ -210,7 +210,7 @@ if (!!navigator.serviceWorker) {
 
 1. 打开根目录的hexo配置文件`_config.yml`
 
-```yml
+```diff
 skip_render: 
 +      - config.yaml
 ```

@@ -11,8 +11,8 @@ function dplayer (args, content) {
         const ${p0} = new DPlayer({
             container: document.getElementById('${p1}'),
 ${content}
-        })
-    };
+        });
+    }
 )();
 </script>`
     return html

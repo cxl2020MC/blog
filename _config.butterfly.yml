@@ -926,7 +926,9 @@ CDN:
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: https://jsd.cxl2020mc.top/npm/${name}/${file} # https://cdn.cxl2020mc.top/npm/${name}/dist/${file}
+  # https://cdn.cxl2020mc.top/npm/${name}/dist/${file}
+  # https://jsd.cxl2020mc.top/npm/${name}/${file} 
+  custom_format: https://cxl2020mc-1304820025.file.myqcloud.com/npm/${name}/${file} 
 
   option:
     # main_css:

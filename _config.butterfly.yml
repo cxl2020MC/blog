@@ -665,7 +665,7 @@ subtitle:
 
 # Loading Animation (加載動畫)
 # 加载动画
-preloader: true
+preloader: false # true
 
 # aside (側邊欄)
 # --------------------------------------

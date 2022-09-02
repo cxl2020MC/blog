@@ -55,7 +55,7 @@ catch_rules:
             expire: 1000*60*60*8 # 缓存8小时
             delay: 300
   # github加速
-  - rule: ^https\:\/\/(.*\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh)
+  - rule: ^https\:\/\/((.*\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/gh)
     transform_rules:
       - search: _
         replace:

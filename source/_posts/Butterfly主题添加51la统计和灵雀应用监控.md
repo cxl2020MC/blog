@@ -64,7 +64,7 @@ inject:
   head:
     ......
 +   - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-+   - <script>LA.init({id: "xxxx",ck: "xxxx",hashMode:true})</script>
++   - <script>LA.init({id: "xxxx",ck: "xxxx",hashMode:true});</script>
 ```
 <!-- endtab -->
 
@@ -74,7 +74,15 @@ inject:
 在刚刚建立的`js`文件夹内新建一个`51la.js`内部写上
 
 ```js
-LA.init("这里填上安装代码的配置json")
+LA.init("这里填上安装代码的配置json");
+```
+
+> 配置json指的是刚刚复制的代码内的`{id: "xxxx",ck: "xxxx",hashMode:true}`
+
+填好后大概长这个样子
+
+```js
+LA.init({id: "xxxx",ck: "xxxx",hashMode:true});
 ```
 
 然后在主题配置文件内加上
@@ -133,6 +141,14 @@ inject:
 
 ```js
 new LingQue.Monitor().init("这里填上安装代码的配置json");
+```
+
+> 配置json指的是刚刚复制的代码内的`{id:"xxxxxxxxx",sendSpaPv:true}`
+
+填好后大概长这个样子
+
+```js
+new LingQue.Monitor().init({id:"xxxxxxxxx",sendSpaPv:true});
 ```
 
 然后在主题配置文件内加上

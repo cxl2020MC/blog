@@ -894,7 +894,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <script src="/js/cw_install2.js"></script>
+    # - <script src="/js/cw_install2.js"></script>
     - |
         <script>
             if (!!navigator.serviceWorker) {

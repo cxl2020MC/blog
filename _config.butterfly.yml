@@ -898,7 +898,7 @@ inject:
     - <script async src="https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js"></script>
     - <link rel="stylesheet" href="/css/other.css">
     # - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
-    - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
+    - <script defer src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
     # 51la统计
     - <script defer charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script defer src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>

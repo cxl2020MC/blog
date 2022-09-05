@@ -425,7 +425,7 @@ tidio:
 # daovoice
 # http://daovoice.io/
 daovoice:
-  enable: true
+  enable: false
   app_id: 627f18bb
 
 # gitter
@@ -437,8 +437,8 @@ gitter:
 # crisp
 # https://crisp.chat/en/
 crisp:
-  enable: false
-  website_id:
+  enable: true
+  website_id: d7d1b59c-2f89-4ddd-9540-23b77b8247eb
 
 # Footer Settings
 # --------------------------------------

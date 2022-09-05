@@ -29,7 +29,7 @@ catch_rules:
           preflight: false # false
           timeout: 30000
   # npm加速
-  - rule: (.*\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/npm|unpkg\.com
+  - rule: ((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/npm|unpkg\.com
     transform_rules:
       - search: _
         replace:
@@ -55,7 +55,7 @@ catch_rules:
             expire: 1000*60*60*8 # 缓存8小时
             delay: 300
   # github加速
-  - rule: (.*\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/gh
+  - rule: ((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/gh
     transform_rules:
       - search: _
         replace:

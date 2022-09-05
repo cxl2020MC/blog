@@ -419,8 +419,8 @@ chatra:
 # tidio
 # https://www.tidio.com/
 tidio:
-  enable: false
-  public_key:
+  enable: true
+  public_key: ky12u3nzihyrbu9o44jstmwaxl3qdm2w
 
 # daovoice
 # http://daovoice.io/
@@ -437,7 +437,7 @@ gitter:
 # crisp
 # https://crisp.chat/en/
 crisp:
-  enable: true
+  enable: false
   website_id: d7d1b59c-2f89-4ddd-9540-23b77b8247eb
 
 # Footer Settings

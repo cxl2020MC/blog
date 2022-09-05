@@ -29,7 +29,7 @@ catch_rules:
           preflight: false # false
           timeout: 30000
   # npm加速
-  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/npm|unpkg\.com
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|unpkg\.com)
     transform_rules:
       - search: _
         replace:

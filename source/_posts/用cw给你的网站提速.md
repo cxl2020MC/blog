@@ -27,14 +27,13 @@ toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-08-04 15:49:19'
+updated: '2022-09-05 10:07:14'
 wrong_hash_message: null
 wrong_pass_message: null
 ---
-
 # 前言
 
-![](https://cxl2020mc-1304820025.file.myqcloud.com/file/202208072111228.png)
+![cw官网](https://cxl2020mc-1304820025.file.myqcloud.com/file/202208072111228.png)
 
 ClientWorker简称cw
 
@@ -46,8 +45,7 @@ cw是cyf大佬开发的一个简单且配置方便的一个sw
 > 一个基于规则驱动的前端路由拦截器
 > 用规则定义黑科技
 
-![](https://cxl2020mc-1304820025.file.myqcloud.com/file/202208072113936.png)
-
+![cw官网快速开始](https://cxl2020mc-1304820025.file.myqcloud.com/file/202208072113936.png)
 
 <!-- [官方文档](https://clientworker.js.org/) -->
 
@@ -223,3 +221,4 @@ inject:
 +       -<scriptsrc="/js/cw_install2.js"></script>
        ......
 ```
+

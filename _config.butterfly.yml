@@ -908,7 +908,7 @@ inject:
     - <script async type="text/javascript" src ="/js/other.js" ></script> 
     - <script async data-pjax src="/js/diytitle.js"></script>
     - <script async type="text/javascript" src="/js/grayscale.js"></script>
-    - <div class="aplayer no-destroy" data-id="7510263412" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random"></div>
+    # - <div class="aplayer no-destroy" data-id="7510263412" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random"></div>
     # - <script src="xxxx"></script>
 CDN:
   # The CDN provider of internal scripts (主题内部 js 的 cdn 配置)

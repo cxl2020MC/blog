@@ -29,21 +29,20 @@ catch_rules:
           preflight: false # false
           timeout: 30000
   # npm加速
-  - rule: ((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/npm|unpkg\.com
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/npm|unpkg\.com
     transform_rules:
       - search: _
         replace:
-          # 没有https://是因为上面的正则去掉了https://匹配(有没有https://主要看正则匹配的内容包不包括https://)
-          - jsd.cxl2020mc.top/npm
-          - vercel.jsd.cxl2020mc.top/npm
-          - unpkg.cnortles.top
-          - cdn.cnortles.top/npm
-          - project.cnortles.top/proxy/jsdelivr/npm
-          - jsdelivr.pai233.top/npm
-          - cdn.jsdelivr.net/npm
-          - cdn3.tianli0.top/npm
-          - jsd.cky.codes/npm
-          - unpkg.com
+          - https://jsd.cxl2020mc.top/npm
+          - https://vercel.jsd.cxl2020mc.top/npm
+          - https://unpkg.cnortles.top
+          - https://cdn.cnortles.top/npm
+          - https://project.cnortles.top/proxy/jsdelivr/npm
+          - https://jsdelivr.pai233.top/npm
+          - https://cdn.jsdelivr.net/npm
+          - https://cdn3.tianli0.top/npm
+          - https://jsd.cky.codes/npm
+          - https://unpkg.com
           - _
         action: fetch
         fetch:
@@ -55,18 +54,18 @@ catch_rules:
             expire: 1000*60*60*8 # 缓存8小时
             delay: 300
   # github加速
-  - rule: ((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/gh
+  - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net|jsd\.cxl2020mc\.top)\/gh
     transform_rules:
       - search: _
         replace:
-          - jsd.cxl2020mc.top/gh
-          - vercel.jsd.cxl2020mc.top/gh
-          - cdn.cnortles.top/gh
-          - project.cnortles.top/proxy/jsdelivr/gh
-          - jsdelivr.pai233.top/gh
-          - cdn.jsdelivr.net/gh
-          - cdn3.tianli0.top/gh
-          - jsd.cky.codes/gh
+          - https://jsd.cxl2020mc.top/gh
+          - https://vercel.jsd.cxl2020mc.top/gh
+          - https://cdn.cnortles.top/gh
+          - https://project.cnortles.top/proxy/jsdelivr/gh
+          - https://jsdelivr.pai233.top/gh
+          - https://cdn.jsdelivr.net/gh
+          - https://cdn3.tianli0.top/gh
+          - https://jsd.cky.codes/gh
           - _
         action: fetch
         fetch:

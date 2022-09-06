@@ -39,6 +39,7 @@ catch_rules:
         replace:
           - https://jsd.cxl2020mc.top/npm
           - https://vercel.jsd.cxl2020mc.top/npm
+          - https://jsdcxl2020mc.domain.qystu.cc/npm
           - https://unpkg.cnortles.top
           - https://cdn.cnortles.top/npm
           - https://project.cnortles.top/proxy/jsdelivr/npm

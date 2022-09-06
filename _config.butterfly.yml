@@ -293,7 +293,7 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   use: Twikoo,Waline # ,Gitalk # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -397,6 +397,13 @@ giscus:
 remark42:
   host: # Your Host URL
   siteId: # Your Site ID
+  option:
+
+
+artalk:
+  server:
+  site:
+  visitor: false
   option:
 
 

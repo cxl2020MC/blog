@@ -692,7 +692,9 @@ aside:
       link: https://jq.qq.com/?_wv=1027&k=iMae108g
   card_announcement:
     enable: true
-    content: 如本站访问时报 ERR_FAILED 错误，请按Ctrl + C 或者 清除浏览器缓存。
+    content: |
+        如本站访问时报 ERR_FAILED 错误，请按Ctrl + C 或者 清除浏览器缓存。
+        因为作者学业繁忙，暂缓更新频率
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

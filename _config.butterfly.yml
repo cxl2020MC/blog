@@ -439,6 +439,11 @@ gitter:
 crisp:
   enable: false
   website_id: d7d1b59c-2f89-4ddd-9540-23b77b8247eb
+  
+messenger:
+  enable: false
+  pageID:
+  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
 
 # Footer Settings
 # --------------------------------------

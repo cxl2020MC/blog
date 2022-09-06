@@ -293,7 +293,7 @@ addtoany:
 
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/artalk
   use: Twikoo,Waline # ,Gitalk # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -400,6 +400,13 @@ remark42:
   option:
 
 
+artalk:
+  server:
+  site:
+  visitor: false
+  option:
+
+
 # Chat Services
 # --------------------------------------
 
@@ -439,6 +446,11 @@ gitter:
 crisp:
   enable: false
   website_id: d7d1b59c-2f89-4ddd-9540-23b77b8247eb
+  
+messenger:
+  enable: false
+  pageID:
+  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
 
 # Footer Settings
 # --------------------------------------
@@ -649,6 +661,10 @@ subtitle:
   enable: true
   # Typewriter Effect (打字效果)
   effect: true
+  # Effect Speed Options (打字效果速度参数)
+  startDelay: 300 # 输入之前的时间，以毫秒为单位
+  typeSpeed: 150 # 输入速度(毫秒)
+  backSpeed: 50 # 后退速度(以毫秒为单位)
   # loop (循環打字)
   loop: true
   # source 調用第三方服務
@@ -977,7 +993,7 @@ CDN:
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   # https://cdn.cxl2020mc.top/npm/${name}/dist/${file}
   # https://jsd.cxl2020mc.top/npm/${name}/${file} 
-  custom_format: https://jsd.cxl2020mc.top/npm/${name}/${file} 
+  custom_format: https://jsd.cxl2020mc.top/npm/${name}@latest/${file} 
 
   option:
     # main_css:

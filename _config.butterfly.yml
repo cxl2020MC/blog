@@ -90,7 +90,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/avatar.svg # /img/favicon.png
+favicon: /img/favicon.ico # /img/favicon.png
 
 # Avatar (頭像)
 avatar:

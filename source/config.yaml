@@ -65,6 +65,7 @@ catch_rules:
         replace:
           - https://jsd.cxl2020mc.top/gh
           - https://vercel.jsd.cxl2020mc.top/gh
+          - https://jsdcxl2020mc.domain.qystu.cc/gh
           - https://cdn.cnortles.top/gh
           - https://project.cnortles.top/proxy/jsdelivr/gh
           - https://jsdelivr.pai233.top/gh

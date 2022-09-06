@@ -28,7 +28,7 @@ catch_rules:
           - _
         action: fetch
         fetch:
-          status: .*
+          status: 200|304
           engine: parallel
           preflight: false # false
           timeout: 30000

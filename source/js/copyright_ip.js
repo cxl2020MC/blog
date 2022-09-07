@@ -1,4 +1,5 @@
 fetch("https://api.cxl2020mc.top/ip/").then(res => res.json()).then(function (data) {
+    console.log(data)
     copyright_ip = document.getElementById("copyright_ip");
     ip = data['data']['addr'];
     country = data['data']['country']

@@ -97,7 +97,7 @@ catch_rules:
   # api图片缓存
   - rule: ^https\:\/\/api\.cxl2020mc\.top
     transform_rules:
-      - search: /ip/
+      - search: \/ip\/
         action: skip
       - search: _
         action: fetch

@@ -3,7 +3,8 @@ abbrlink: ''
 abstract: null
 aplayer: null
 aside: null
-categories: []
+categories:
+- - Hexo
 comments: null
 copyright: null
 copyright_author: null
@@ -21,13 +22,15 @@ message: null
 password: null
 sticky: null
 swiper_index: null
-tags: []
+tags:
+- Hexo
+- Butterfly
 title: Hexo butterfly主题更新
 toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-09-07 09:10:48'
+updated: '2022-09-07 09:11:31'
 wrong_hash_message: null
 wrong_pass_message: null
 ---

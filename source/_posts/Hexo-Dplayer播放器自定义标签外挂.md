@@ -1,37 +1,39 @@
 ---
-title: Hexo Dplayer播放器自定义标签外挂
-date: 2022-09-01 14:03:39
-updated:
-cover:
+abbrlink: ''
+abstract: null
+aplayer: null
+aside: null
+categories: []
+comments: null
+copyright: null
+copyright_author: null
+copyright_author_href: null
+copyright_info: null
+copyright_url: null
+cover: null
+date: '2022-09-01 14:03:39'
+description: null
+highlight_shrink: null
+katex: null
+keywords: null
+mathjax: null
+message: null
+password: null
+sticky: null
+swiper_index: null
 tags:
-categories:
-keywords:
-description:
-sticky:
-top_img:
-comments:
-toc:
-toc_number:
-toc_style_simple:
-copyright:
-copyright_author:
-copyright_author_href:
-copyright_url:
-copyright_info:
-mathjax:
-katex:
-aplayer:
-highlight_shrink:
-aside:
-swiper_index:
-password:
-abstract:
-message:
-wrong_pass_message:
-wrong_hash_message:
+- Hexo
+title: Hexo Dplayer播放器自定义标签外挂
+toc: null
+toc_number: null
+toc_style_simple: null
+top_img: null
+updated: '2022-09-07 09:12:08'
+wrong_hash_message: null
+wrong_pass_message: null
 ---
-
 # 前言
+
 作者今天看到了糖果屋的一篇文章 [DIY外挂标签的简单写法与应用](https://akilar.top/posts/e2bf861f/) 就突发奇想的想给Dplayer写个标签外挂(~~其实是想以后的时候偷懒~~)
 
 # 教程
@@ -41,6 +43,7 @@ wrong_hash_message:
 新建一个随意名称的文件（后缀要是`.js`）比如`diytag.js`
 
 填入
+
 ```js
 //参数处理函数
 function dplayer (args, content) {
@@ -67,6 +70,7 @@ hexo.extend.tag.register('dplayer', dplayer, { ends: true });
 
 然后你就可以在文章里用标签外挂的方法使用deplayer了
 （记得先在head引入Dplayer）
+
 ```md
 {% dplayer dp,dplayer %}
 video: {
@@ -76,6 +80,7 @@ video: {
 ```
 
 # 参数
+
 参数`dp`表示播放器对象名称
 参数`dplayer`表示播放器的容器id
 所有参数在一个文章中不能出现2个相同的
@@ -92,7 +97,7 @@ video: {
 
 {% dplayer dp,dplayer %}
 video: {
-    url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
+url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
 }
 {% enddplayer %}
 
@@ -120,16 +125,16 @@ video: {
 
 {% dplayer dp2,dplayer2 %}
 video: {
-    quality: [
-        {
-            name: 'od',
-            url: 'https://file.cxl2020mc.top/api/raw/?path=/video/%E5%8E%9F%E7%A5%9E%E5%AE%98%E6%96%B9%E5%AE%A3%E4%BC%A0%E7%89%87.mp4',
-        },
-        {
-            name: 's3',
-            url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
-        },
-    ],
-    defaultQuality: 0,
+quality: [
+{
+name: 'od',
+url: 'https://file.cxl2020mc.top/api/raw/?path=/video/%E5%8E%9F%E7%A5%9E%E5%AE%98%E6%96%B9%E5%AE%A3%E4%BC%A0%E7%89%87.mp4',
+},
+{
+name: 's3',
+url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
+},
+],
+defaultQuality: 0,
 }
 {% enddplayer %}

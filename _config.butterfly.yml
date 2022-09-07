@@ -463,7 +463,7 @@ footer:
     <script async src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto"></script>
     <br>
     <script async src="/js/copyright_ip.js"></script>
-    <p>你的IP: 【<p id="copyright_ip">获取中</p>】 | 你的所在地区: 【<p id="copyright_pos">获取中</p>】 | 你的运营商: 【<p id="copyright_isp">获取中</p>】</p>
+    <span id="copyright_ip">获取中......</span>
     <br>
     <a href="https://icp.gov.moe/?keyword=20220529" target="_blank">萌ICP备20220529号</a>
   copyright: true # Copyright of theme and framework

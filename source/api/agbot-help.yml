@@ -14,3 +14,12 @@
     发送 /bing UHD 获取当日的原图必应首页壁纸
     发送 /bing 1 获取昨天的1080p必应首页壁纸
     发送 /bing 2 UHD 获取前天的原图必应首页壁纸
+- name: ping
+  descr: ping域名
+  text: |
+    发送 /bing 你要ping的域名
+    域名不能携带请求头(http(s)://)
+- name: 早安
+  descr: 早安
+  text: |
+    发送 \早安 进行早安操作

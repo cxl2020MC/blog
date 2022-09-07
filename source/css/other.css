@@ -1,10 +1,12 @@
 @font-face {
     font-family: "HarmonyOS Sans";
-    src: url(/fonts/HarmonyOS_Sans_Regular.woff2);
+    src: url(https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_Regular.woff2);
     font-display: swap;
     /* /fonts/HarmonyOS_Sans_SC_Regular.subset.ttf */
     /* /fonts/HarmonyOS_Sans_Regular.subset.ttf */
     /* https://npm.elemecdn.com/qycdn/fonts/HarmonyOS_Sans_Regular.subset.ttf) */
+    /* https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_Regular.woff2 */
+    /* /fonts/HarmonyOS_Sans_Regular.woff2 */
 }
 
 /* 缩进Aplayer的全局吸底音乐标签 */

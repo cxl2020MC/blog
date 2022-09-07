@@ -27,3 +27,7 @@
   descr: 获取一句话
   text: |
     发送 /一言 获取一句话
+- name: ys
+  descr: 原神信息展示
+  text: |
+    发送 /ys 游戏内的UID 获取这个uid的原神信息

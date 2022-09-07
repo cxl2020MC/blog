@@ -3,7 +3,8 @@ abbrlink: ''
 abstract: null
 aplayer: null
 aside: null
-categories: []
+categories:
+- - Hexo
 comments: null
 copyright: null
 copyright_author: null
@@ -23,12 +24,14 @@ sticky: null
 swiper_index: null
 tags:
 - Hexo
+- Butterfly
+- 插件
 title: Hexo Dplayer播放器自定义标签外挂
 toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-09-07 09:12:08'
+updated: '2022-09-07 09:14:22'
 wrong_hash_message: null
 wrong_pass_message: null
 ---

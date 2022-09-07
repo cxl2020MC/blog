@@ -3,7 +3,8 @@ abbrlink: ''
 abstract: null
 aplayer: null
 aside: null
-categories: []
+categories:
+- - Hexo
 comments: null
 copyright: null
 copyright_author: null
@@ -21,13 +22,15 @@ message: null
 password: null
 sticky: null
 swiper_index: null
-tags: []
+tags:
+- Hexo
+- Butterfly
 title: Butterfly主题添加51la统计和灵雀应用监控
 toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-09-06 14:36:06'
+updated: '2022-09-07 09:13:47'
 wrong_hash_message: null
 wrong_pass_message: null
 ---
@@ -184,4 +187,3 @@ inject:
 {% endtabs %}
 
 {% link 51LA, https://www.51.la %}
-

@@ -30,7 +30,7 @@ toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-09-07 08:05:23'
+updated: '2022-09-09 17:18:58'
 wrong_hash_message: null
 wrong_pass_message: null
 ---
@@ -148,15 +148,13 @@ npm-check -u
 ### 更新package.json，一直回车即可
 
 ```
-$ npm-upgrade
+npm-upgrade
 ```
 
 ### 修复依赖冲突（如果没有的话可以不执行）
 
-
 ```powershell
 npm audix
 ```
-
 
 然后`npm i`一下就好了

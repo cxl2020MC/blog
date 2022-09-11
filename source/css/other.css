@@ -77,19 +77,3 @@
   left: 50%;
   transform: translate(-50%, -48px);
 }
-
-
-/* snackbar弹窗 */
-.snackbar-container {
-    /* background: var(--heo-main)!important; */
-    /* color: var(--heo-white)!important; */
-    border-radius: 0!important;
-    display: flex;
-    justify-content: center;
-    max-width: none!important;
-    min-width: 100%!important;
-    margin: 0;
-    left: 0!important;
-    height: 60px!important;
-    transform: none!important;
-}

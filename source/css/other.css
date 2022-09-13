@@ -89,3 +89,8 @@
 #aside-content #card-toc .toc-content .toc-link.active {
   border-radius: 7px;
 }
+
+/* GitHub按钮圆角 */
+#card-info-btn {
+  border-radius: 7px;
+}

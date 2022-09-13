@@ -138,7 +138,7 @@
   box-shadow: var(--card-hover-box-shadow);
 }
 
-.tk-comment>.tk-comment {
+.twikoo .tk-comment .tk-replies-expand {
   padding: 1rem;
   border-radius: var(--cxl2020mc-radius);
   box-shadow: var(--card-hover-box-shadow);

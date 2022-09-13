@@ -969,7 +969,7 @@ inject:
     - <script defer src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
     - <script defer src="/js/51la.js"></script>
     # 异步加载aplayer css 需要使用我手搓的js
-    - <link rel="stylesheet" href="https://jsd.cxl2020mc.top/npm/aplayer/dist/APlayer.min.css" media="defer" onload="this.media='all'">
+    # - <link rel="stylesheet" href="https://jsd.cxl2020mc.top/npm/aplayer/dist/APlayer.min.css" media="defer" onload="this.media='all'">
     # - <script src="https://jsd.cxl2020mc.top/npm/jquery/dist/jquery.min.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
@@ -977,9 +977,9 @@ inject:
     - <script async type="text/javascript" src ="/js/other.js" ></script> 
     - <script async data-pjax type="text/javascript" src="/js/diytitle.js"></script>
     - <script async type="text/javascript" src="/js/grayscale.js"></script>
-    - <script defer type="text/javascript" src="https://jsd.cxl2020mc.top/npm/aplayer/dist/APlayer.min.js"></script>
-    - <script defer type="text/javascript" src="/js/auto-music.js"></script>
-    - <div id="player" class="no-destroy"></div>
+    # - <script defer type="text/javascript" src="https://jsd.cxl2020mc.top/npm/aplayer/dist/APlayer.min.js"></script>
+    # - <script defer type="text/javascript" src="/js/auto-music.js"></script>
+    # - <div id="player" class="no-destroy"></div>
     # - <div class="aplayer no-destroy" data-id="7510263412" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random"></div>
     # - <script src="xxxx"></script>
 CDN:

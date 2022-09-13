@@ -112,24 +112,6 @@ catch_rules:
           cache:
             expire: 1000*60*60 # 缓存60分钟
             delay: 300
-  - rule: .*\.163\.com
-    transform_rules:
-      - search: _
-        action: fetch
-        fetch:
-          preflight: true
-          status: .*
-          engine: fetch
-  - rule: ^http\:\/\/m701\.music\.126\.net
-    transform_rules:
-      - search: _
-        replace:
-          - https://m701.music.126.net
-        action: fetch
-        fetch:
-          preflight: true
-          status: .*
-          engine: fetch
   # 不劫持（丢给浏览器）
   - rule: .*
     transform_rules:

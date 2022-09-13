@@ -146,19 +146,30 @@
 }
 */
 
+/* 评论区评论大框（包括回复） */
 .twikoo .tk-comments-container>.tk-comment {
+  /* 内边距 */
   padding: 1rem;
+  /* 圆角 */
   border-radius: var(--cxl2020mc-radius);
+  /* 阴影（浅色模式突出层次感） */
   box-shadow: var(--card-hover-box-shadow);
+  /* 背景颜色 */
   background: var(--cxl2020mc-card-bg);
+  /* 变动动画时长 */
   transition: .3s;
 }
 
+/* 加载更多按钮 */
 .twikoo .tk-expand {
+  /* 圆角 */
   border-radius: var(--cxl2020mc-radius);
 }
 
+/* 加载更多按钮（鼠标悬浮时） */
 .twikoo .tk-expand:hover {
+  /* 背景颜色 */
   background: var(--btn-hover-color) !important;
+  /* 文字颜色 */
   color: var(--btn-color) !important;
 }

@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "HarmonyOS Sans";
-    src: url(https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_Regular.woff2);
-    font-display: swap;
-    /* /fonts/HarmonyOS_Sans_SC_Regular.subset.ttf */
-    /* /fonts/HarmonyOS_Sans_Regular.subset.ttf */
-    /* https://npm.elemecdn.com/qycdn/fonts/HarmonyOS_Sans_Regular.subset.ttf) */
-    /* https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_Regular.woff2 */
-    /* /fonts/HarmonyOS_Sans_Regular.woff2 */
+  font-family: "HarmonyOS Sans";
+  src: url(https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_Regular.woff2);
+  font-display: swap;
+  /* /fonts/HarmonyOS_Sans_SC_Regular.subset.ttf */
+  /* /fonts/HarmonyOS_Sans_Regular.subset.ttf */
+  /* https://npm.elemecdn.com/qycdn/fonts/HarmonyOS_Sans_Regular.subset.ttf) */
+  /* https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_Regular.woff2 */
+  /* /fonts/HarmonyOS_Sans_Regular.woff2 */
 }
 
 /* 缩进Aplayer的全局吸底音乐标签 */
@@ -80,11 +80,12 @@
 
 
 /* 侧边栏图片圆角 */
-.aside-list-item .thumbnail > img {
+.aside-list-item .thumbnail>img {
   /* 圆角 */
   border-radius: 7px;
 }
+
 /* 侧边栏TOC目录圆角 */
-li.toc-item.active{
+li.toc-item.active {
   border-radius: 7px;
 }

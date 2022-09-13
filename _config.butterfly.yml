@@ -711,7 +711,7 @@ aside:
     content: |
         如本站访问时报 ERR_FAILED 错误，请按Ctrl + C 或者 清除浏览器缓存。
         因为作者学业繁忙，暂缓更新频率。
-        <a id="card-info-btn" target="_blank" rel="noopener" href="https://jq.qq.com/?_wv=1027&amp;k=iMae108g"><i class="fa-brands fa-qq"></i><span>加入QQ群</span></a>
+        <a class="cxl2020mc-card-info-btn" target="_blank" rel="noopener" href="https://jq.qq.com/?_wv=1027&amp;k=iMae108g"><i class="fa-brands fa-qq"></i><span>加入QQ群</span></a>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

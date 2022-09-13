@@ -94,3 +94,13 @@
 #card-info-btn {
   border-radius: 7px;
 }
+
+/* GitHub按钮样式(为了在别的地方能用) */
+.cxl2020mc-card-info-btn {
+  display: block;
+  margin-top: 14px;
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  text-align: center;
+  line-height: 2.4;
+}

@@ -84,3 +84,7 @@
   /* 圆角 */
   border-radius: 7px;
 }
+/* 侧边栏TOC目录圆角 */
+li.toc-item.active{
+  border-radius: 7px;
+}

@@ -3,6 +3,17 @@
   --cxl2020mc-radius: 7px;
 }
 
+/* 深色模式颜色 */
+[data-theme=dark] {
+  --cxl2020mc-border-color: #42444a;
+}
+
+/* 浅色模式颜色 */
+[data-theme=dark] {
+  --cxl2020mc-border-color: #e3e8f7;
+}
+
+
 /* 引入字体(字体设置在主题设置里) */
 @font-face {
   font-family: "HarmonyOS Sans";
@@ -121,19 +132,16 @@
 }
 
 /* Twikoo评论区美化 */
-/*
 .twikoo .tk-main {
-  border-style: dashed;
+  padding: 1rem;
+  border: var(--style-border-always);
+  border-style: solid;
   border-width: 1px;
-  border-color: var(--font-color);
+  border-color: var(--cxl2020mc-border-color);
   border-radius: var(--cxl2020mc-radius);
-}
-
-.twikoo .tk-main:hover {
-  -webkit-box-shadow: var(--card-hover-box-shadow);
   box-shadow: var(--card-hover-box-shadow);
 }
-*/
+
 .twikoo .tk-expand {
   border-radius: var(--cxl2020mc-radius);
 }

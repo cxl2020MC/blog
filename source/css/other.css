@@ -138,7 +138,7 @@
   padding: 1rem;
   border-radius: var(--cxl2020mc-radius);
   box-shadow: var(--card-hover-box-shadow);
-  background-color: var(--cxl2020mc-card-bg);
+  background: var(--cxl2020mc-card-bg);
 }
 
 .twikoo .tk-expand {

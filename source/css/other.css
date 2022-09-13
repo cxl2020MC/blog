@@ -123,6 +123,12 @@
 /* Twikoo评论区美化 */
 .twikoo .tk-main {
   border-style: dashed;
+  border-width: 5px;
+  border-color: white;
+  border-radius: var(--cxl2020mc-radius);
+}
+
+.twikoo .tk-main:hover {
   -webkit-box-shadow: var(--card-hover-box-shadow);
   box-shadow: var(--card-hover-box-shadow);
 }

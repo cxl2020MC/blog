@@ -1,3 +1,14 @@
+/* 声名部分变量 */
+:root {
+  --cxl2020mc-radius: 7px;
+}
+
+
+
+
+
+
+
 @font-face {
   font-family: "HarmonyOS Sans";
   src: url(https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_Regular.woff2);
@@ -82,17 +93,17 @@
 /* 侧边栏图片圆角 */
 .aside-list-item .thumbnail>img {
   /* 圆角 */
-  border-radius: 7px;
+  border-radius: var(--cxl2020mc-radius);
 }
 
 /* 侧边栏TOC目录圆角 */
 #aside-content #card-toc .toc-content .toc-link.active {
-  border-radius: 7px;
+  border-radius: var(--cxl2020mc-radius);
 }
 
 /* GitHub按钮圆角 */
 #card-info-btn {
-  border-radius: 7px;
+  border-radius: var(--cxl2020mc-radius);
 }
 
 /* GitHub按钮样式(为了在别的地方能用) */
@@ -103,4 +114,5 @@
   color: var(--btn-color);
   text-align: center;
   line-height: 2.4;
+  border-radius: var(--cxl2020mc-radius);
 }

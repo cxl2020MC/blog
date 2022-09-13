@@ -85,11 +85,13 @@ wrong_pass_message: null
   transition: .3s;
 }
 
+/* 加载更多按钮 */
 .twikoo .tk-expand {
   /* 圆角 */
   border-radius: var(--cxl2020mc-radius);
 }
 
+/* 加载更多按钮（鼠标悬浮时） */
 .twikoo .tk-expand:hover {
   /* 背景颜色 */
   background: var(--btn-hover-color) !important;

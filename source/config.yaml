@@ -112,7 +112,7 @@ catch_rules:
           cache:
             expire: 1000*60*60 # 缓存60分钟
             delay: 300
-  - rule: .*\.music\.163\.com
+  - rule: .*\.163\.com
     transform_rules:
       - search: _
         action: fetch

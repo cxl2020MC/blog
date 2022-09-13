@@ -106,7 +106,7 @@
   display: block;
   margin-top: 14px;
   background-color: var(--btn-bg);
-  color: var(--btn-color);
+  color: var(--btn-color) !important;
   text-align: center;
   line-height: 2.4;
   border-radius: var(--cxl2020mc-radius);

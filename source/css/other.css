@@ -6,11 +6,13 @@
 /* 深色模式颜色 */
 [data-theme=dark] {
   --cxl2020mc-border-color: #42444a;
+  --cxl2020mc-card-bg: #1d1b26;
 }
 
 /* 浅色模式颜色 */
 [data-theme=dark] {
   --cxl2020mc-border-color: #e3e8f7;
+  --cxl2020mc-card-bg: #fff;
 }
 
 
@@ -136,6 +138,7 @@
   padding: 1rem;
   border-radius: var(--cxl2020mc-radius);
   box-shadow: var(--card-hover-box-shadow);
+  background-color: var(--cxl2020mc-card-bg);
 }
 
 .twikoo .tk-expand {

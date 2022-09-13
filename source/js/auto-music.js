@@ -3,6 +3,7 @@
 //     console.log(data.json())
 // }
 // get_music("/api/music.json")
+
 fetch("https://163-api.cxl2020mc.top/playlist/track/all?id=2701866695&limit=200").then(response => response.json()).then(data => {
     console.log(data)
     audio = []

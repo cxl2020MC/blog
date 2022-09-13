@@ -139,6 +139,7 @@
     border-radius: var(--cxl2020mc-radius);
     box-shadow: var(--card-hover-box-shadow);
     background: var(--cxl2020mc-card-bg);
+    transition: .3s;
   }
 }
 

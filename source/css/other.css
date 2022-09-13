@@ -77,3 +77,10 @@
   left: 50%;
   transform: translate(-50%, -48px);
 }
+
+
+/* 侧边栏图片圆角 */
+.aside-list-item .thumbnail > img {
+  /* 圆角 */
+  border-radius: 7px;
+}

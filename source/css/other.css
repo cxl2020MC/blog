@@ -139,6 +139,6 @@
 }
 
 .twikoo .tk-expand:hover {
-  background: var(--referto-text-hover-color) !important;
+  background: var(--btn-hover-color) !important;
   color: var(--btn-color) !important;
 }

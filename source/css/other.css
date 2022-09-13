@@ -134,13 +134,16 @@
 /* Twikoo评论区美化 */
 .twikoo .tk-comments-container>.tk-comment {
   padding: 1rem;
-  /*
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(--cxl2020mc-border-color);
-  */
   border-radius: var(--cxl2020mc-radius);
   box-shadow: var(--card-hover-box-shadow);
+}
+
+.tk-comment>.tk-comment {
+  padding: 1rem;
+  border-radius: var(--cxl2020mc-radius);
+  box-shadow: var(--card-hover-box-shadow);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .twikoo .tk-main {

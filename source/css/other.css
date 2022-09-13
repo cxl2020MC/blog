@@ -86,6 +86,6 @@
 }
 
 /* 侧边栏TOC目录圆角 */
-li.toc-item.active {
+#aside-content #card-toc .toc-content .toc-link.active {
   border-radius: 7px;
 }

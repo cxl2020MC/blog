@@ -5,15 +5,15 @@
 // get_music("/api/music.json")
 
 fetch("https://163-api.cxl2020mc.top/playlist/track/all?id=2701866695&limit=200").then(response => response.json()).then(data => {
-    console.log(data)
-    audio = []
+    console.log(data);
+    audio = [];
     // https://music.163.com/song/media/outer/url?id=id.mp3
     for (let index = 0; index < data["songs"].length; index++) {
         audio.push({"name": data["songs"][index]["name"],
                      "url": "https://music.163.com/song/media/outer/url?id=" + data["songs"][index]["id"] + ".mp3",
-                     "artist": data["songs"][index]["ar"][0]["name"]})
-    }
-    console.log(audio)
+                     "artist": data["songs"][index]["ar"][0]["name"]});
+    };
+    console.log(audio);
     const ap = new APlayer({
         container: document.getElementById('player'),
         fixed: true,
@@ -27,4 +27,4 @@ fetch("https://163-api.cxl2020mc.top/playlist/track/all?id=2701866695&limit=200"
         lrcType: 3,
         audio: audio
     });
-})
+});

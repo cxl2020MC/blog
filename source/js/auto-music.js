@@ -4,7 +4,7 @@
 // }
 // get_music("/api/music.json")
 
-fetch("https://163-api.cxl2020mc.top/playlist/track/all?id=2701866695&limit=200", { credentials: 'include' }).then(response => response.json()).then(data => {
+fetch("https://163-api.cxl2020mc.top/playlist/track/all?id=2701866695&limit=200").then(response => response.json()).then(data => {
     console.log(data);
     audio = [];
     // https://music.163.com/song/media/outer/url?id=id.mp3

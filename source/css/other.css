@@ -132,7 +132,7 @@
 }
 
 /* Twikoo评论区美化 */
-.twikoo .tk-comment{
+.twikoo .tk-comments-container>.tk-comment {
   padding: 1rem;
   /*
   border-style: solid;
@@ -154,8 +154,4 @@
 .twikoo .tk-expand:hover {
   background: var(--btn-hover-color) !important;
   color: var(--btn-color) !important;
-}
-
-.twikoo .OwO-body {
-  border-radius: var(--cxl2020mc-radius);
 }

@@ -3,18 +3,17 @@
   --cxl2020mc-radius: 7px;
 }
 
+/* 浅色模式颜色 */
+[data-theme=light] {
+  --cxl2020mc-border-color: #e3e8f7;
+  --cxl2020mc-card-bg: #fff;
+}
+
 /* 深色模式颜色 */
 [data-theme=dark] {
   --cxl2020mc-border-color: #42444a;
   --cxl2020mc-card-bg: #1d1b26;
 }
-
-/* 浅色模式颜色 */
-[data-theme=dark] {
-  --cxl2020mc-border-color: #e3e8f7;
-  --cxl2020mc-card-bg: #fff;
-}
-
 
 /* 引入字体(字体设置在主题设置里) */
 @font-face {

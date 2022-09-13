@@ -134,7 +134,6 @@
 /* Twikoo评论区美化 */
 .twikoo .tk-main {
   padding: 1rem;
-  border: var(--style-border-always);
   border-style: solid;
   border-width: 1px;
   border-color: var(--cxl2020mc-border-color);
@@ -149,4 +148,10 @@
 .twikoo .tk-expand:hover {
   background: var(--btn-hover-color) !important;
   color: var(--btn-color) !important;
+}
+
+.twikoo .OwO-body {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--cxl2020mc-border-color);
 }

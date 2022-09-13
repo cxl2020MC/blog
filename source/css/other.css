@@ -124,7 +124,7 @@
 .twikoo .tk-main {
   border-style: dashed;
   border-width: 1px;
-  border-color: white;
+  border-color: var(--font-color);
   border-radius: var(--cxl2020mc-radius);
 }
 

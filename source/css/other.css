@@ -138,14 +138,6 @@
   box-shadow: var(--card-hover-box-shadow);
 }
 
-.twikoo .tk-comments-container>.tk-comment>.tk-main>.tk-replies {
-  padding: 1rem;
-  border-radius: var(--cxl2020mc-radius);
-  box-shadow: var(--card-hover-box-shadow);
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .twikoo .tk-expand {
   border-radius: var(--cxl2020mc-radius);
 }

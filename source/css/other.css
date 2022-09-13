@@ -121,6 +121,7 @@
 }
 
 /* Twikoo评论区美化 */
+/*
 .twikoo .tk-main {
   border-style: dashed;
   border-width: 1px;
@@ -132,12 +133,12 @@
   -webkit-box-shadow: var(--card-hover-box-shadow);
   box-shadow: var(--card-hover-box-shadow);
 }
-
+*/
 .twikoo .tk-expand {
-  border-radius: 16px;
+  border-radius: var(--cxl2020mc-radius);
 }
 
 .twikoo .tk-expand:hover {
-  background: var(--btn-hover-color) !important;
+  background: var(--referto-text-hover-color) !important;
   color: var(--btn-color) !important;
 }

@@ -3,6 +3,7 @@
   --cxl2020mc-radius: 7px;
 }
 
+/* 引入字体(字体设置在主题设置里) */
 @font-face {
   font-family: "HarmonyOS Sans";
   src: url(https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_Regular.woff2);
@@ -109,4 +110,7 @@
   text-align: center;
   line-height: 2.4;
   border-radius: var(--cxl2020mc-radius);
+}
+.cxl2020mc-card-info-btn span {
+  padding-left: 10px;
 }

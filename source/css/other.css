@@ -119,3 +119,16 @@
 .cxl2020mc-card-info-btn span {
   padding-left: 10px;
 }
+
+/* Twikoo评论区美化 */
+.twikoo .tk-main{
+
+}
+
+.twikoo .tk-expand {
+  border-radius: 16px;
+}
+.twikoo .tk-expand:hover {
+  background: var(--btn-hover-color) !important;
+  color: var(--btn-color) !important;
+}

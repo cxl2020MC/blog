@@ -111,6 +111,11 @@
   line-height: 2.4;
   border-radius: var(--cxl2020mc-radius);
 }
+
+.cxl2020mc-card-info-btn:hover {
+  background-color: var(--btn-hover-color);
+}
+
 .cxl2020mc-card-info-btn span {
   padding-left: 10px;
 }

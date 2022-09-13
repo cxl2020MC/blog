@@ -117,6 +117,7 @@ catch_rules:
       - search: _
         action: fetch
         fetch:
+          preflight: true
           status: .*
           engine: fetch
   # 不劫持（丢给浏览器）

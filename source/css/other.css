@@ -133,6 +133,8 @@
 }
 
 /* Twikoo评论区美化 */
+
+/*
 @media screen and (max-width: 768px) {
   .twikoo .tk-comments-container>.tk-comment {
     padding: 1rem;
@@ -141,6 +143,15 @@
     background: var(--cxl2020mc-card-bg);
     transition: .3s;
   }
+}
+*/
+
+.twikoo .tk-comments-container>.tk-comment {
+  padding: 1rem;
+  border-radius: var(--cxl2020mc-radius);
+  box-shadow: var(--card-hover-box-shadow);
+  background: var(--cxl2020mc-card-bg);
+  transition: .3s;
 }
 
 .twikoo .tk-expand {

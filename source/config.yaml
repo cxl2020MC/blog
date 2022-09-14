@@ -13,6 +13,7 @@ hotconfig:
   - https://cdn.vercel.cxl2020mc.top/config.yaml
   - https://cfpage.cxl2020mc.top/config.yaml
   - https://netlify.cxl2020mc.top/config.yaml
+  - https://cdn.blog.cxl2020mc.top/config.yaml
   - https://github.com/cxl2020MC/cxl2020MC.github.io/raw/master/source/config.yaml
   - https://raw.githubusercontent.com/cxl2020MC/cxl2020MC.github.io/master/source/config.yaml
 catch_rules:
@@ -25,6 +26,7 @@ catch_rules:
           # - netlify.cxl2020mc.top #会带来cors问题
           - cfpage.cxl2020mc.top
           - cdn.vercel.cxl2020mc.top
+          - cdn.blog.cxl2020mc.top
           - _
         action: fetch
         fetch:

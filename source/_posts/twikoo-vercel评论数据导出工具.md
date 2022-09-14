@@ -1,36 +1,37 @@
 ---
-title: twikoo-vercel评论数据导出工具
-date: 2022-08-10 20:22:26
-updated:
-cover:
+abbrlink: ''
+abstract: null
+aplayer: null
+aside: null
+categories: []
+comments: null
+copyright: null
+copyright_author: null
+copyright_author_href: null
+copyright_info: null
+copyright_url: null
+cover: null
+date: '2022-08-10 20:22:26'
+description: null
+highlight_shrink: null
+katex: null
+keywords: null
+mathjax: null
+message: null
+password: null
+sticky: null
+swiper_index: null
 tags:
-categories:
-keywords:
-description:
-sticky:
-top_img:
-comments:
-toc:
-toc_number:
-toc_style_simple:
-copyright:
-copyright_author:
-copyright_author_href:
-copyright_url:
-copyright_info:
-mathjax:
-katex:
-aplayer:
-highlight_shrink:
-aside:
-swiper_index:
-password:
-abstract:
-message:
-wrong_pass_message:
-wrong_hash_message:
+- Twikoo
+title: twikoo-vercel评论数据导出工具
+toc: null
+toc_number: null
+toc_style_simple: null
+top_img: null
+updated: '2022-09-14 16:21:47'
+wrong_hash_message: null
+wrong_pass_message: null
 ---
-
 # 前言
 
 twikoo-vercel版评论导出较为复杂，然后作者(博主)写了个脚本，可以一键导出评论数据

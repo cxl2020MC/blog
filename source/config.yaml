@@ -10,9 +10,9 @@ hotpatch:
   - https://cdn.jsdelivr.net/gh/ChenYFan/ClientWorker/cw.js
 # Config热更新
 hotconfig:
-  - https://cdn.vercel.cxl2020mc.top/config.yaml
-  - https://cfpage.cxl2020mc.top/config.yaml
-  - https://netlify.cxl2020mc.top/config.yaml
+  - https://cdn.vercel.blog.cxl2020mc.top/config.yaml
+  - https://cfpage.blog.cxl2020mc.top/config.yaml
+  - https://netlify.blog.cxl2020mc.top/config.yaml
   - https://cdn.blog.cxl2020mc.top/config.yaml
   - https://github.com/cxl2020MC/cxl2020MC.github.io/raw/master/source/config.yaml
   - https://raw.githubusercontent.com/cxl2020MC/cxl2020MC.github.io/master/source/config.yaml

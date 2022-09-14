@@ -164,8 +164,9 @@
   /* 变动动画时长 */
   transition: .3s;
 }
+
 /* 评论区评论大框阴影悬浮加深 */
-.twikoo .tk-comments-container>.tk-comment:hover{
+.twikoo .tk-comments-container>.tk-comment:hover {
   box-shadow: var(--card-hover-box-shadow);
 }
 

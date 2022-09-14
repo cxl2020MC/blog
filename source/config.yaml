@@ -53,7 +53,8 @@ catch_rules:
           - _
         action: fetch
         fetch:
-          status: 200|3.* # 304状态码，表示自上次访问以来，请求的资源未被修改。该状态码较少出现，所以基本没啥卵用(大文件除外)
+          # 304状态码，表示自上次访问以来，请求的资源未被修改。该状态码较少出现，所以基本没啥用(大文件除外)
+          status: 200|3.*
           engine: parallel
           preflight: false # false
           timeout: 30000

@@ -31,7 +31,7 @@ toc: null
 toc_number: null
 toc_style_simple: null
 top_img: null
-updated: '2022-09-13 17:42:03'
+updated: '2022-09-14 14:18:28'
 wrong_hash_message: null
 wrong_pass_message: null
 ---
@@ -78,11 +78,16 @@ wrong_pass_message: null
   /* 圆角 */
   border-radius: var(--cxl2020mc-radius);
   /* 阴影（浅色模式突出层次感） */
-  box-shadow: var(--card-hover-box-shadow);
+  box-shadow: var(--card-box-shadow);
   /* 背景颜色 */
   background: var(--cxl2020mc-card-bg);
   /* 变动动画时长 */
   transition: .3s;
+}
+
+/* 评论区评论大框阴影悬浮加深 */
+.twikoo .tk-comments-container>.tk-comment:hover {
+  box-shadow: var(--card-hover-box-shadow);
 }
 
 /* 加载更多按钮 */

@@ -23,9 +23,9 @@ catch_rules:
       - search: _
         replace:
           - www.cxl2020mc.top
-          # - netlify.cxl2020mc.top #会带来cors问题
-          - cfpage.cxl2020mc.top
-          - cdn.vercel.cxl2020mc.top
+          # - netlify.cdn.blog.cxl2020mc.top #会带来cors问题
+          - cfpage.cdn.blog.cxl2020mc.top # cfpage
+          - cdn.vercel.cdn.blog.cxl2020mc.top # cyf vercel自选节点
           - cdn.blog.cxl2020mc.top
           - _
         action: fetch

@@ -172,6 +172,14 @@
   transition: .3s;
 }
 
+/* 黑暗模式评论区评论大框 */
+[data-theme=dark] .twikoo .tk-comments-container>.tk-comment {
+  /* 边框样式 */
+  border-style: solid;
+  /* 边框颜色 */
+  border-color: var(--cxl2020mc-card-border);
+}
+
 /* 评论区评论大框阴影悬浮加深 */
 .twikoo .tk-comments-container>.tk-comment:hover {
   box-shadow: var(--card-hover-box-shadow);

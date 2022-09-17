@@ -1,6 +1,7 @@
 /* 声名部分变量 */
 :root {
   --cxl2020mc-radius: 7px;
+  --cxl2020mc-card-border-width: 1px;
 }
 
 /* 浅色模式颜色 */
@@ -9,7 +10,6 @@
   --cxl2020mc-card-bg: #fff;
   --cxl2020mc-card-border: #e3e8f7;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
-  --cxl2020mc-card-border-width: 1px;
 }
 
 /* 深色模式颜色 */

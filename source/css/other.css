@@ -19,7 +19,7 @@
   --cxl2020mc-card-bg: #1d1b26;
   --cxl2020mc-card-border: #42444a;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
-  --cxl2002mc-blue: #0084FF;
+  --cxl2020mc-blue: #0084FF;
 }
 
 /* 引入字体(字体设置在主题设置里) */
@@ -255,6 +255,7 @@
   background-color: var(--cxl2020mc-blue);
 }
 
+/* 黑暗模式加载更多按钮（鼠标悬浮时） */
 [data-theme=dark] .twikoo .tk-expand:hover {
   /* 背景颜色 */
   background-color: var(--cxl2020mc-blue);

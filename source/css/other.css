@@ -10,6 +10,7 @@
   --cxl2020mc-card-bg: #fff;
   --cxl2020mc-card-border: #e3e8f7;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
+  --cxl2020mc-blue: #425AEF;
 }
 
 /* 深色模式颜色 */
@@ -18,6 +19,7 @@
   --cxl2020mc-card-bg: #1d1b26;
   --cxl2020mc-card-border: #42444a;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
+  --cxl2002mc-blue: #0084FF;
 }
 
 /* 引入字体(字体设置在主题设置里) */
@@ -249,7 +251,7 @@
 [data-theme=light] .twikoo .tk-expand:hover {
   /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
-  background-color: #fff;
+  background-color: var(--cxl2020mc-blue);
 }
 
 /* 黑暗模式加载更多按钮 */

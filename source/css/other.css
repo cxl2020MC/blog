@@ -9,6 +9,7 @@
   --cxl2020mc-card-bg: #fff;
   --cxl2020mc-card-border: #e3e8f7;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
+  --cxl2020mc-card-border-width: 1px;
 }
 
 /* 深色模式颜色 */
@@ -190,6 +191,8 @@
 [data-theme=dark] .twikoo .tk-comments-container>.tk-comment {
   /* 边框样式 */
   border-style: solid;
+  /* 边框宽度 */
+  border-width: var(--cxl2020mc-card-border-width);
   /* 边框颜色 */
   border-color: var(--cxl2020mc-card-border);
 }
@@ -224,6 +227,8 @@
 [data-theme=dark] .twikoo .tk-extra {
   /* 边框样式 */
   border-style: solid;
+  /* 边框宽度 */
+  border-width: var(--cxl2020mc-card-border-width);
   /* 边框颜色 */
   border-color: var(--cxl2020mc-card-border);
 }

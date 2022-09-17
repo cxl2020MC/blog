@@ -68,6 +68,7 @@ wrong_pass_message: null
   --cxl2020mc-card-bg: #fff;
   --cxl2020mc-card-border: #e3e8f7;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
+  --cxl2020mc-blue: #425AEF;
 }
 
 /* 深色模式颜色 */
@@ -76,6 +77,7 @@ wrong_pass_message: null
   --cxl2020mc-card-bg: #1d1b26;
   --cxl2020mc-card-border: #42444a;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
+  --cxl2020mc-blue: #0084FF;
 }
 
 /* 评论区评论大框 */
@@ -164,7 +166,14 @@ wrong_pass_message: null
 [data-theme=light] .twikoo .tk-expand:hover {
   /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
-  background-color: #fff;
+  /* 背景颜色 */
+  background-color: var(--cxl2020mc-blue);
+}
+
+/* 黑暗模式加载更多按钮（鼠标悬浮时） */
+[data-theme=dark] .twikoo .tk-expand:hover {
+  /* 背景颜色 */
+  background-color: var(--cxl2020mc-blue);
 }
 
 /* 黑暗模式加载更多按钮 */

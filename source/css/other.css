@@ -249,7 +249,7 @@
 [data-theme=light] .twikoo .tk-expand:hover {
   /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
-  background-color: #e3e8f7;
+  /* background-color: #e3e8f7; */
 }
 
 /* 黑暗模式加载更多按钮 */

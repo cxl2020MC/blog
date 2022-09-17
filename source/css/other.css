@@ -184,9 +184,9 @@
   /* 背景颜色 */
   background: var(--cxl2020mc-card-bg);
   /* 内边距 */
-  padding: 5px;
+  padding: 0.4rem;
   /* 底边距 */
-  margin-bottom: 7px;
+  margin-bottom: 1rem;
   /* 变动动画时长 */
   transition: .3s;
 }

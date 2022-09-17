@@ -154,11 +154,14 @@ wrong_pass_message: null
   border-radius: var(--cxl2020mc-radius);
 }
 
+/* 浅色模式加载更多按钮 */
+[data-theme=light] .twikoo .tk-expand {
+  /* 阴影 */
+  box-shadow: var(--card-hover-box-shadow);
+}
+
 /* 加载更多按钮（鼠标悬浮时） */
 .twikoo .tk-expand:hover {
-  /* 背景颜色 */
-  background: var(--btn-hover-color) !important;
-  /* 文字颜色 */
-  color: var(--btn-color) !important;
+
 }
 ```

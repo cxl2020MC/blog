@@ -78,7 +78,7 @@ wrong_pass_message: null
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
 }
 
-/* 评论区评论大框（包括回复） */
+/* 评论区评论大框 */
 .twikoo .tk-comments-container>.tk-comment {
   /* 内边距 */
   padding: 1rem;
@@ -90,9 +90,9 @@ wrong_pass_message: null
   transition: .3s;
 }
 
-/* 浅色模式评论区评论大框（包括回复） */
+/* 浅色模式评论区评论大框 */
 [data-theme=light] .twikoo .tk-comments-container>.tk-comment {
-  /* 阴影（浅色模式突出层次感） */
+  /* 阴影 */
   box-shadow: var(--card-box-shadow);
 }
 
@@ -128,13 +128,13 @@ wrong_pass_message: null
 
 /* 浅色模式设备信息 */
 [data-theme=light] .twikoo .tk-extra {
-  /* 阴影（浅色模式突出层次感） */
+  /* 阴影 */
   box-shadow: var(--card-box-shadow);
 }
 
 /* 浅色模式设备信息阴影悬浮加深 */
 [data-theme=light] .twikoo .tk-extra:hover {
-  /* 阴影（浅色模式突出层次感） */
+  /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
 }
 
@@ -157,11 +157,23 @@ wrong_pass_message: null
 /* 浅色模式加载更多按钮 */
 [data-theme=light] .twikoo .tk-expand {
   /* 阴影 */
-  box-shadow: var(--card-hover-box-shadow);
+  box-shadow: var(--card-box-shadow);
 }
 
-/* 加载更多按钮（鼠标悬浮时） */
-.twikoo .tk-expand:hover {
+/* 浅色模式加载更多按钮（鼠标悬浮时） */
+[data-theme=light] .twikoo .tk-expand:hover {
+  /* 阴影 */
+  box-shadow: var(--card-hover-box-shadow);
+  background-color: #fff;
+}
 
+/* 黑暗模式加载更多按钮 */
+[data-theme=dark] .twikoo .tk-expand {
+  /* 边框样式 */
+  border-style: solid;
+  /* 边框宽度 */
+  border-width: var(--cxl2020mc-card-border-width);
+  /* 边框颜色 */
+  border-color: var(--cxl2020mc-card-border);
 }
 ```

@@ -195,7 +195,9 @@
 
 /* 黑暗模式设备信息 */
 [data-theme=dark] .twikoo .tk-extra {
+  /* 边框样式 */
   border-style: solid;
+  /* 边框颜色 */
   border-color: var(--cxl2020mc-card-border);
 }
 

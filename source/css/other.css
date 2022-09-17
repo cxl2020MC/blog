@@ -160,18 +160,29 @@
 }
 */
 
+
+
 /* 评论区评论大框（包括回复） */
 .twikoo .tk-comments-container>.tk-comment {
   /* 内边距 */
   padding: 1rem;
   /* 圆角 */
   border-radius: var(--cxl2020mc-radius);
-  /* 阴影（浅色模式突出层次感） */
-  box-shadow: var(--card-box-shadow);
   /* 背景颜色 */
   background: var(--cxl2020mc-card-bg);
   /* 变动动画时长 */
   transition: .3s;
+}
+
+/* 浅色模式评论区评论大框（包括回复） */
+[data-theme=light] .twikoo .tk-comments-container>.tk-comment {
+  /* 阴影（浅色模式突出层次感） */
+  box-shadow: var(--card-box-shadow);
+}
+
+/* 浅色模式评论区评论大框阴影悬浮加深 */
+[data-theme=light] .twikoo .tk-comments-container>.tk-comment:hover {
+  box-shadow: var(--card-hover-box-shadow);
 }
 
 /* 黑暗模式评论区评论大框 */
@@ -180,11 +191,6 @@
   border-style: solid;
   /* 边框颜色 */
   border-color: var(--cxl2020mc-card-border);
-}
-
-/* 评论区评论大框阴影悬浮加深 */
-.twikoo .tk-comments-container>.tk-comment:hover {
-  box-shadow: var(--card-hover-box-shadow);
 }
 
 /* 设备信息 */

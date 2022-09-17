@@ -167,7 +167,7 @@ wrong_pass_message: null
   /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
   /* 背景颜色 */
-  background-color: var(--cxl2020mc-blue);
+  background-color: var(--btn-bg);
 }
 
 /* 黑暗模式加载更多按钮（鼠标悬浮时） */

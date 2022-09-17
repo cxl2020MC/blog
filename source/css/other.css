@@ -251,6 +251,12 @@
 [data-theme=light] .twikoo .tk-expand:hover {
   /* 阴影 */
   box-shadow: var(--card-hover-box-shadow);
+  /* 背景颜色 */
+  background-color: var(--cxl2020mc-blue);
+}
+
+[data-theme=dark] .twikoo .tk-expand:hover {
+  /* 背景颜色 */
   background-color: var(--cxl2020mc-blue);
 }
 

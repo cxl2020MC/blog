@@ -894,7 +894,7 @@ pie
 {% endmermaid %}
 ```
 
-![](https://fastly.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-mermaid.png)
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-docs-mermaid.png)
 
 ### Tabs
 
@@ -1200,7 +1200,7 @@ This is my website, click the button {% btn 'https://butterfly.js.org/',Butterfl
 我覺得很漂亮 {% inlineImg https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png 150px %}
 ```
 
-![image-20210319001204045](https://fastly.jsdelivr.net/gh/jerryc127/CDN@m2/img/hexo-theme-butterfly-docs-inlineimg.png)
+![image-20210319001204045](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/hexo-theme-butterfly-docs-inlineimg.png)
 
 ### label
 
@@ -1426,4 +1426,4 @@ xxxxxx
 {% endflink %}
 ```
 
-![](https://fastly.jsdelivr.net/gh/jerryc127/CDN@m2/img/hexo-theme-butterfly-docs-flink-demo.png)
+![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/hexo-theme-butterfly-docs-flink-demo.png)

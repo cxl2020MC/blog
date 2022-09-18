@@ -207,7 +207,7 @@
       descr: 少年自有凌云志,不负黄河万古流!
     - name: Jayhrn
       link: https://blog.jayhrn.com
-      avatar: https://fastly.jsdelivr.net/gh/Jayhrn/CDN/img/avatar.png
+      avatar: https://cdn.jsdelivr.net/gh/Jayhrn/CDN/img/avatar.png
       descr: 念念不忘，必有回响
     - name: MoeOxygen
       link: https://blog.moeoxygen.com

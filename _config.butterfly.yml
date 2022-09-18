@@ -107,7 +107,10 @@ disable_top_img: false
 index_img: https://api.dujin.org/bing/1920.php
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://api.cxl2020mc.top?api=bing # https://api.dujin.org/bing/1920.php
+# 默认顶部图
+# https://api.cxl2020mc.top?api=bing
+# https://api.dujin.org/bing/1920.php
+default_top_img: https://api.cxl2020mc.top?api=bing
 
 # The banner image of archive page
 archive_img:

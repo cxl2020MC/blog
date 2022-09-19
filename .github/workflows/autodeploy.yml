@@ -63,3 +63,15 @@ jobs:
         git add .
         git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By Github Actions"
         git push --force --quiet "https://${{ github.repository_owner }}:${{ secrets.GITHUBTOKEN }}@github.com/${{ github.repository_owner }}/blog.git" master:master
+        cd ..
+    
+    - name: 部署到腾讯云COS
+      env:
+        SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+        SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+        BUCKET: ${{ secrets.TENCENT_COS_BUCKET }}
+        REGION: ap-hongkong
+      run: |
+        sudo pip install coscmd
+        coscmd config -a ${SECRET_ID} -s ${SECRET_KEY} -b ${BUCKET} -r ${REGION}
+        coscmd upload -rs --delete ./public/ / -f

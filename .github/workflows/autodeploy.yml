@@ -70,7 +70,7 @@ jobs:
         SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
         SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
         BUCKET: ${{ secrets.TENCENT_COS_BUCKET }}
-        REGION: ap-hongkong
+        REGION: accelerate # ap-hongkong
       run: |
         sudo pip install coscmd
         coscmd config -a ${SECRET_ID} -s ${SECRET_KEY} -b ${BUCKET} -r ${REGION}

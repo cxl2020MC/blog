@@ -34,7 +34,7 @@ catch_rules:
           engine: parallel
           preflight: false # false
           timeout: 30000
-          delay: 4000
+          delay: 4000 # 为了防止bug
   # npm加速
   - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|unpkg\.com)
     transform_rules:
@@ -128,4 +128,4 @@ catch_rules:
   - rule: .*
     transform_rules:
       - search: _
-        action: skip #? 2.8.1新增，跳过cw规则（ 现在已经不在需要）
+        action: skip #? 2.8.1新增，跳过cw规则（ 现在已经不在需要，但为了兼容性和避免未知bug建议留下此配置）

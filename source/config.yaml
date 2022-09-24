@@ -34,6 +34,7 @@ catch_rules:
           engine: parallel
           preflight: false # false
           timeout: 30000
+          delay: 4000
   # npm加速
   - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|unpkg\.com)
     transform_rules:

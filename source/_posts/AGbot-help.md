@@ -7,7 +7,7 @@ tags:
   - AGbot
 updated:
 categories:
-  -	python
+  - python
   - AGbot
 keywords:
 description:

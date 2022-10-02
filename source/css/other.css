@@ -273,7 +273,7 @@
 
 /* 搜索框美化 */
 /* .search-dialog .search-wrap */
-.search-dialog .search-result-list {
+[data-theme=light] .search-dialog .search-result-list {
   /* 内边距 */
   padding: var(--cxl2020mc-radius);
 }

@@ -273,7 +273,14 @@
 
 /* 搜索框美化 */
 /* .search-dialog .search-wrap */
+.local-search-results {
+  /* 内边距 */
+  padding: var(--cxl2020mc-radius);
+}
+
 [data-theme=light] .search-dialog .local-search__hit-item {
   /* 阴影 */
   box-shadow: var(--card-box-shadow);
+  /* 内边距 */
+  padding: var(--cxl2020mc-radius);
 }

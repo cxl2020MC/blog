@@ -270,25 +270,3 @@
   /* 边框颜色 */
   border-color: var(--cxl2020mc-card-border);
 }
-
-/* 搜索框美化 */
-/* .search-dialog .search-wrap */
-[data-theme=light] .search-dialog .search-result-list {
-  /* 内边距 */
-  padding: var(--cxl2020mc-radius);
-}
-
-[data-theme=light] .search-dialog .local-search__hit-item {
-  /* 阴影 */
-  box-shadow: var(--card-box-shadow);
-  /* 外边距 */
-  margin: var(--cxl2020mc-radius);
-  /* 变动动画时长 */
-  transition: .3s;
-}
-
-/* 浅色模式阴影悬浮加深 */
-[data-theme=light] .search-dialog .local-search__hit-item {
-  /* 阴影 */
-  box-shadow: var(--card-hover-box-shadow);
-}

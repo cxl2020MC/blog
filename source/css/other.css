@@ -150,10 +150,12 @@
 }
 
 /* 微信分享弹窗美化 */
-.social-share .wechat-qrcode {
+.social-share .icon-wechat .wechat-qrcode {
   border: none !important;
   border-radius: var(--cxl2020mc-radius);
 }
+
+/* .social-share .icon-wechat .wechat-qrcode h4 */
 
 /* Twikoo评论区美化 */
 

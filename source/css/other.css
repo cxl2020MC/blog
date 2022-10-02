@@ -281,8 +281,8 @@
 [data-theme=light] .search-dialog .local-search__hit-item {
   /* 阴影 */
   box-shadow: var(--card-box-shadow);
-  /* 内边距 */
-  padding: var(--cxl2020mc-radius);
+  /* 外边距 */
+  margin: var(--cxl2020mc-radius);
   /* 变动动画时长 */
   transition: .3s;
 }

@@ -283,4 +283,12 @@
   box-shadow: var(--card-box-shadow);
   /* 内边距 */
   padding: var(--cxl2020mc-radius);
+  /* 变动动画时长 */
+  transition: .3s;
+}
+
+/* 浅色模式阴影悬浮加深 */
+[data-theme=light] .search-dialog .local-search__hit-item {
+  /* 阴影 */
+  box-shadow: var(--card-hover-box-shadow);
 }

@@ -151,7 +151,7 @@
 
 /* 微信分享弹窗美化 */
 .social-share .wechat-qrcode {
-  border: none;
+  border: none !important;
   border-radius: var(--cxl2020mc-radius);
 }
 

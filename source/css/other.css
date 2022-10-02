@@ -270,3 +270,10 @@
   /* 边框颜色 */
   border-color: var(--cxl2020mc-card-border);
 }
+
+/* 搜索框美化 */
+/* .search-dialog .search-wrap */
+[data-theme=light] .search-dialog .local-search__hit-item {
+  /* 阴影 */
+  box-shadow: var(--card-box-shadow);
+}

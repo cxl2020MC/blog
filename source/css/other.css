@@ -153,6 +153,7 @@
 .social-share .icon-wechat .wechat-qrcode {
   border: none !important;
   border-radius: var(--cxl2020mc-radius);
+  background-color: var(--card-bg) !important;
 }
 
 .social-share .icon-wechat .wechat-qrcode h4 {

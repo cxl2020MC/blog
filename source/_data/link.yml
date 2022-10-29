@@ -198,9 +198,9 @@
       avatar: https://blog.kobal.cn/img/avatar.webp
       descr: 不要温和地走进那个良夜
     - name: 鹤川’s blog
-      link: https://hechuanyun.xyz
-      avatar: https://hechuanyun.xyz/QQ%E5%9B%BE%E7%89%8720220902094337.png
-      descr: 鹤川博客，一个有个性的博客
+      link: https://blog.hechuanyun.xyz
+      avatar: https://blog.hechuanyun.xyz/hechuan.jpg
+      descr: 橙色的黄昏衬托仲夏的心动
     - name: 洋芋蛋蛋
       link: https://hds9528.github.io
       avatar: https://hds9528.github.io/images/avatar.png
@@ -213,4 +213,8 @@
       link: https://blog.moeoxygen.com
       avatar: https://cdn.moea.top/blog/pictures/logo.png
       descr: 绚樱随风起舞之日,望心之所念不期而至.
+    - name: nagisa
+      link: https://caoyusong.site/
+      avatar: https://caoyusong.site/imgs/avatar.png
+      descr: 不以物喜,不以己悲
 # 该网站还没有简介哦~

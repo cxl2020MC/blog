@@ -18,23 +18,23 @@ hotconfig:
   - https://raw.githubusercontent.com/cxl2020MC/cxl2020MC.github.io/master/source/config.yaml
 catch_rules:
   # 并发博客
-  - rule: _
-    transform_rules:
-      - search: _
-        replace:
-          - www.cxl2020mc.top
-          # - netlify.blog.cxl2020mc.top #会带来cors问题
-          - cfpage.blog.cxl2020mc.top # cfpage
-          - cdn.vercel.blog.cxl2020mc.top # cyf vercel自选节点
-          - cdn.blog.cxl2020mc.top # 腾讯云海外加速cdn
-          - _
-        action: fetch
-        fetch:
-          status: .*
-          engine: parallel
-          preflight: false # false
-          timeout: 30000
-          delay: 4000 # 为了防止bug
+  # - rule: _
+  #   transform_rules:
+  #     - search: _
+  #       replace:
+  #         - www.cxl2020mc.top
+  #         # - netlify.blog.cxl2020mc.top #会带来cors问题
+  #         - cfpage.blog.cxl2020mc.top # cfpage
+  #         - cdn.vercel.blog.cxl2020mc.top # cyf vercel自选节点
+  #         - cdn.blog.cxl2020mc.top # 腾讯云海外加速cdn
+  #         - _
+  #       action: fetch
+  #       fetch:
+  #         status: .*
+  #         engine: parallel
+  #         preflight: false # false
+  #         timeout: 30000
+  #         delay: 4000 # 为了防止bug
   # npm加速
   - rule: ^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|unpkg\.com)
     transform_rules:

@@ -921,8 +921,7 @@ pangu:
 lazyload:
   enable: true
   field: site # site/post
-  placeholder: /img/loading.gif
-  # https://cxl2020mc-1304820025.file.myqcloud.com/file/loading.gif
+  placeholder: https://cxl2020mc-1304820025.file.myqcloud.com/loading.gif # /img/loading.gif
   blur: true
 
 # PWA

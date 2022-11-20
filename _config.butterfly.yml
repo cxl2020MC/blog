@@ -112,7 +112,7 @@ index_img: https://cxl2020mc-1304820025.file.myqcloud.com/bing/1920.php
 # 默认顶部图
 # https://api.cxl2020mc.top?api=bing
 # https://api.dujin.org/bing/1920.php
-default_top_img: https://api.dujin.org/bing/1920.php
+default_top_img: https://cxl2020mc-1304820025.file.myqcloud.com/bing/1920.php
 
 # The banner image of archive page
 archive_img:

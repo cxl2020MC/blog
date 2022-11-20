@@ -192,7 +192,8 @@ error_img:
 error_404:
   enable: true
   subtitle: 'Page Not Found'
-  background: /img/13.png
+  background: https://cxl2020mc-1304820025.file.myqcloud.com/13.png
+  # /img/13.png
   # https://cxl2020mc-1304820025.file.myqcloud.com/13.png 
   # https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 

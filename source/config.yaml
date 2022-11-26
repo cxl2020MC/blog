@@ -124,7 +124,7 @@ catch_rules:
           cache:
             expire: 1000*60*60*8 # 缓存8小时
             delay: 300
-- rule: busuanzi\.ibruce\.info\/busuanzi\/.*\/busuanzi.pure.mini.js
+  - rule: busuanzi\.ibruce\.info\/busuanzi\/.*\/busuanzi.pure.mini.js
     transform_rules:
       - search: _
         replace: jsd.cxl2020mc.top/npm/penndu@1.0.0/bsz.js

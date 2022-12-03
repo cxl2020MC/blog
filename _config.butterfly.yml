@@ -996,7 +996,7 @@ inject:
           console.error(`[SW] 安装失败: 浏览器不支持Service Worker`);
         };
       </script>
-    - <script async src="https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js"></script>
+    # - <script async src="https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js"></script>
     - <link rel="stylesheet" href="/css/other.css">
     # - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>

@@ -113,11 +113,13 @@
 
 /* 侧边栏TOC目录圆角 */
 #aside-content #card-toc .toc-content .toc-link.active {
+  /* 圆角 */
   border-radius: var(--cxl2020mc-radius);
 }
 
 /* GitHub按钮圆角 */
 #card-info-btn {
+  /* 圆角 */
   border-radius: var(--cxl2020mc-radius);
 }
 

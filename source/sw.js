@@ -23,4 +23,4 @@ const 全局配置 = [
     },
 ];
 
-importScripts('/js/sw-dev.js')
+importScripts('/js/sw/sw-dev.js')

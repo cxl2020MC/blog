@@ -105,7 +105,8 @@
 
 
 /* 侧边栏图片圆角 */
-.aside-list-item .thumbnail>img {
+/* 2022-12-3 修复悬浮放大图片圆角消失问题 */
+#aside-content .aside-list > .aside-list-item .thumbnail {
   /* 圆角 */
   border-radius: var(--cxl2020mc-radius);
 }

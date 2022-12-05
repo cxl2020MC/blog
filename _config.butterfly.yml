@@ -712,8 +712,8 @@ subtitle:
   source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - 仰望星空&#44;脚踏实地。
-    - Dream big&#44;work hard。
+    - 仰望星空，脚踏实地。
+    - Dream big&#44;work hard.
     # - 今日事&#44;今日毕
     # - Never put off till tomorrow what you can do today
 

@@ -2,13 +2,16 @@
 // 在sw中可以使用this或是self表示自身
 self.addEventListener('install', async () => {
     console.log('[SW] 注册成功!');
+    console.log('[SW] 跳过等待!');
     // 跳过等待
+    // skipWaiting 停止当前的service work 运行最新的serviceworker
+    // waitUntil skipWaiting返回的是promise 等primise执行完后 在进行下一个生命周期函数
     await self.skipWaiting();
 });
 
 self.addEventListener('activate', async () => {
-    console.log('[SW] 跳过等待!')
-    await self.skipWaiting();
+    // console.log('[SW] 跳过等待!')
+    // await self.skipWaiting();
     console.log('[SW] 激活成功!')
     // 立即管理页面
     await self.clients.claim();
@@ -41,18 +44,29 @@ function handleRequest(req) {
     const urlStr = req.url;
     // let urlObj = new URL(urlStr)
 
+    // 劫持请求
+    if (configs['redirect']) {
+        for (let redirect of configs['redirect']) {
+            if (redirect['rule'].test(urlStr)) {
+                const replaceurl = urlStr.replace(redirect['rule'], redirect['repalce'])
+                console.debug(`[SW] 请求 ${urlStr} 匹配到劫持规则！ URL被替换成 ${replaceurl}`)
+                return fetchOne(replaceurl)
+            }
+        };
+    };
+
     // 匹配请求
     if (configs['cdn']) {
-        for (let config of configs['cdn']) {
+        for (let cdn of configs['cdn']) {
             // 正则匹配url
-            if (config['rule'].test(urlStr)) {
-                let rule_search = config['search'] || config['rule']; // 当search字段不存在时设置默认值
+            if (cdn['rule'].test(urlStr)) {
+                let rule_search = cdn['search'] || cdn['rule']; // 当search字段不存在时设置默认值
                 if (rule_search == '_') {
                     // 当为语法糖时重新赋值为rule
-                    rule_search = config['rule'];
+                    rule_search = cdn['rule'];
                 };
                 // 遍历替换
-                for (let search_replace of config['replace']) {
+                for (let search_replace of cdn['replace']) {
                     let push_url_str
                     if (search_replace == '_') {
                         // 当为语法糖时重新赋值
@@ -95,9 +109,11 @@ function fetchAny(urls) {
                 .then(progress)
                 // 检查请求是否成功
                 .then((res) => {
+                    // 克隆请求
                     const r = res.clone()
                     if (r.status !== 200) reject(null)
                     controller.abort() // 中断
+                    // 返回请求
                     resolve(r)
                 })
                 .catch(() => reject(null));
@@ -113,3 +129,16 @@ function fetchAny(urls) {
         .then((res) => res)
         .catch(() => null);
 };
+
+function fetchOne(url){
+    return fetch(url)
+        .then(progress)
+        .then((res) => {
+            // 克隆请求
+            const r = res.clone()
+            // 检查请求是否成功
+            if (r.status !== 200) return null
+            // 返回请求
+            return r
+        })
+}

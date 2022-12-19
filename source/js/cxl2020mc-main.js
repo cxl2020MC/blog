@@ -76,7 +76,7 @@ async function footerload() {
 
     let footer = document.getElementById('footer-warp');
     // 删除行内样式
-    footer.style = '';
+    document.getElementById('footer').style = '';
     // 更改内容
     footer.innerHTML = footerHtmlStr
 }

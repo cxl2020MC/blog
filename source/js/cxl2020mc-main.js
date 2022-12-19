@@ -35,7 +35,7 @@ async function asideHitokoto() {
 
 async function footerload() {
     const iconHtml = document.getElementsByClassName('card-info-social-icons is-center')[0].innerHTML
-    const config = {
+    const configs = {
         'footer_group': [
             {
                 'group_name': '直达',
@@ -51,7 +51,7 @@ async function footerload() {
     console.log('正在挂载footer');
 
     let footergroupStr;
-    for (let config in config.footer_group) {
+    for (let config in configs.footer_group) {
         let footer_linksStr = '';
         for (let config_a in config.data) {
             footer_linksStr = footer_linksStr + `<a class="footer-item" href="${config_a.harf}" target="_blank">${config_a.name}</a>`;

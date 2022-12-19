@@ -18,7 +18,7 @@ document.addEventListener('visibilitychange', function () {
     }
 });
 
-
+// 一言
 async function asideHitokoto() {
     // hitokotojson = await (await fetch('https://v1.hitokoto.cn?select=json')).json()
     let asideHitokotodiv = document.getElementById("asideHitokoto")
@@ -32,8 +32,6 @@ async function asideHitokoto() {
         asideHitokotodiv.innerHTML = hitokotostr
     }
 }
-
-
 
 // pjax加载完成重载函数
 document.addEventListener('pjax:complete', (e) => {

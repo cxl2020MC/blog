@@ -958,9 +958,22 @@ inject:
     # - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
     # 51la统计
-    - <script defer charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-    - <script defer src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
-    - <script defer src="/js/51la.js"></script>
+    - |
+      <script>
+        function load51la() {
+          console.log('51LA加载完成!')
+          //51.1a
+          LA.init({ id: "Jnkp8oCL537VDXz1", ck: "Jnkp8oCL537VDXz1", hashMode: true });
+        };
+        function loadlingque() {
+          console.log('灵雀应用监控加载完成!')
+          //灵雀应用监控
+          new LingQue.Monitor().init({ id: "JnkoLfdriTFL8Kgt", sendSpaPv: true });
+        };
+      </script>
+      <script async charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js" onload="load51la()"></script>
+      <script async src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous" onload="loadlingque()"></script>
+    # defer async
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async type="text/javascript" src="/js/cxl2020mc-main.js"></script>

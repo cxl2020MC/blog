@@ -65,18 +65,19 @@ async function footerload() {
         </div>`;
     };
     const footerHtmlStr = `
-    
-    <div id="footer_deal">
-        ${iconHtml}
-    </div>
-    <div id="cxl2020mc_footer">
-        ${footergroupStr}
+    div id='footer-warp">
+        <div id="footer_deal">
+            ${iconHtml}
+        </div>
+        <div id="cxl2020mc_footer">
+            ${footergroupStr}
+        </div>
     </div>
     `
 
-    let footer = document.getElementById('footer-warp');
+    let footer = document.getElementById('footer')
     // 删除行内样式
-    document.getElementById('footer').style = '';
+    footer.style = '';
     // 更改内容
     footer.innerHTML = footerHtmlStr
 }

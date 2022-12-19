@@ -51,9 +51,9 @@ async function footerload() {
     console.log('正在挂载footer');
 
     let footergroupStr;
-    for (let config in configs.footer_group) {
+    for (let config of configs.footer_group) {
         let footer_linksStr = '';
-        for (let config_a in config.data) {
+        for (let config_a of config.data) {
             footer_linksStr = footer_linksStr + `<a class="footer-item" href="${config_a.harf}" target="_blank">${config_a.name}</a>`;
         };
         footergroupStr = `

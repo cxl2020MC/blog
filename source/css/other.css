@@ -290,6 +290,7 @@
 /* 页脚 */
 #footer {
   background: var(--global-bg) !important;
+  display: flex;
   border-top-left-radius: var(--cxl2020mc-card-border-width);
   border-top-right-radius: var(--cxl2020mc-card-border-width);
 }

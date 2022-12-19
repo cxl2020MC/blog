@@ -954,7 +954,6 @@ css_prefix: true
 inject:
   head:
     - <script async src="/js/sw/sw-install.js"></script>
-    # - <script async src="https://jsd.cxl2020mc.top/npm/clientworker/dist/autoupdate.js"></script>
     - <link rel="stylesheet" href="/css/other.css">
     # - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
@@ -962,14 +961,9 @@ inject:
     - <script defer charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script defer src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
     - <script defer src="/js/51la.js"></script>
-    # - <script src="https://jsd.cxl2020mc.top/npm/jquery/dist/jquery.min.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async type="text/javascript" src="/js/cxl2020mc-main.js"></script>
-    # - <script defer type="text/javascript" src="/js/modify.js"></script>
-    # - <script async type="text/javascript" src ="/js/other.js" ></script> 
-    # - <script async data-pjax type="text/javascript" src="/js/diytitle.js"></script>
-    # - <script async type="text/javascript" src="/js/grayscale.js"></script>
     # - <div class="aplayer no-destroy" data-id="7510263412" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random"></div>
     # - <script src="xxxx"></script>
 CDN:

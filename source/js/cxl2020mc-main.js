@@ -1,10 +1,7 @@
-//动态标题
+// 动态标题
 var OriginTitile = document.title;
 var titleTime;
-// pjax加载完成重载函数
-document.addEventListener('pjax:complete', (e) => {
-    OriginTitile = document.title;
-})
+
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
         //离开当前页面时标签显示内容
@@ -22,29 +19,27 @@ document.addEventListener('visibilitychange', function () {
 });
 
 
-// // 镜像站提示
-// function mirrorwelcome() {
-//     var domain = document.domain;
-//     console.log("你正在访问:" + domain);
-//     if (domain !== 'www.cxl2020mc.top') {
-//         alert("你正在访问 陈鑫磊的博客 镜像站，主站域名www.cxl2020mc.top");
-//     };
-// };
+async function asideHitokoto() {
+    // hitokotojson = await (await fetch('https://v1.hitokoto.cn?select=json')).json()
+    let asideHitokotodiv = document.getElementById("asideHitokoto")
+    if (asideHitokotodiv) {
+        let req = await fetch('https://v1.hitokoto.cn?select=json')
+        let data = await req.json()
+        text = data['hitokoto']
+        from = data['from']
+        let hitokotostr = `『${text}』 —— ${from}`
+        console.log("一言文本: " + hitokotostr)
+        asideHitokotodiv.innerHTML = hitokotostr
+    }
+}
 
 
-// // 欢迎访客
-// function welcome() {
-//     const url = window.location.pathname;
-//     console.log("你正在访问路径:" + url);
-//     if (url == '/') {
-//         try {
-//             btf.snackbarShow('欢迎来到陈鑫磊的博客！');
-//         } catch (e) {
-//             console.error(e)
-//         }
-//     };
-// };
 
-// mirrorwelcome();
-// welcome();
+// pjax加载完成重载函数
+document.addEventListener('pjax:complete', (e) => {
+    // 动态标题
+    OriginTitile = document.title;
+    asideHitokoto()
+})
 
+asideHitokoto()

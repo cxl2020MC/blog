@@ -495,9 +495,6 @@ footer:
     enable: true
     since: 2020
   custom_text: |
-    <span id="hitokoto">正在加载....</span>
-    <script async src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto"></script>
-    <br>
     <a href="https://icp.gov.moe/?keyword=20220529" target="_blank">萌ICP备20220529号</a>
   copyright: true # Copyright of theme and framework
 

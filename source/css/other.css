@@ -300,10 +300,6 @@ div#footer_deal {
 }
 
 @media screen and (max-width: 768px) {
-  img.footer_mini_logo {
-    display: none
-  }
-
   div#footer_deal {
     flex-wrap: wrap;
     flex-direction: row

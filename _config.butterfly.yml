@@ -955,6 +955,7 @@ inject:
   head:
     - <script async src="/js/sw/sw-install.js"></script>
     - <link rel="stylesheet" href="/css/other.css">
+    - <script async type="text/javascript" src="/js/cxl2020mc-main.js"></script>
     # - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
     # 51la统计
@@ -976,7 +977,6 @@ inject:
     # defer async
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <script async type="text/javascript" src="/js/cxl2020mc-main.js"></script>
     # - <div class="aplayer no-destroy" data-id="7510263412" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="false" data-order="random"></div>
     # - <script src="xxxx"></script>
 CDN:

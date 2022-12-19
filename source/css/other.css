@@ -376,9 +376,9 @@ a.deal_link:hover {
   align-self: center
 }
 
-#footer-wrap a#Jayblog_footerlogo:hover {
+/* #footer-wrap a#Jayblog_footerlogo:hover {
   background: var(--Jay-none)
-}
+} */
 
 .Jayblog_footerlogo_img {
   filter: drop-shadow(0 12px 12px #ee7d7936)

@@ -85,7 +85,8 @@ async function footerload() {
 document.addEventListener('pjax:complete', (e) => {
     // 动态标题
     OriginTitile = document.title;
-    asideHitokoto()
+    asideHitokoto();
 })
 
-asideHitokoto()
+footerload();
+asideHitokoto();

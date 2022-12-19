@@ -65,18 +65,19 @@ async function footerload() {
         </div>`;
     };
     const footerHtmlStr = `
-    <div id="footer_deal">
-        ${iconHtml}
-    </div>
-    <div id="cxl2020mc_footer">
-        ${footergroupStr}
+    <div id="footer-wrap">
+        <div id="footer_deal">
+            ${iconHtml}
+        </div>
+        <div id="cxl2020mc_footer">
+            ${footergroupStr}
+        </div>
     </div>`
     let footer = document.getElementById('footer')
-    let footer_warp = footer.getElementById('footer-warp')
     // 删除行内样式
     footer.style = '';
     // 更改内容
-    footer_warp.innerHTML = footerHtmlStr
+    footer.innerHTML = footerHtmlStr
 }
 
 // pjax加载完成重载函数

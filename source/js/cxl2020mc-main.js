@@ -71,12 +71,12 @@ async function footerload() {
     <div id="cxl2020mc_footer">
         ${footergroupStr}
     </div>`
-
-    let footer = document.getElementById('footer-warp')
+    let footer = document.getElementById('footer')
+    let footer_warp = footer.getElementById('footer-warp')
     // 删除行内样式
-    document.getElementById('footer').style = '';
+    footer.style = '';
     // 更改内容
-    footer.innerHTML = footerHtmlStr
+    footer_warp.innerHTML = footerHtmlStr
 }
 
 // pjax加载完成重载函数

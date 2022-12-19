@@ -65,7 +65,7 @@ async function footerload() {
         </div>`;
     };
     const footerHtmlStr = `
-    div id='footer-warp">
+    <div id='footer-warp">
         <div id="footer_deal">
             ${iconHtml}
         </div>

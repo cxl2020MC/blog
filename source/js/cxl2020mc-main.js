@@ -50,7 +50,7 @@ async function footerload() {
     };
     console.log('正在挂载footer');
 
-    let footergroupStr;
+    let footergroupStr = '';
     for (let config of configs.footer_group) {
         let footer_linksStr = '';
         for (let config_a of config.data) {

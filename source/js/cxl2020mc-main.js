@@ -23,14 +23,61 @@ async function asideHitokoto() {
     // hitokotojson = await (await fetch('https://v1.hitokoto.cn?select=json')).json()
     let asideHitokotodiv = document.getElementById("asideHitokoto")
     if (asideHitokotodiv) {
-        let req = await fetch('https://v1.hitokoto.cn?select=json')
-        let data = await req.json()
-        text = data['hitokoto']
-        from = data['from']
-        let hitokotostr = `『${text}』 —— ${from}`
-        console.log("一言文本: " + hitokotostr)
-        asideHitokotodiv.innerHTML = hitokotostr
-    }
+        let req = await fetch('https://v1.hitokoto.cn?select=json');
+        let data = await req.json();
+        text = data['hitokoto'];
+        from = data['from'];
+        let hitokotostr = `『${text}』 —— ${from}`;
+        console.log("一言文本: " + hitokotostr);
+        asideHitokotodiv.innerHTML = hitokotostr;
+    };
+};
+
+async function footerload() {
+    const iconHtml = document.getElementsByClassName('card-info-social-icons is-center')[0].innerHTML
+    const config = {
+        'footer_group': [
+            {
+                'group_name': '直达',
+                'data': [
+                    {   
+                        'name': '',
+                        'harf': '/',
+                    },
+                ],
+            },
+        ],
+    };
+    console.log('正在挂载footer');
+
+    let footergroupStr;
+    for (let config in config.footer_group) {
+        let footer_linksStr = '';
+        for (let config_a in config.data) {
+            footer_linksStr = footer_linksStr + `<a class="footer-item" href="${config_a.harf}" target="_blank">${config_a.name}</a>`;
+        };
+        footergroupStr = `
+        <div class="footer-group">
+            <h3 class="footer-title">${config.group_name}</h3>
+            <div class="footer-links">
+                ${footer_linksStr}
+            </div>
+        </div>`;
+    };
+    const footerHtmlStr = `
+    <div id="footer_deal">
+        ${iconHtml}
+    </div>
+    <div id="cxl2020mc_footer">
+        ${footergroupStr}
+    </div>
+    `
+
+    let footer = document.getElementById('footer');
+    // 删除行内样式
+    footer.style = '';
+    // 更改内容
+    footer.innerHTML = footerHtmlStr
 }
 
 // pjax加载完成重载函数

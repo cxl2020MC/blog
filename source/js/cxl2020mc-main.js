@@ -56,7 +56,7 @@ async function footerload() {
         for (let config_a of config.data) {
             footer_linksStr = footer_linksStr + `<a class="footer-item" href="${config_a.harf}" target="_blank">${config_a.name}</a>`;
         };
-        footergroupStr = `
+        footergroupStr = footergroupStr + `
         <div class="footer-group">
             <h3 class="footer-title">${config.group_name}</h3>
             <div class="footer-links">
@@ -65,18 +65,16 @@ async function footerload() {
         </div>`;
     };
     const footerHtmlStr = `
-    <div id='footer-warp">
-        <div id="footer_deal">
-            ${iconHtml}
-        </div>
-        <div id="cxl2020mc_footer">
-            ${footergroupStr}
-        </div>
+    <div id="footer_deal">
+        ${iconHtml}
+    </div>
+    <div id="cxl2020mc_footer">
+        ${footergroupStr}
     </div>`
 
-    let footer = document.getElementById('footer')
+    let footer = document.getElementById('footer-warp')
     // 删除行内样式
-    footer.style = '';
+    document.getElementById('footer').style = '';
     // 更改内容
     footer.innerHTML = footerHtmlStr
 }

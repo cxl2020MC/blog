@@ -327,18 +327,18 @@ a.deal_link:hover {
 }
 
 #footer {
-  background: linear-gradient(180deg, var(--Jay-background) 0, var(--Jay-card-bg) 25%);
+  /* background: linear-gradient(180deg, var(--Jay-background) 0, var(--Jay-card-bg) 25%); */
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  z-index: 1002
+  /* z-index: 1002 */
 }
 
 @media screen and (max-width: 768px) {
   #footer {
-    background: linear-gradient(180deg, var(--Jay-background) 0, var(--Jay-card-bg) 25%);
+    /* background: linear-gradient(180deg, var(--Jay-background) 0, var(--Jay-card-bg) 25%); */
     margin-top: 0;
-    z-index: 999
+    /* z-index: 999 */
   }
 }
 

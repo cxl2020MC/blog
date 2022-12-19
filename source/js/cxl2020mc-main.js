@@ -72,8 +72,7 @@ async function footerload() {
         <div id="cxl2020mc_footer">
             ${footergroupStr}
         </div>
-    </div>
-    `
+    </div>`
 
     let footer = document.getElementById('footer')
     // 删除行内样式

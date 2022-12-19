@@ -38,10 +38,10 @@ async function footerload() {
     const configs = {
         'footer_group': [
             {
-                'group_name': '直达',
+                'group_name': '页面',
                 'data': [
                     {   
-                        'name': '',
+                        'name': '首页',
                         'harf': '/',
                     },
                 ],
@@ -65,6 +65,7 @@ async function footerload() {
         </div>`;
     };
     const footerHtmlStr = `
+    
     <div id="footer_deal">
         ${iconHtml}
     </div>
@@ -73,7 +74,7 @@ async function footerload() {
     </div>
     `
 
-    let footer = document.getElementById('footer');
+    let footer = document.getElementById('footer-warp');
     // 删除行内样式
     footer.style = '';
     // 更改内容

@@ -293,3 +293,7 @@
   border-top-left-radius: var(--cxl2020mc-radius);
   border-top-right-radius: var(--cxl2020mc-radius);
 }
+
+#footer:before {
+  background: rgba(0,0,0,0);
+}

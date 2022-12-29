@@ -11,6 +11,9 @@
   --cxl2020mc-card-border: #e3e8f7;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
   --cxl2020mc-blue: #425AEF;
+
+  --cxl2020mc-fontcolor: #363636;
+  --cxl2020mc-fontcolor-re: #F7F7FA;
 }
 
 /* 深色模式颜色 */
@@ -20,6 +23,9 @@
   --cxl2020mc-card-border: #42444a;
   --style-border-always: 1px solid var(--cxl2020mc-card-border);
   --cxl2020mc-blue: #0084FF;
+
+  --cxl2020mc-fontcolor: #F7F7FA;
+  --cxl2020mc-fontcolor-re: #363636;
 }
 
 /* 引入字体(字体设置在主题设置里) */
@@ -296,4 +302,27 @@
 
 #footer:before {
   background: rgba(0,0,0,0);
+}
+
+#footer_deal {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#footer_deal > .social-icon {
+  display: flex;
+  margin: 1rem 27px;
+  /* color: var(--Jay-card-bg); */
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: var(--Jay-fontcolor);
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+}
+
+[data-theme=dark] #footer_deal > .social-icon:hove {
+  background: rgb(55,56,60);
+  color: #fff;
 }

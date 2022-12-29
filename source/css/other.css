@@ -288,10 +288,8 @@
 
 
 /* 页脚 */
-/* #footer {
-  background: var(--global-bg) !important;
-  display: flex;
+#footer {
+  background: rgba(0,0,0,0) !important;
   border-top-left-radius: var(--cxl2020mc-radius);
   border-top-right-radius: var(--cxl2020mc-radius);
-  background-color: rgba(0,0,0,0.5);
-} */
+}

@@ -87,5 +87,5 @@ document.addEventListener('pjax:complete', (e) => {
     asideHitokoto();
 })
 
-// footerload();
+footerload();
 asideHitokoto();

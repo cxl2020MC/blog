@@ -307,6 +307,8 @@
 #footer_deal {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #footer_deal > .social-icon {
@@ -316,7 +318,7 @@
   border-radius: 50%;
   width: 32px;
   height: 32px;
-  background: var(--Jay-fontcolor);
+  background: var(--cxl2020mc-fontcolor);
   justify-content: center;
   align-items: center;
   transition: .3s;
@@ -325,4 +327,6 @@
 [data-theme=dark] #footer_deal > .social-icon:hove {
   background: rgb(55,56,60);
   color: #fff;
+  /* 删除下划线 */
+  text-decoration: none;
 }

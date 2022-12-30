@@ -21,13 +21,34 @@ self.addEventListener('activate', async () => {
 
 // 捕获请求
 self.addEventListener('fetch', async (event) => {
-    const request = handleRequest(event.request);
+    const replaceRequestevent = replaceRequest(event.request)
+
+    // const request = handleRequest(event.request);
+    const request = handleRequest(replaceRequestevent);
     // 如果有返回，就返回请求
     // 如果没有返回就什么也不做
     if (request) {
         event.respondWith(request);
     };
 });
+
+
+function replaceRequest(req) {
+    const urlStr = req.url;
+    // 劫持请求
+    if (configs['redirect']) {
+        for (let redirect of configs['redirect']) {
+            if (redirect['rule'].test(urlStr)) {
+                const replaceurl = urlStr.replace(redirect['rule'], redirect['repalce'])
+                console.debug(`[SW] 请求 ${urlStr} 匹配到劫持规则！ URL被替换成 ${replaceurl}`)
+                return new Request(replaceurl)
+            }
+        };
+    };
+    // 如果不符合就透传数据
+    return null
+};
+
 
 // 返回响应
 async function progress(res) {
@@ -37,23 +58,13 @@ async function progress(res) {
     })
 }
 
+
 // 处理请求
 function handleRequest(req) {
     // 请求url的数组
     const urls = [];
     const urlStr = req.url;
     // let urlObj = new URL(urlStr)
-
-    // 劫持请求
-    if (configs['redirect']) {
-        for (let redirect of configs['redirect']) {
-            if (redirect['rule'].test(urlStr)) {
-                const replaceurl = urlStr.replace(redirect['rule'], redirect['repalce'])
-                console.debug(`[SW] 请求 ${urlStr} 匹配到劫持规则！ URL被替换成 ${replaceurl}`)
-                return fetchOne(replaceurl)
-            }
-        };
-    };
 
     // 匹配请求
     if (configs['cdn']) {

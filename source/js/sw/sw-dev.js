@@ -46,7 +46,7 @@ function replaceRequest(req) {
         };
     };
     // 如果不符合就透传数据
-    return null
+    return req
 };
 
 

@@ -19,6 +19,8 @@ const configs = {
                 'https://cdn.jsdelivr.net/npm',
                 'https://cdn2.tianli0.top/npm',
                 'https://cdn3.tianli0.top/npm',
+                // qycdn
+                'https://cdn.chuqis.com/npm',
                 'https://jsd.cky.codes/npm',
                 'https://unpkg.com',
                 '_',
@@ -36,6 +38,8 @@ const configs = {
                 'https://cdn.jsdelivr.net/gh',
                 'https://cdn2.tianli0.top/gh',
                 'https://cdn3.tianli0.top/gh',
+                // qycdn
+                'https://cdn.chuqis.com/gh',
                 'https://jsd.cky.codes/gh',
                 '_',
             ],

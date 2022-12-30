@@ -1,7 +1,7 @@
 const configs = {
     'redirect': [
         {
-            'rule': /^http:\/\/busuanzi\.ibruce\.info\/busuanzi\/2\.3\/busuanzi.pure.mini.js/,
+            'rule': /.*\/\/busuanzi\.ibruce\.info\/busuanzi\/2\.3\/busuanzi.pure.mini.js/,
             'repalce': 'https://jsd.cxl2020mc.top/npm/penndu@latest/bsz.js',
         },
     ],

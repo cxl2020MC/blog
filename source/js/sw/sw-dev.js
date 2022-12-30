@@ -95,6 +95,8 @@ function handleRequest(req) {
 // 发送所有请求
 function fetchAny(urls) {
     // 中断一个或多个请求
+    // 其实是获取当前方法发起的fetch请求
+    // 然后在下文打断
     const controller = new AbortController()
     const signal = controller.signal
 

@@ -674,7 +674,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: HarmonyOS Sans, sans-serif
+  font-family: '"HarmonyOS Sans SC Regular", sans-serif'
   code-font-family:
 
 # Font settings for the site title and site subtitle

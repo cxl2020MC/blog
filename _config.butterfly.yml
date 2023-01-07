@@ -438,7 +438,7 @@ remark42:
 
 artalk:
   server: https://artalk.cxl2020mc.repl.co
-  site: 
+  site: cxl2020mc-blog
   visitor: false
   option:
 

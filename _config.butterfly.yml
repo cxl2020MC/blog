@@ -437,8 +437,8 @@ remark42:
 
 
 artalk:
-  server: https://artalk.cxl2020mc666.repl.co
-  site: 默认站点
+  server: https://artalk.cxl2020mc.repl.co
+  site: 
   visitor: false
   option:
 

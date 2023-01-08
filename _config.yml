@@ -374,3 +374,18 @@ service_worker:
         origin: gravatar.cxl2020mc.top # 头像
         
     # 更多cdn可自行参照上述格式进行配置。
+
+
+# 渲染器插件
+# https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus
+# https://github.com/hexojs/hexo-renderer-markdown-it
+markdown_it_plus:
+    highlight: true
+    html: true # 不转义HTML
+    xhtmlOut: true # 导出完全兼容 XHTML 的标签
+    breaks: true # 使得源文件中的换行符将被解析成<br>标签。因此，每次按下该Enter键时，都会创建一个换行符，这不是默认的 Markdown、CommonMark 或 GFM 行为。
+    langPrefix: # 为代码块的类名添加前缀（指定语言时）。
+    linkify: true # 解析器能够将直接粘贴到文本中的链接内联。如果您编写一段看起来像链接的文本
+    typographer: # 替换常见的排版元素，如 ©、大引号、破折号等
+    quotes: “”‘’
+    pre_class: highlight

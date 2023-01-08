@@ -387,5 +387,12 @@ markdown_it_plus:
     langPrefix: # 为代码块的类名添加前缀（指定语言时）。
     linkify: true # 解析器能够将直接粘贴到文本中的链接内联。如果您编写一段看起来像链接的文本
     typographer: # 替换常见的排版元素，如 ©、大引号、破折号等
-    quotes: “”‘’
+    quotes: # “”‘’
     pre_class: highlight
+
+    plugins:
+        # - plugin:
+            # name: markdown-it-something
+            # enable: true
+            # options:
+                # this is plugin option

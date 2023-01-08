@@ -222,8 +222,8 @@
       avatar: https://s1.ax1x.com/2022/11/10/z9E7X4.jpg
       descr: "这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～"
     - name: 山岳库博
-      link: https://kmar.top/
-      avatar: https://fastly.jsdelivr.net/npm/@kmar/fonts/avatar/own.png
+      link: https://kmar.top
+      avatar: https://cdn.jsdelivr.net/npm/@kmar/fonts/avatar/own.png
       descr: 开发学习启发性二刺螈
     - name: HiPeach
       link: https://opeach.cn/

@@ -31,7 +31,8 @@
 /* 引入字体(字体设置在主题设置里) */
 @font-face {
   font-family: "HarmonyOS Sans SC Regular";
-  src: url(https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_SC_Regular.woff2) format('woff2');
+  src: url("https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_SC_Regular.woff2") format('woff2'),
+    url("https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_SC_Regular.ttf") format("truetype");
   font-display: swap;
   /* /fonts/HarmonyOS_Sans_SC_Regular.subset.ttf */
   /* /fonts/HarmonyOS_Sans_Regular.subset.ttf */
@@ -295,7 +296,7 @@
 
 /* 页脚 */
 #footer {
-  background: rgba(0,0,0,0) !important;
+  background: rgba(0, 0, 0, 0) !important;
   /* 
   border-top-left-radius: var(--cxl2020mc-radius);
   border-top-right-radius: var(--cxl2020mc-radius);
@@ -303,7 +304,7 @@
 }
 
 #footer:before {
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
 }
 
 #footer_deal {
@@ -313,7 +314,7 @@
   align-items: center;
 }
 
-#footer_deal > .social-icon {
+#footer_deal>.social-icon {
   display: flex;
   margin: 1rem 27px;
   /* color: var(--Jay-card-bg); */
@@ -326,17 +327,17 @@
   transition: .3s;
 }
 
-[data-theme=dark] #footer_deal > .social-icon {
+[data-theme=dark] #footer_deal>.social-icon {
   color: var(--cxl2020mc-fontcolor-re);
 }
 
-#footer_deal > .social-icon:hover {
+#footer_deal>.social-icon:hover {
   /* 删除下划线 */
   text-decoration: none;
 }
 
-[data-theme=dark] #footer_deal > .social-icon:hover {
-  background: rgb(55,56,60);
+[data-theme=dark] #footer_deal>.social-icon:hover {
+  background: rgb(55, 56, 60);
   color: #fff;
 }
 
@@ -349,7 +350,7 @@
   padding: 0px 1rem;
 }
 
-#cxl2020mc_footer > .footer-group a {
+#cxl2020mc_footer>.footer-group a {
   color: var(--cxl2020mc-fontcolor);
   /* 删除下划线 */
   text-decoration: none;

@@ -130,21 +130,21 @@ tag_plugins:
     placeholder: /img/link.png # /img/link.png #link_card标签默认的图标图片
   CDN:
     #动画标签anima的依赖
-    anima: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css
+    anima: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css
     #issues标签依赖
-    jquery: https://jsd.cxl2020mc.top/npm/jquery@latest/dist/jquery.min.js
+    jquery: https://cxl2020mc-1304820025.file.myqcloud.com/npm/jquery@latest/dist/jquery.min.js
     #issues标签依赖
-    issues: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js
+    issues: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js
     # iconfont标签symbol样式引入，如果不想引入，则设为false
     # //at.alicdn.com/t/font_2032782_8d5kxvn09md.js
     # 参看https://akilar.top/posts/d2ebecef/
     # https://cxl2020mc-1304820025.file.myqcloud.com/js/font_2032782_8d5kxvn09md.js
     iconfont: false
     # carousel旋转相册标签鼠标拖动依赖，如果不想引入则设为false
-    # https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    # https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     carousel: false
     # 外挂标签样式的CSS依赖
-    tag_plugins_css: https://jsd.cxl2020mc.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+    tag_plugins_css: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
 
 search:
   path: search.json # search.xml
@@ -207,13 +207,13 @@ encrypt: # hexo-blog-encrypt
 ## https://github.com/EYHN/hexo-helper-live2d
 live2d:
   enable: false #开关插件版看板娘
-  scriptFrom: https://jsd.cxl2020mc.top/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # local # 默认
+  scriptFrom: https://cxl2020mc-1304820025.file.myqcloud.com/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # local # 默认
   pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
   pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
   pluginModelPath: assets/ # 模型文件相对与插件根目录路径
   # scriptFrom: jsdelivr # jsdelivr CDN
   # scriptFrom: unpkg # unpkg CDN
-  # scriptFrom: https://jsd.cxl2020mc.top/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  # scriptFrom: https://cxl2020mc-1304820025.file.myqcloud.com/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
   tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
   debug: false # 调试, 是否在控制台输出日志
   dialog:
@@ -223,7 +223,7 @@ live2d:
     use: https://cxl2020mc-1304820025.file.myqcloud.com/wives/snow_miku/model.json # npm-module package name
     # use: wanko # 博客根目录/live2d_models/ 下的目录名
     # use: ./wives/wanko # 相对于博客根目录的路径
-    # use: https://jsd.cxl2020mc.top/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+    # use: https://cxl2020mc-1304820025.file.myqcloud.com/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
   display:
     position: right #控制看板娘位置
     width: 300 #控制看板娘大小
@@ -239,10 +239,10 @@ live2d:
 envelope_comment:
   enable: true #控制开关
   custom_pic:      
-    cover: https://jsd.cxl2020mc.top/npm/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
-    line: https://jsd.cxl2020mc.top/npm/hexo-butterfly-envelope/lib/line.png #信笺底部图片
-    beforeimg: https://jsd.cxl2020mc.top/npm/hexo-butterfly-envelope/lib/before.png # 信封前半部分
-    afterimg: https://jsd.cxl2020mc.top/npm/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+    cover: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-envelope/lib/after.png # 信封后半部分
   message: #信笺正文，多行文本，写法如下
     - 有什么想问的？
     - 有什么想说的？
@@ -292,8 +292,8 @@ gitcalendar:
   color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #翠绿色调
   # color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
   container: .recent-post-item(style='width:100%;height:auto;padding:10px;') #父元素容器，需要使用pug语法
-  gitcalendar_css: https://jsd.cxl2020mc.top/npm/hexo-filter-gitcalendar/lib/gitcalendar.css
-  gitcalendar_js: https://jsd.cxl2020mc.top/npm/hexo-filter-gitcalendar/lib/gitcalendar.js
+  gitcalendar_css: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-filter-gitcalendar/lib/gitcalendar.css
+  gitcalendar_js: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-filter-gitcalendar/lib/gitcalendar.js
 
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
@@ -307,10 +307,10 @@ swiper:
     name: recent-posts
     index: 0
   default_descr: 再怎么看我也不知道怎么描述它的啦！
-  swiper_css: https://jsd.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
-  swiper_js: https://jsd.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
-  custom_css: https://jsd.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
-  custom_js: https://jsd.cxl2020mc.top/npm/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
+  swiper_css: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
+  custom_css: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
 
 # electric_clock
 # see https://akilar.top/posts/4e39cf4a/
@@ -325,9 +325,9 @@ electric_clock:
     type: class
     name: sticky_layout
     index: 0
-  loading: https://jsd.cxl2020mc.top/npm/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
-  clock_css: https://jsd.cxl2020mc.top/npm/hexo-butterfly-clock/lib/clock.min.css
-  clock_js: https://jsd.cxl2020mc.top/npm/hexo-butterfly-clock/lib/clock.min.js
+  loading: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
+  clock_css: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-clock/lib/clock.min.css
+  clock_js: https://cxl2020mc-1304820025.file.myqcloud.com/npm/hexo-butterfly-clock/lib/clock.min.js
   ip_api: https://pv.sohu.com/cityjson?ie=utf-8
 
 
@@ -355,7 +355,7 @@ service_worker:
     - urlPattern: /*
       handler: cacheFirst
       options:
-        origin: jsd.cxl2020mc.top
+        origin: cxl2020mc-1304820025.file.myqcloud.com
     - urlPattern: /*
       handler: cacheFirst
       options:

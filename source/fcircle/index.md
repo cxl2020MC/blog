@@ -27,6 +27,6 @@ updated: '2022-07-27 08:30:43'
     apiurl: 'https://friend.cxl2020mc.top/'
   }
 </script>
-<link rel="stylesheet" href="https://jsd.cxl2020mc.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.css">
-<script type="text/javascript" src="https://jsd.cxl2020mc.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.js"></script>
+<link rel="stylesheet" href="https://cxl2020mc-1304820025.file.myqcloud.com/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.css">
+<script type="text/javascript" src="https://cxl2020mc-1304820025.file.myqcloud.com/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.js"></script>
 

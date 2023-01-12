@@ -7,7 +7,7 @@ const configs = {
     ],
     'cdn': [
         {
-            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|unpkg\.com)/,
+            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|cxl2020mc-1304820025\.file\.myqcloud\.com\/npm|unpkg\.com)/,
             'search': '_',
             'replace': [
                 'https://jsd.cxl2020mc.top/npm',
@@ -29,7 +29,7 @@ const configs = {
             ],
         },
         {
-            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh)/,
+            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh|cxl2020mc-1304820025\.file\.myqcloud\.com\/gh)/,
             'search': '_',
             'replace': [
                 'https://jsd.cxl2020mc.top/gh',

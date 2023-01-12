@@ -45,6 +45,7 @@ const configs = {
                 // qycdn
                 'https://cdn.chuqis.com/gh',
                 'https://jsd.cky.codes/gh',
+                'https://jsew.cky.codes/gh',
                 '_',
             ],
         },

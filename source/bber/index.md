@@ -16,11 +16,11 @@ highlight_shrink:
 
 <div id='speak'></speak>
 <!-- 使用markdown渲染 -->
-<!-- <script type="text/javascript" src="https://cxl2020mc-1304820025.file.myqcloud.com/npm/ispeak-bber/ispeak-bber-md.min.js" charset="utf-8" ></script> -->
+<!-- <script type="text/javascript" src="https://jsd.cxl2020mc.cnortles.top/npm/ispeak-bber/ispeak-bber-md.min.js" charset="utf-8" ></script> -->
 <!-- 不使用markdown渲染 -->
-<script type="text/javascript" src="https://cxl2020mc-1304820025.file.myqcloud.com/npm/ispeak-bber/ispeak-bber.min.js" charset="utf-8" ></script>
+<script type="text/javascript" src="https://jsd.cxl2020mc.cnortles.top/npm/ispeak-bber/ispeak-bber.min.js" charset="utf-8" ></script>
 <!-- 解析微信表情（参考：https://github.com/buddys/qq-wechat-emotion-parser） -->
-<!-- <script src="https://cxl2020mc-1304820025.file.myqcloud.com/gh/buddys/qq-wechat-emotion-parser@master/dist/qq-wechat-emotion-parser.min.js"></script> -->
+<!-- <script src="https://jsd.cxl2020mc.cnortles.top/gh/buddys/qq-wechat-emotion-parser@master/dist/qq-wechat-emotion-parser.min.js"></script> -->
 <script>
 ispeakBber
     .init({

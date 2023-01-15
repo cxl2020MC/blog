@@ -17,11 +17,13 @@ menu:
   杂七杂八||fa-fw fa-solid fa-vial||hide: # fa fa-heartbeat:
     切换镜像: /mirror/ || fa-fw fas fa-server
     状态监控: https://stats.uptimerobot.com/8WJ06FjNZg || fa-fw fas fa-server # https://stats.uptimerobot.com/8WJ06FjNZg https://stats.cxl2020mc.top
-    plusplus后台: https://plusplus.cxl2020mc.workers.dev/hpp/admin/login || fa-fw fa-solid fa-gears
+    # plusplus后台: https://plusplus.cxl2020mc.workers.dev/hpp/admin/login || fa-fw fa-solid fa-gears
     qexo后台: https://qexo.cxl2020mc.top || fa-fw fa-solid fa-gears
     wexa后台: https://dash.wexa.top || fa-fw fa-solid fa-gears
+    OneDrive云盘: https://file.cxl2020mc.top || fa-solid fa-cloud
+    Alist云盘: https://alist.cxl2020mc.top || fa-solid fa-cloud
   留言板: /messageboard/ || fa-fw fas fa-comment-dots
-  开往: https://travellings.link || fa-solid fa-train-subway
+  开往: https://www.travellings.cn/go.html || fa-solid fa-train-subway
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 

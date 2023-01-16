@@ -31,7 +31,8 @@
 /* 引入字体(字体设置在主题设置里) */
 @font-face {
   font-family: "HarmonyOS Sans SC Regular";
-  src: url("https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_SC_Regular.woff2") format('woff2'),
+  src: local("HarmonyOS Sans SC Regular"),
+    url("https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_SC_Regular.woff2") format('woff2'),
     url("https://cxl2020mc-1304820025.file.myqcloud.com/fonts/HarmonyOS_Sans_SC_Regular.ttf") format("truetype");
   font-display: swap;
   /* /fonts/HarmonyOS_Sans_SC_Regular.subset.ttf */

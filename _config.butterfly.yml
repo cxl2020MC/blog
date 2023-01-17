@@ -966,6 +966,7 @@ rightside_scroll_percent: true
 inject:
   head:
     - <script async src="/js/sw/sw-install.js"></script>
+    - <link rel="stylesheet" href="https://cxl2020mc-1304820025.file.myqcloud.com/fonts/font.css" media="print" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/other.css">
     # - <script src="https://jsd.cxl2020mc.cnortles.top/npm/flv.js/dist/flv.min.js"></script>
     - <script src="https://jsd.cxl2020mc.cnortles.top/npm/dplayer/dist/DPlayer.min.js"></script>

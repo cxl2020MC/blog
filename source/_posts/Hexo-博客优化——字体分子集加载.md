@@ -183,6 +183,13 @@ with open("font.css", "w", encoding="utf-8") as f:
 结束后你就会在这个文件夹内找到个 `font.css` 和有一堆字体切片文件的 `fonts` 文件夹
 
 这些东西想必大家都知道是干嘛用的
-把 `font.css` 和 `font`文件夹 放在你的cdn里，
+把 `font.css` 和 `font`文件夹 放在你的cdn里的同一个目录里，
 然后主题引入下css
 就可以开始游玩了
+
+> tips:
+> 字体css可以用异步加载，
+
+```html
+<link rel="stylesheet" href="你的cssURL" media="defer" onload="this.media='all'">
+```

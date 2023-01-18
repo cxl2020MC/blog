@@ -48,11 +48,12 @@ tips: 手搓完成后，我受到了巨大的打击，因为别人告诉我Githu
 ## 开始
 
 > 准备材料: `一台PC`， `Python 3.7` 及以上环境(博主是`Python 3.9`)
+> 如果没有环境或者遇到问题(~~或者不会~~)可以在侧边栏公告那里加入博客群聊，寻求帮助
 
 
 ### 安装依赖
 
-```powershow
+```bash
 pip install fonttools Brotli
 ```
 

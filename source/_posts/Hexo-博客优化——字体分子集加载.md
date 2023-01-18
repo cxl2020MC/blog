@@ -188,7 +188,7 @@ with open("font.css", "w", encoding="utf-8") as f:
 就可以开始游玩了
 
 > tips:
-> 字体css可以用异步加载，
+> 字体css建议使用用异步加载
 
 ```html
 <link rel="stylesheet" href="你的cssURL" media="defer" onload="this.media='all'">

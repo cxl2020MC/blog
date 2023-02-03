@@ -12,7 +12,7 @@ const configs = {
             'replace': [
                 'https://jsd.cxl2020mc.top/npm',
                 'https://vercel.jsd.cxl2020mc.top/npm',
-                'https://jsdcxl2020mc.domain.qystu.cc/npm',
+                'https://netlify.jsd.cxl2020mc.top/npm',
                 'https://jsd.cxl2020mc.cnortles.top/npm',
                 'https://unpkg.cnortles.top',
                 'https://cdn.cnortles.top/npm',
@@ -34,7 +34,7 @@ const configs = {
             'replace': [
                 'https://jsd.cxl2020mc.top/gh',
                 'https://vercel.jsd.cxl2020mc.top/gh',
-                'https://jsdcxl2020mc.domain.qystu.cc/gh',
+                'https://netlify.jsd.cxl2020mc.top/gh',
                 'https://jsd.cxl2020mc.cnortles.top/gh',
                 'https://cdn.cnortles.top/gh',
                 'https://jsdelivr.pai233.top/gh',

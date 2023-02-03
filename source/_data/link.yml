@@ -118,7 +118,7 @@
       avatar: https://ferryxie.cn/wp-content/uploads/2022/03/avatar-1.jpg
       descr: 金融科技与人文思考并存
     - name: Xlenco
-      link: https://xlenco.eu.org
+      link: https://blog.xlenco.top
       avatar: https://www.helloimg.com/images/2022/12/31/oCbPAc.webp
       descr: 最好的地方是没去过的地方，最好的时光，是回不来的时光。而在Xlenco'Blog 就是如此!
     - name: QYstudio
@@ -237,4 +237,8 @@
       link: https://ezgx.tk
       avatar: https://ezgx.tk/img/avatar.jpg
       descr: 低血压治疗专家，血压增压机你值得拥有
+    - name: MrZeFr的小窝
+      link: https://blog.mrzefr.cn
+      avatar: https://npm.mrzefr.cn/hexo-mrzefr-filebed@1.3.4/image/ICO/Doraemon.ico
+      descr: Hello World
 # 该网站还没有简介哦~

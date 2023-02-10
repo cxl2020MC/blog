@@ -7,13 +7,12 @@ const configs = {
     ],
     'cdn': [
         {
-            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|jsd\.cxl2020mc\.cnortles\.top\/npm|unpkg\.com)/,
+            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|unpkg\.com)/,
             'search': '_',
             'replace': [
                 'https://jsd.cxl2020mc.top/npm',
                 'https://vercel.jsd.cxl2020mc.top/npm',
                 'https://netlify.jsd.cxl2020mc.top/npm',
-                'https://jsd.cxl2020mc.cnortles.top/npm',
                 'https://unpkg.cnortles.top',
                 'https://cdn.cnortles.top/npm',
                 'https://jsdelivr.pai233.top/npm',
@@ -29,13 +28,12 @@ const configs = {
             ],
         },
         {
-            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh|jsd\.cxl2020mc\.cnortles\.top\/gh)/,
+            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh)/,
             'search': '_',
             'replace': [
                 'https://jsd.cxl2020mc.top/gh',
                 'https://vercel.jsd.cxl2020mc.top/gh',
                 'https://netlify.jsd.cxl2020mc.top/gh',
-                'https://jsd.cxl2020mc.cnortles.top/gh',
                 'https://cdn.cnortles.top/gh',
                 'https://jsdelivr.pai233.top/gh',
                 'https://cdn.bilicdn.tk/gh',

@@ -969,7 +969,7 @@ inject:
     - <link rel="stylesheet" href="https://cxl2020mc-1304820025.file.myqcloud.com/fonts/font.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/other.css">
     # - <script src="https://jsd.cxl2020mc.top/npm/flv.js/dist/flv.min.js"></script>
-    - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
+    # - <script src="https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js"></script>
     - <script defer src="/_vercel/insights/script.js"></script>
     # 51la统计
     - |

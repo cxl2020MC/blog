@@ -12,6 +12,7 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.11",
     "hexo": "^6.3.0",
     "hexo-blog-encrypt": "^3.1.6",
     "hexo-butterfly-clock": "^1.0.7",

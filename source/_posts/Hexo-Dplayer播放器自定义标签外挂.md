@@ -76,7 +76,7 @@ hexo.extend.tag.register('dplayer', dplayer, { ends: true });
 （记得先在head引入Dplayer）
 
 ```md
-{% dplayer dp,dplayer %}
+{% dplayer dplayer %}
 video: {
     url: 'https://file.cxl2020mc.top/api/raw/?path=/mc1.mp4',
 }
@@ -92,14 +92,14 @@ video: {
 # 演示
 
 ```md
-{% dplayer dp,dplayer %}
+{% dplayer dplayer %}
 video: {
     url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
 }
 {% enddplayer %}
 ```
 
-{% dplayer dp,dplayer %}
+{% dplayer dplayer %}
 video: {
 url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCoO2MEJ7HR/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4',
 }
@@ -110,7 +110,7 @@ url: 'https://lc-gluttony.s3.amazonaws.com/eABALL5rKFsL/n66RHPuNklJeNRlEgYOPdkCo
 > 支持切换清晰度（不过给我用成切换视频节点了），默认第1个
 
 ```md
-{% dplayer dp2,dplayer2 %}
+{% dplayer dplayer2 %}
 video: {
     quality: [
         {
@@ -127,7 +127,7 @@ video: {
 {% enddplayer %}
 ```
 
-{% dplayer dp2,dplayer2 %}
+{% dplayer dplayer2 %}
 video: {
 quality: [
 {

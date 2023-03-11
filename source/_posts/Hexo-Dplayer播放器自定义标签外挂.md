@@ -76,7 +76,7 @@ hexo.extend.tag.register('dplayer', dplayer, { ends: true });
 （记得先在head引入Dplayer）
 
 ```md
-{% dplayer dplayer %}
+{% dplayer dp,dplayer %}
 video: {
     url: 'https://file.cxl2020mc.top/api/raw/?path=/mc1.mp4',
 }

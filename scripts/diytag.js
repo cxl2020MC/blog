@@ -1,17 +1,22 @@
 //参数处理函数
 function dplayer (args, content) {
-    args = args.join(' ').split(',')
-    let p0 = args[0]
-    let p1 = args[1]?args[1]:p0
-    html = `<div id="${p1}"></div>
+    // args = args.join(' ').split(',')
+    // const div_id = args[0]
+    // const div_id = args[1]?args[1]:p0
+    const div_id = args
+    html = `<div id="${div_id}">视频播放器加载中......</div>
 <script>
 //立即执行函数
 (
     function () {
-        const ${p0} = new DPlayer({
-            container: document.getElementById('${p1}'),
-${content}
-        });
+        import('https://jsd.cxl2020mc.top/npm/dplayer/dist/DPlayer.min.js')
+            .then((module) => {
+                // Do something with the module.
+                const ${div_id} = new module.DPlayer({
+                    container: document.getElementById('${div_id}'),
+                    ${content}
+                });
+            });
     }
 )();
 </script>`

@@ -13,7 +13,8 @@ function dplayer (args, content) {
             .then((module) => {
                 // Do something with the module.
                 // const ${div_id} = new DPlayer({
-                const ${div_id} = new module.default({
+                const Dplayer = module.default
+                const ${div_id} = new Dplayer({
                     container: document.getElementById('${div_id}'),
                     ${content}
                 });

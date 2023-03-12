@@ -12,7 +12,8 @@ function dplayer (args, content) {
         import('https://jsd.cxl2020mc.top/npm/dplayer/+esm')
             .then((module) => {
                 // Do something with the module.
-                const ${div_id} = new DPlayer({
+                // const ${div_id} = new DPlayer({
+                const ${div_id} = new module.default({
                     container: document.getElementById('${div_id}'),
                     ${content}
                 });

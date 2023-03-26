@@ -722,6 +722,7 @@ subtitle:
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
+    loop: true
 
   # source 調用第三方服務
   # source: false 關閉調用

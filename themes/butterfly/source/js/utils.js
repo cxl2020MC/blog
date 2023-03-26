@@ -122,7 +122,8 @@ const btf = {
 
   scrollToDest: (pos, time = 500) => {
     const currentPos = window.pageYOffset
-    if (currentPos > pos) pos = pos - 70
+    const isNavFixed = document.getElementById('page-header').classList.contains('fixed')
+    if (currentPos > pos || isNavFixed) pos = pos - 70
 
     if ('scrollBehavior' in document.documentElement.style) {
       window.scrollTo({
@@ -251,7 +252,7 @@ const btf = {
   },
 
   initJustifiedGallery: function (selector) {
-    selector.forEach(function (i) {
+    const runJustifiedGallery = i => {
       if (!btf.isHidden(i)) {
         fjGallery(i, {
           itemSelector: '.fj-gallery-item',
@@ -262,7 +263,10 @@ const btf = {
           }
         })
       }
-    })
+    }
+
+    if (Array.from(selector).length === 0) runJustifiedGallery(selector)
+    else selector.forEach(i => { runJustifiedGallery(i) })
   },
 
   updateAnchor: (anchor) => {

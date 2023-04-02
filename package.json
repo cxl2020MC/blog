@@ -9,11 +9,11 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.0.0-rc1"
   },
   "dependencies": {
     "@vercel/analytics": "^0.1.11",
-    "hexo": "^6.3.0",
+    "hexo": "^7.0.0-rc1",
     "hexo-blog-encrypt": "^3.1.6",
     "hexo-butterfly-clock": "^1.0.7",
     "hexo-butterfly-envelope": "^1.0.15",

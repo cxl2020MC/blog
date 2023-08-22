@@ -33,6 +33,7 @@ async function asideHitokoto() {
     };
 };
 
+/* 
 async function footerload() {
     const iconHtml = document.getElementsByClassName('card-info-social-icons is-center')[0].innerHTML
     const configs = {
@@ -90,3 +91,4 @@ document.addEventListener('pjax:complete', (e) => {
 
 footerload();
 asideHitokoto();
+*/

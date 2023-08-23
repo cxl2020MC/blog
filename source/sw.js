@@ -7,7 +7,7 @@ const configs = {
     ],
     'cdn': [
         {
-            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|jsd\.cxl2020mc\.top\/npm|unpkg\.com)/,
+            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/npm|vercel\.jsd\.cxl2020mc\.top\/npm|unpkg\.com)/,
             'search': '_',
             'replace': [
                 'https://jsd.cxl2020mc.top/npm',
@@ -19,8 +19,8 @@ const configs = {
                 'https://jsdelivr.pai233.top/npm',
                 'https://cdn.bilicdn.tk/npm',
                 'https://cdn.jsdelivr.net/npm',
-                'https://cdn2.tianli0.top/npm',
-                'https://cdn3.tianli0.top/npm',
+                // 'https://cdn2.tianli0.top/npm',
+                // 'https://cdn3.tianli0.top/npm',
                 // qycdn
                 'https://cdn.chuqis.com/npm',
                 'https://jsd.cky.codes/npm',
@@ -29,7 +29,7 @@ const configs = {
             ],
         },
         {
-            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|jsd\.cxl2020mc\.top\/gh)/,
+            'rule': /^https\:\/\/((cdn|fastly|gcore|test1|quantil)\.jsdelivr\.net\/gh|vercel\.jsd\.cxl2020mc\.top\/gh)/,
             'search': '_',
             'replace': [
                 'https://jsd.cxl2020mc.top/gh',
@@ -40,8 +40,8 @@ const configs = {
                 'https://jsdelivr.pai233.top/gh',
                 'https://cdn.bilicdn.tk/gh',
                 'https://cdn.jsdelivr.net/gh',
-                'https://cdn2.tianli0.top/gh',
-                'https://cdn3.tianli0.top/gh',
+                // 'https://cdn2.tianli0.top/gh',
+                // 'https://cdn3.tianli0.top/gh',
                 // qycdn
                 'https://cdn.chuqis.com/gh',
                 'https://jsd.cky.codes/gh',

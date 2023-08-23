@@ -1050,7 +1050,7 @@ CDN:
   # https://cdn.cxl2020mc.top/npm/${name}/dist/${file}
   # https://jsd.cxl2020mc.top/npm/${name}/${file} 
   # https://jsd.cxl2020mc.top/npm/${name}@latest/${file} 
-  custom_format: https://jsd.cxl2020mc.top/npm/${name}@latest/${min_file} 
+  custom_format: https://vercel.jsd.cxl2020mc.top/npm/${name}@latest/${min_file} 
 
   option:
     # main_css:
